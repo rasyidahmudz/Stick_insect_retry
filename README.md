@@ -1,2 +1,2 @@
 # Stick_insect_retry
-Downstream analyses of Cliatchus Hookeri RNAseq project
+Downstream analyses of Clitarchus Hookeri RNAseq project
