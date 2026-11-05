@@ -32,7 +32,7 @@ library(topGO)
 
 # Working Directory and Output Setup --------------------------------------
 
-setwd("~/Desktop/Stick_insect/enrichment_analyses")
+setwd("~/Desktop/Stick_insect/Stick_insect_retry/enrichment_analyses")
 
 go_dirs <- c(
   "go/module_enrichments",

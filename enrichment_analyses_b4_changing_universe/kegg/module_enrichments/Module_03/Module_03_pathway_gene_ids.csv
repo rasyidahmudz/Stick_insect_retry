@@ -1,0 +1,11 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00500,Starch and sucrose metabolism,gene_14181,glycogen phosphorylase,K00688
+ko00500,Starch and sucrose metabolism,gene_14182,glycogen phosphorylase,K00688
+ko00500,Starch and sucrose metabolism,gene_14202,glycogen phosphorylase,K00688
+ko00500,Starch and sucrose metabolism,scaffold_16-g650,hexokinase type 2-like,K00844
+ko00500,Starch and sucrose metabolism,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko00500,Starch and sucrose metabolism,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko00500,Starch and sucrose metabolism,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko00500,Starch and sucrose metabolism,scaffold_4-g704,hexokinase type 2-like,K00844
+ko00500,Starch and sucrose metabolism,scaffold_4-g705,hexokinase type 2-like,K00844
+ko00500,Starch and sucrose metabolism,scaffold_4-g706,hexokinase type 2-like,K00844

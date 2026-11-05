@@ -1,0 +1,32 @@
+pathway_id,pathway_name,gene_count
+ko01100,Metabolic pathways,3
+ko00010,Glycolysis / Gluconeogenesis,2
+ko00040,Pentose and glucuronate interconversions,2
+ko00053,Ascorbate and aldarate metabolism,2
+ko00561,Glycerolipid metabolism,2
+ko00620,Pyruvate metabolism,2
+ko00930,Caprolactam degradation,2
+ko01110,Biosynthesis of secondary metabolites,2
+ko01120,Microbial metabolism in diverse environments,2
+ko01220,Degradation of aromatic compounds,2
+ko01240,Biosynthesis of cofactors,2
+ko04014,Ras signaling pathway,2
+ko04726,Serotonergic synapse,2
+ko00190,Oxidative phosphorylation,1
+ko04062,Chemokine signaling pathway,1
+ko04142,Lysosome,1
+ko04145,Phagosome,1
+ko04151,PI3K-Akt signaling pathway,1
+ko04371,Apelin signaling pathway,1
+ko04713,Circadian entrainment,1
+ko04721,Synaptic vesicle cycle,1
+ko04723,Retrograde endocannabinoid signaling,1
+ko04724,Glutamatergic synapse,1
+ko04725,Cholinergic synapse,1
+ko04727,GABAergic synapse,1
+ko04728,Dopaminergic synapse,1
+ko04740,Olfactory transduction,1
+ko04742,Taste transduction,1
+ko04745,Phototransduction - fly,1
+ko04926,Relaxin signaling pathway,1
+ko04966,Collecting duct acid secretion,1

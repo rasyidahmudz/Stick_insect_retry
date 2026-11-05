@@ -1,0 +1,496 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00010,Glycolysis / Gluconeogenesis,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko00052,Galactose metabolism,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko00071,Fatty acid degradation,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko00073,"Cutin, suberine and wax biosynthesis",scaffold_2-g1495,putative fatty acyl-CoA reductase CG5065,K13356
+ko00100,Steroid biosynthesis,scaffold_13-g714,delta(14)-sterol reductase LBR-like isoform X1,K00213
+ko00130,Ubiquinone and other terpenoid-quinone biosynthesis,scaffold_4-g1405,ubiquinone biosynthesis monooxygenase COQ6%2C mitochondrial,K06126
+ko00220,Arginine biosynthesis,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00240,Pyrimidine metabolism,scaffold_6-g194,deoxycytidylate deaminase,K01493
+ko00250,"Alanine, aspartate and glutamate metabolism",scaffold_3-g2479,asparagine synthetase [glutamine-hydrolyzing],K01953
+ko00250,"Alanine, aspartate and glutamate metabolism",scaffold_1-g809,ornithine aminotransferase%2C mitochondrial isoform X1,K13524
+ko00250,"Alanine, aspartate and glutamate metabolism",scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00270,Cysteine and methionine metabolism,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00280,"Valine, leucine and isoleucine degradation",scaffold_14-g191,pyruvate carboxylase%2C mitochondrial isoform X1,K01968
+ko00280,"Valine, leucine and isoleucine degradation",scaffold_1-g809,ornithine aminotransferase%2C mitochondrial isoform X1,K13524
+ko00310,Lysine degradation,scaffold_7-g697,uncharacterized protein LOC134537745,K11429
+ko00330,Arginine and proline metabolism,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00350,Tyrosine metabolism,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00360,Phenylalanine metabolism,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00410,beta-Alanine metabolism,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko00410,beta-Alanine metabolism,scaffold_1-g809,ornithine aminotransferase%2C mitochondrial isoform X1,K13524
+ko00450,Selenocompound metabolism,scaffold_8-g119,methionine--tRNA ligase%2C mitochondrial isoform X1,K01874
+ko00500,Starch and sucrose metabolism,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko00510,N-Glycan biosynthesis,scaffold_1-g538,dolichyl pyrophosphate Man9GlcNAc2 alpha-1%2C3-glucosyltransferase,K03849
+ko00510,N-Glycan biosynthesis,gene_23567,UDP-N-acetylglucosamine transferase subunit ALG14 homolog,K07441
+ko00511,Other glycan degradation,gene_23185,beta-mannosidase-like,K01192
+ko00513,Various types of N-glycan biosynthesis,gene_23567,UDP-N-acetylglucosamine transferase subunit ALG14 homolog,K07441
+ko00513,Various types of N-glycan biosynthesis,scaffold_2-g923,alpha-(1%2C3)-fucosyltransferase C-like,K14464
+ko00514,Other types of O-glycan biosynthesis,scaffold_3-g453,stromal cell-derived factor 2,K00728
+ko00515,Mannose type O-glycan biosynthesis,scaffold_3-g453,stromal cell-derived factor 2,K00728
+ko00520,Amino sugar and nucleotide sugar metabolism,scaffold_1-g1730,N-acetylglucosamine-6-phosphate deacetylase,K01443
+ko00532,Glycosaminoglycan biosynthesis,scaffold_9-g109,chondroitin sulfate synthase 2 isoform X1,K13499
+ko00561,Glycerolipid metabolism,scaffold_10-g221,diacylglycerol kinase epsilon,K00901
+ko00561,Glycerolipid metabolism,scaffold_5-g553,diacylglycerol O-acyltransferase 1 isoform X1,K11155
+ko00562,Inositol phosphate metabolism,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,scaffold_9-g394,NA,K03858
+ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,scaffold_4-g827,GPI ethanolamine phosphate transferase 3 isoform X1,K05288
+ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,scaffold_10-g1098,GPI inositol-deacylase isoform X1,K05294
+ko00564,Glycerophospholipid metabolism,scaffold_10-g221,diacylglycerol kinase epsilon,K00901
+ko00564,Glycerophospholipid metabolism,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00565,Ether lipid metabolism,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00590,Arachidonic acid metabolism,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00590,Arachidonic acid metabolism,scaffold_14-g548,prostamide/prostaglandin F synthase-like,K15717
+ko00591,Linoleic acid metabolism,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00592,alpha-Linolenic acid metabolism,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko00592,alpha-Linolenic acid metabolism,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00603,Glycosphingolipid biosynthesis,scaffold_6-g812,alpha-N-acetylgalactosaminidase,K01204
+ko00640,Propanoate metabolism,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko00640,Propanoate metabolism,scaffold_1-g809,ornithine aminotransferase%2C mitochondrial isoform X1,K13524
+ko00650,Butanoate metabolism,scaffold_1-g809,ornithine aminotransferase%2C mitochondrial isoform X1,K13524
+ko00710,Carbon fixation by Calvin cycle,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00770,Pantothenate and CoA biosynthesis,scaffold_4-g304,L-aminoadipate-semialdehyde dehydrogenase-phosphopantetheinyl transferase-like,K06133
+ko00830,Retinol metabolism,scaffold_5-g553,diacylglycerol O-acyltransferase 1 isoform X1,K11155
+ko00900,Terpenoid backbone biosynthesis,scaffold_1-g358,all trans-polyprenyl-diphosphate synthase PDSS1,K12505
+ko00950,Isoquinoline alkaloid biosynthesis,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko00970,Aminoacyl-tRNA biosynthesis,scaffold_12-g571,methionyl-tRNA formyltransferase%2C mitochondrial isoform X1,K00604
+ko00970,Aminoacyl-tRNA biosynthesis,scaffold_8-g119,methionine--tRNA ligase%2C mitochondrial isoform X1,K01874
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01100,Metabolic pathways,scaffold_13-g714,delta(14)-sterol reductase LBR-like isoform X1,K00213
+ko01100,Metabolic pathways,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01100,Metabolic pathways,scaffold_12-g571,methionyl-tRNA formyltransferase%2C mitochondrial isoform X1,K00604
+ko01100,Metabolic pathways,scaffold_3-g453,stromal cell-derived factor 2,K00728
+ko01100,Metabolic pathways,scaffold_10-g221,diacylglycerol kinase epsilon,K00901
+ko01100,Metabolic pathways,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko01100,Metabolic pathways,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko01100,Metabolic pathways,scaffold_6-g812,alpha-N-acetylgalactosaminidase,K01204
+ko01100,Metabolic pathways,scaffold_1-g1730,N-acetylglucosamine-6-phosphate deacetylase,K01443
+ko01100,Metabolic pathways,scaffold_6-g194,deoxycytidylate deaminase,K01493
+ko01100,Metabolic pathways,scaffold_8-g119,methionine--tRNA ligase%2C mitochondrial isoform X1,K01874
+ko01100,Metabolic pathways,scaffold_3-g2479,asparagine synthetase [glutamine-hydrolyzing],K01953
+ko01100,Metabolic pathways,scaffold_14-g191,pyruvate carboxylase%2C mitochondrial isoform X1,K01968
+ko01100,Metabolic pathways,scaffold_1-g538,dolichyl pyrophosphate Man9GlcNAc2 alpha-1%2C3-glucosyltransferase,K03849
+ko01100,Metabolic pathways,scaffold_9-g394,NA,K03858
+ko01100,Metabolic pathways,scaffold_4-g827,GPI ethanolamine phosphate transferase 3 isoform X1,K05288
+ko01100,Metabolic pathways,scaffold_10-g1098,GPI inositol-deacylase isoform X1,K05294
+ko01100,Metabolic pathways,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko01100,Metabolic pathways,scaffold_4-g1405,ubiquinone biosynthesis monooxygenase COQ6%2C mitochondrial,K06126
+ko01100,Metabolic pathways,scaffold_4-g304,L-aminoadipate-semialdehyde dehydrogenase-phosphopantetheinyl transferase-like,K06133
+ko01100,Metabolic pathways,gene_23567,UDP-N-acetylglucosamine transferase subunit ALG14 homolog,K07441
+ko01100,Metabolic pathways,scaffold_5-g553,diacylglycerol O-acyltransferase 1 isoform X1,K11155
+ko01100,Metabolic pathways,scaffold_7-g697,uncharacterized protein LOC134537745,K11429
+ko01100,Metabolic pathways,scaffold_9-g109,chondroitin sulfate synthase 2 isoform X1,K13499
+ko01100,Metabolic pathways,scaffold_1-g809,ornithine aminotransferase%2C mitochondrial isoform X1,K13524
+ko01100,Metabolic pathways,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko01100,Metabolic pathways,scaffold_2-g923,alpha-(1%2C3)-fucosyltransferase C-like,K14464
+ko01100,Metabolic pathways,scaffold_14-g548,prostamide/prostaglandin F synthase-like,K15717
+ko01110,Biosynthesis of secondary metabolites,scaffold_13-g714,delta(14)-sterol reductase LBR-like isoform X1,K00213
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g221,diacylglycerol kinase epsilon,K00901
+ko01110,Biosynthesis of secondary metabolites,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g2479,asparagine synthetase [glutamine-hydrolyzing],K01953
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1405,ubiquinone biosynthesis monooxygenase COQ6%2C mitochondrial,K06126
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g553,diacylglycerol O-acyltransferase 1 isoform X1,K11155
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g358,all trans-polyprenyl-diphosphate synthase PDSS1,K12505
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g1495,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko01120,Microbial metabolism in diverse environments,scaffold_1-g809,ornithine aminotransferase%2C mitochondrial isoform X1,K13524
+ko01120,Microbial metabolism in diverse environments,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko01200,Carbon metabolism,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01200,Carbon metabolism,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko01210,2-Oxocarboxylic acid metabolism,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko01212,Fatty acid metabolism,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01230,Biosynthesis of amino acids,scaffold_3-g2479,asparagine synthetase [glutamine-hydrolyzing],K01953
+ko01230,Biosynthesis of amino acids,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko01232,Nucleotide metabolism,scaffold_6-g194,deoxycytidylate deaminase,K01493
+ko01240,Biosynthesis of cofactors,scaffold_4-g1405,ubiquinone biosynthesis monooxygenase COQ6%2C mitochondrial,K06126
+ko01521,EGFR tyrosine kinase inhibitor resistance,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko01522,Endocrine resistance,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_18-g333,large ribosomal subunit protein eL8,K11129
+ko03013,Nucleocytoplasmic transport,scaffold_1-g2988,importin-5,K14293
+ko03015,mRNA surveillance pathway,scaffold_4-g1385,RNA-binding protein Musashi homolog Rbp6 isoform X1,K14411
+ko03018,RNA degradation,scaffold_4-g1659,CCR4-NOT transcription complex subunit 7-like,K01148
+ko03022,Basal transcription factors,scaffold_1-g3026,uncharacterized protein LOC134541785 isoform X1,K03120
+ko03022,Basal transcription factors,scaffold_14-g465,transcription initiation factor TFIID subunit 6,K03131
+ko03030,DNA replication,scaffold_15-g163,DNA polymerase alpha subunit B isoform X1,K02325
+ko03030,DNA replication,scaffold_14-g79,ribonuclease H2 subunit B,K10744
+ko03040,Spliceosome,scaffold_1-g2680,serine/arginine-rich splicing factor 2 isoform X2,K12833
+ko03082,ATP-dependent chromatin remodeling,scaffold_1-g78,microspherule protein 1 isoform X1,K11674
+ko03083,Polycomb repressive complex,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko03083,Polycomb repressive complex,scaffold_11-g162,serine-rich adhesin for platelets-like,K10695
+ko03320,PPAR signaling pathway,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko03410,Base excision repair,scaffold_15-g163,DNA polymerase alpha subunit B isoform X1,K02325
+ko03410,Base excision repair,scaffold_16-g348,uncharacterized protein LOC134531936,K07759
+ko03420,Nucleotide excision repair,scaffold_15-g163,DNA polymerase alpha subunit B isoform X1,K02325
+ko03450,Non-homologous end-joining,scaffold_12-g623,non-homologous end-joining factor 1-like,K10980
+ko03460,Fanconi anemia pathway,scaffold_1-g1260,Fanconi anemia core complex-associated protein 24-like isoform X1,K10898
+ko04010,MAPK signaling pathway,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko04010,MAPK signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04010,MAPK signaling pathway,gene_7158,ragulator complex protein LAMTOR3-A,K04370
+ko04010,MAPK signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04010,MAPK signaling pathway,scaffold_8-g203,PTB domain-containing engulfment adapter protein 1 isoform X1,K04434
+ko04010,MAPK signaling pathway,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko04010,MAPK signaling pathway,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko04010,MAPK signaling pathway,scaffold_5-g753,fibroblast growth factor receptor 3-like isoform X1,K05126
+ko04012,ErbB signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04013,MAPK signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04013,MAPK signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04013,MAPK signaling pathway,scaffold_8-g663,U4/U6 small nuclear ribonucleoprotein Prp4,K04497
+ko04013,MAPK signaling pathway,scaffold_6-g1324,protein sprouty,K17383
+ko04014,Ras signaling pathway,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko04014,Ras signaling pathway,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko04014,Ras signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04014,Ras signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04015,Rap1 signaling pathway,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko04015,Rap1 signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04015,Rap1 signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04020,Calcium signaling pathway,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko04020,Calcium signaling pathway,scaffold_2-g54,mucolipin-3-like isoform X1,K04994
+ko04020,Calcium signaling pathway,scaffold_5-g753,fibroblast growth factor receptor 3-like isoform X1,K05126
+ko04020,Calcium signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04022,cGMP-PKG signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04024,cAMP signaling pathway,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko04024,cAMP signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04024,cAMP signaling pathway,scaffold_1-g2354,NPC intracellular cholesterol transporter 1 homolog 1b-like,K06225
+ko04024,cAMP signaling pathway,scaffold_10-g1167,kynurenine formamidase isoform X4,K07188
+ko04062,Chemokine signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04062,Chemokine signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04062,Chemokine signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04064,NF-kappa B signaling pathway,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko04064,NF-kappa B signaling pathway,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko04068,FoxO signaling pathway,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko04068,FoxO signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04070,Phosphatidylinositol signaling system,scaffold_10-g221,diacylglycerol kinase epsilon,K00901
+ko04070,Phosphatidylinositol signaling system,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04071,Sphingolipid signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04071,Sphingolipid signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04072,Phospholipase D signaling pathway,scaffold_10-g221,diacylglycerol kinase epsilon,K00901
+ko04072,Phospholipase D signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04072,Phospholipase D signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04081,Hormone signaling,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04081,Hormone signaling,scaffold_7-g1085,uncharacterized protein LOC134532749 isoform X1,K08187
+ko04082,Neuroactive ligand signaling,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04082,Neuroactive ligand signaling,scaffold_8-g1062,uncharacterized protein LOC134528133,K15015
+ko04110,Cell cycle,scaffold_11-g65,cell division control protein 6 homolog,K02213
+ko04110,Cell cycle,scaffold_12-g775,origin recognition complex subunit 6,K02608
+ko04110,Cell cycle,scaffold_3-g897,transcription factor E2F5-like isoform X1,K04682
+ko04111,Cell cycle,scaffold_11-g65,cell division control protein 6 homolog,K02213
+ko04111,Cell cycle,scaffold_12-g775,origin recognition complex subunit 6,K02608
+ko04113,Meiosis,scaffold_11-g65,cell division control protein 6 homolog,K02213
+ko04113,Meiosis,scaffold_12-g775,origin recognition complex subunit 6,K02608
+ko04137,Mitophagy,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko04137,Mitophagy,scaffold_17-g343,mitochondrial import receptor subunit TOM40 homolog 1,K11518
+ko04139,Mitophagy,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko04140,Autophagy,scaffold_17-g215,serine-threonine kinase receptor-associated protein,K22991
+ko04142,Lysosome biogenesis,gene_23185,beta-mannosidase-like,K01192
+ko04142,Lysosome biogenesis,scaffold_6-g812,alpha-N-acetylgalactosaminidase,K01204
+ko04142,Lysosome biogenesis,gene_7158,ragulator complex protein LAMTOR3-A,K04370
+ko04142,Lysosome biogenesis,scaffold_2-g54,mucolipin-3-like isoform X1,K04994
+ko04142,Lysosome biogenesis,scaffold_3-g2454,BLOC-1-related complex subunit 8 homolog isoform X1,K20822
+ko04144,Endocytosis,scaffold_6-g1534,telomere length regulation protein TEL2 homolog,K12471
+ko04145,Phagocytosis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04145,Phagocytosis,scaffold_3-g1607,cytoplasmic dynein 2 light intermediate chain 1,K10417
+ko04146,Peroxisome,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko04146,Peroxisome,scaffold_2-g1495,putative fatty acyl-CoA reductase CG5065,K13356
+ko04148,Efferocytosis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04148,Efferocytosis,scaffold_16-g759,caspase-6-like,K04397
+ko04149,Peroxisome,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko04149,Peroxisome,scaffold_17-g373,aspartate aminotransferase%2C mitochondrial,K14454
+ko04150,mTOR signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04150,mTOR signaling pathway,gene_7158,ragulator complex protein LAMTOR3-A,K04370
+ko04151,PI3K-Akt signaling pathway,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko04151,PI3K-Akt signaling pathway,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko04151,PI3K-Akt signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04151,PI3K-Akt signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04151,PI3K-Akt signaling pathway,scaffold_5-g753,fibroblast growth factor receptor 3-like isoform X1,K05126
+ko04152,AMPK signaling pathway,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko04152,AMPK signaling pathway,scaffold_10-g1167,kynurenine formamidase isoform X4,K07188
+ko04210,Apoptosis,scaffold_16-g759,caspase-6-like,K04397
+ko04212,Longevity regulating pathway,scaffold_2-g1495,putative fatty acyl-CoA reductase CG5065,K13356
+ko04214,Apoptosis,scaffold_6-g978,broad-complex core protein isoforms 1/2/3/4/5-like isoform X1,K02174
+ko04214,Apoptosis,scaffold_16-g759,caspase-6-like,K04397
+ko04215,Apoptosis,scaffold_16-g759,caspase-6-like,K04397
+ko04218,Cellular senescence,scaffold_3-g897,transcription factor E2F5-like isoform X1,K04682
+ko04261,Adrenergic signaling in cardiomyocytes,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko04261,Adrenergic signaling in cardiomyocytes,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04270,Vascular smooth muscle contraction,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko04270,Vascular smooth muscle contraction,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04310,Wnt signaling pathway,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko04310,Wnt signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04310,Wnt signaling pathway,scaffold_8-g663,U4/U6 small nuclear ribonucleoprotein Prp4,K04497
+ko04310,Wnt signaling pathway,scaffold_15-g81,vang-like protein 2,K04510
+ko04310,Wnt signaling pathway,scaffold_1-g2942,insulin receptor-like,K05128
+ko04310,Wnt signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04320,Dorso-ventral axis formation,scaffold_6-g978,broad-complex core protein isoforms 1/2/3/4/5-like isoform X1,K02174
+ko04320,Dorso-ventral axis formation,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04330,Notch signaling pathway,scaffold_8-g663,U4/U6 small nuclear ribonucleoprotein Prp4,K04497
+ko04340,Hedgehog signaling pathway,scaffold_1-g2354,NPC intracellular cholesterol transporter 1 homolog 1b-like,K06225
+ko04341,Hedgehog signaling pathway,scaffold_1-g2354,NPC intracellular cholesterol transporter 1 homolog 1b-like,K06225
+ko04350,TGF-beta signaling pathway,scaffold_3-g897,transcription factor E2F5-like isoform X1,K04682
+ko04360,Axon guidance,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04360,Axon guidance,scaffold_1-g2942,insulin receptor-like,K05128
+ko04360,Axon guidance,scaffold_1-g2354,NPC intracellular cholesterol transporter 1 homolog 1b-like,K06225
+ko04360,Axon guidance,scaffold_4-g1586,semaphorin-1A isoform X1,K06842
+ko04361,Axon regeneration,scaffold_10-g221,diacylglycerol kinase epsilon,K00901
+ko04361,Axon regeneration,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04361,Axon regeneration,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04370,VEGF signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04371,Apelin signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04371,Apelin signaling pathway,scaffold_10-g1167,kynurenine formamidase isoform X4,K07188
+ko04380,Osteoclast differentiation,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04380,Osteoclast differentiation,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04380,Osteoclast differentiation,scaffold_8-g1287,transmembrane protein 64,K26770
+ko04510,Focal adhesion,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04510,Focal adhesion,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04512,ECM-receptor interaction,scaffold_3-g413,synaptic vesicle glycoprotein 2B-like,K06258
+ko04517,IgSF CAM signaling,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04517,IgSF CAM signaling,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04517,IgSF CAM signaling,scaffold_8-g361,potassium voltage-gated channel protein Shal isoform X1,K04874
+ko04518,Integrin signaling,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04519,Cadherin signaling,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04519,Cadherin signaling,scaffold_15-g81,vang-like protein 2,K04510
+ko04519,Cadherin signaling,scaffold_1-g2942,insulin receptor-like,K05128
+ko04519,Cadherin signaling,scaffold_12-g621,abl interactor 2,K05751
+ko04520,Adherens junction,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko04520,Adherens junction,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04530,Tight junction,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04540,Gap junction,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04540,Gap junction,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04550,Signaling pathways regulating pluripotency of stem cells,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04611,Platelet activation,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04613,Neutrophil extracellular trap formation,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04613,Neutrophil extracellular trap formation,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04620,Toll-like receptor signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04620,Toll-like receptor signaling pathway,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko04621,NOD-like receptor signaling pathway,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko04621,NOD-like receptor signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04623,Cytosolic DNA-sensing pathway,scaffold_16-g759,caspase-6-like,K04397
+ko04624,Toll and Imd signaling pathway,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko04624,Toll and Imd signaling pathway,scaffold_6-g349,peptidoglycan-recognition protein SD-like,K24097
+ko04630,JAK-STAT signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04650,Natural killer cell mediated cytotoxicity,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04650,Natural killer cell mediated cytotoxicity,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04660,T cell receptor signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04662,B cell receptor signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04662,B cell receptor signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04664,Fc epsilon RI signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04664,Fc epsilon RI signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04666,Fc gamma R-mediated phagosome formation,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04668,TNF signaling pathway,scaffold_16-g759,caspase-6-like,K04397
+ko04668,TNF signaling pathway,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko04670,Leukocyte transendothelial migration,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04710,Circadian rhythm,scaffold_14-g163,cryptochrome-1-like,K02295
+ko04712,Circadian rhythm,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko04713,Circadian entrainment,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko04713,Circadian entrainment,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04714,Thermogenesis,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04714,Thermogenesis,scaffold_10-g1167,kynurenine formamidase isoform X4,K07188
+ko04720,Long-term potentiation,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04721,Synaptic vesicle cycle,scaffold_8-g1062,uncharacterized protein LOC134528133,K15015
+ko04722,Neurotrophin signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04722,Neurotrophin signaling pathway,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04722,Neurotrophin signaling pathway,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko04722,Neurotrophin signaling pathway,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko04723,Retrograde endocannabinoid signaling,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04723,Retrograde endocannabinoid signaling,scaffold_8-g1062,uncharacterized protein LOC134528133,K15015
+ko04724,Glutamatergic synapse,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04725,Cholinergic synapse,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04726,Serotonergic synapse,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04727,GABAergic synapse,scaffold_1-g809,ornithine aminotransferase%2C mitochondrial isoform X1,K13524
+ko04727,GABAergic synapse,scaffold_8-g1062,uncharacterized protein LOC134528133,K15015
+ko04728,Dopaminergic synapse,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04730,Long-term depression,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04742,Taste transduction,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04745,Phototransduction,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04750,Inflammatory mediator regulation of TRP channels,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04810,Regulation of actin cytoskeleton,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko04810,Regulation of actin cytoskeleton,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04810,Regulation of actin cytoskeleton,scaffold_12-g621,abl interactor 2,K05751
+ko04814,Motor proteins,scaffold_4-g585,NA,K10412
+ko04814,Motor proteins,scaffold_3-g1607,cytoplasmic dynein 2 light intermediate chain 1,K10417
+ko04820,Cytoskeleton in muscle cells,scaffold_8-g86,sarcospan,K22194
+ko04910,Insulin signaling pathway,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko04910,Insulin signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04910,Insulin signaling pathway,scaffold_10-g1167,kynurenine formamidase isoform X4,K07188
+ko04911,Insulin secretion,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04912,GnRH signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04912,GnRH signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04915,Estrogen signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04915,Estrogen signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04916,Melanogenesis,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04917,Prolactin signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04918,Thyroid hormone synthesis,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04919,Thyroid hormone signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04919,Thyroid hormone signaling pathway,scaffold_7-g1085,uncharacterized protein LOC134532749 isoform X1,K08187
+ko04920,Adipocytokine signaling pathway,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko04921,Oxytocin signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04922,Glucagon signaling pathway,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko04922,Glucagon signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04923,Regulation of lipolysis in adipocytes,scaffold_10-g1167,kynurenine formamidase isoform X4,K07188
+ko04924,Renin secretion,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04925,Aldosterone synthesis and secretion,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04925,Aldosterone synthesis and secretion,scaffold_10-g1167,kynurenine formamidase isoform X4,K07188
+ko04926,Relaxin signaling pathway,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04926,Relaxin signaling pathway,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04927,Cortisol synthesis and secretion,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04928,"Parathyroid hormone synthesis, secretion and action",scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04929,GnRH secretion,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04931,Insulin resistance,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko04932,Non-alcoholic fatty liver disease,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04932,Non-alcoholic fatty liver disease,scaffold_16-g759,caspase-6-like,K04397
+ko04933,AGE-RAGE signaling pathway in diabetic complications,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04933,AGE-RAGE signaling pathway in diabetic complications,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04934,Cushing syndrome,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04936,Alcoholic liver disease,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko04936,Alcoholic liver disease,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko04940,Type I diabetes mellitus,scaffold_8-g270,islet cell autoantigen 1 isoform X1,K19863
+ko04961,Endocrine and other factor-regulated calcium reabsorption,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04962,Vasopressin-regulated water reabsorption,scaffold_3-g1607,cytoplasmic dynein 2 light intermediate chain 1,K10417
+ko04970,Salivary secretion,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04971,Gastric acid secretion,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04972,Pancreatic secretion,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko04972,Pancreatic secretion,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04972,Pancreatic secretion,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04973,Carbohydrate digestion and absorption,scaffold_1-g2104,glucose-6-phosphatase 2,K01084
+ko04973,Carbohydrate digestion and absorption,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko04974,Protein digestion and absorption,scaffold_7-g1085,uncharacterized protein LOC134532749 isoform X1,K08187
+ko04975,Fat digestion and absorption,scaffold_13-g249,uncharacterized protein LOC134527637 isoform X1,K01047
+ko04975,Fat digestion and absorption,scaffold_5-g553,diacylglycerol O-acyltransferase 1 isoform X1,K11155
+ko04977,Vitamin digestion and absorption,scaffold_3-g680,solute carrier family 52%2C riboflavin transporter%2C member 3-B isoform X1,K14620
+ko05010,Alzheimer disease,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko05010,Alzheimer disease,scaffold_16-g759,caspase-6-like,K04397
+ko05010,Alzheimer disease,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05010,Alzheimer disease,scaffold_12-g864,zinc transporter foi,K14716
+ko05012,Parkinson disease,scaffold_12-g864,zinc transporter foi,K14716
+ko05014,Amyotrophic lateral sclerosis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05014,Amyotrophic lateral sclerosis,scaffold_4-g585,NA,K10412
+ko05014,Amyotrophic lateral sclerosis,scaffold_17-g343,mitochondrial import receptor subunit TOM40 homolog 1,K11518
+ko05016,Huntington disease,scaffold_1-g3026,uncharacterized protein LOC134541785 isoform X1,K03120
+ko05016,Huntington disease,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05016,Huntington disease,scaffold_4-g585,NA,K10412
+ko05017,Spinocerebellar ataxia,scaffold_1-g3026,uncharacterized protein LOC134541785 isoform X1,K03120
+ko05017,Spinocerebellar ataxia,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05020,Prion disease,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko05020,Prion disease,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05022,Pathways of neurodegeneration,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko05022,Pathways of neurodegeneration,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05022,Pathways of neurodegeneration,scaffold_16-g759,caspase-6-like,K04397
+ko05022,Pathways of neurodegeneration,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05022,Pathways of neurodegeneration,scaffold_4-g585,NA,K10412
+ko05022,Pathways of neurodegeneration,scaffold_17-g343,mitochondrial import receptor subunit TOM40 homolog 1,K11518
+ko05032,Morphine addiction,scaffold_8-g1062,uncharacterized protein LOC134528133,K15015
+ko05033,Nicotine addiction,scaffold_8-g1062,uncharacterized protein LOC134528133,K15015
+ko05034,Alcoholism,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05100,Bacterial invasion of epithelial cells,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05120,Epithelial cell signaling in Helicobacter pylori infection,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05130,Pathogenic Escherichia coli infection,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05130,Pathogenic Escherichia coli infection,scaffold_16-g759,caspase-6-like,K04397
+ko05130,Pathogenic Escherichia coli infection,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05131,Shigellosis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05131,Shigellosis,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko05131,Shigellosis,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05132,Salmonella infection,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05132,Salmonella infection,scaffold_16-g759,caspase-6-like,K04397
+ko05132,Salmonella infection,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05132,Salmonella infection,scaffold_3-g1607,cytoplasmic dynein 2 light intermediate chain 1,K10417
+ko05133,Pertussis,scaffold_16-g759,caspase-6-like,K04397
+ko05133,Pertussis,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05134,Legionellosis,scaffold_16-g759,caspase-6-like,K04397
+ko05135,Yersinia infection,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05135,Yersinia infection,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05140,Leishmaniasis,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05142,Chagas disease,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05142,Chagas disease,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05143,African trypanosomiasis,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05145,Toxoplasmosis,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05146,Amoebiasis,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05152,Tuberculosis,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05160,Hepatitis C,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05161,Hepatitis B,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05161,Hepatitis B,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05162,Measles,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko05162,Measles,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05163,Human cytomegalovirus infection,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05163,Human cytomegalovirus infection,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05163,Human cytomegalovirus infection,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05164,Influenza A,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05165,Human papillomavirus infection,scaffold_1-g3026,uncharacterized protein LOC134541785 isoform X1,K03120
+ko05165,Human papillomavirus infection,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05166,Human T-cell leukemia virus 1 infection,scaffold_1-g3026,uncharacterized protein LOC134541785 isoform X1,K03120
+ko05167,Kaposi sarcoma-associated herpesvirus infection,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05168,Herpes simplex virus 1 infection,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05169,Epstein-Barr virus infection,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05169,Epstein-Barr virus infection,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05170,Human immunodeficiency virus 1 infection,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05170,Human immunodeficiency virus 1 infection,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05171,Coronavirus disease,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05200,Pathways in cancer,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko05200,Pathways in cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05200,Pathways in cancer,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05200,Pathways in cancer,scaffold_16-g759,caspase-6-like,K04397
+ko05200,Pathways in cancer,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko05200,Pathways in cancer,scaffold_5-g753,fibroblast growth factor receptor 3-like isoform X1,K05126
+ko05200,Pathways in cancer,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05200,Pathways in cancer,scaffold_1-g2354,NPC intracellular cholesterol transporter 1 homolog 1b-like,K06225
+ko05202,Transcriptional misregulation in cancer,scaffold_12-g689,eyes absent homolog 2,K15616
+ko05203,Viral carcinogenesis,scaffold_1-g3026,uncharacterized protein LOC134541785 isoform X1,K03120
+ko05203,Viral carcinogenesis,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05203,Viral carcinogenesis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05205,Proteoglycans in cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05205,Proteoglycans in cancer,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05205,Proteoglycans in cancer,scaffold_1-g2354,NPC intracellular cholesterol transporter 1 homolog 1b-like,K06225
+ko05206,MicroRNAs in cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05206,MicroRNAs in cancer,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko05206,MicroRNAs in cancer,scaffold_6-g1324,protein sprouty,K17383
+ko05207,Chemical carcinogenesis,scaffold_11-g65,cell division control protein 6 homolog,K02213
+ko05207,Chemical carcinogenesis,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko05207,Chemical carcinogenesis,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05207,Chemical carcinogenesis,scaffold_1-g2988,importin-5,K14293
+ko05208,Chemical carcinogenesis,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05208,Chemical carcinogenesis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05210,Colorectal cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05210,Colorectal cancer,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05211,Renal cell carcinoma,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05211,Renal cell carcinoma,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05212,Pancreatic cancer,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05213,Endometrial cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05214,Glioma,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05215,Prostate cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05216,Thyroid cancer,scaffold_5-g753,fibroblast growth factor receptor 3-like isoform X1,K05126
+ko05217,Basal cell carcinoma,scaffold_1-g2354,NPC intracellular cholesterol transporter 1 homolog 1b-like,K06225
+ko05218,Melanoma,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko05219,Bladder cancer,scaffold_9-g95,ribosomal protein S6 kinase alpha-5-like isoform X1,K04445
+ko05220,Chronic myeloid leukemia,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05221,Acute myeloid leukemia,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05223,Non-small cell lung cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05223,Non-small cell lung cancer,scaffold_5-g753,fibroblast growth factor receptor 3-like isoform X1,K05126
+ko05224,Breast cancer,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko05224,Breast cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05225,Hepatocellular carcinoma,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05226,Gastric cancer,scaffold_13-g607,fibroblast growth factor 9-like,K04358
+ko05226,Gastric cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05230,Central carbon metabolism in cancer,scaffold_5-g753,fibroblast growth factor receptor 3-like isoform X1,K05126
+ko05231,Choline metabolism in cancer,scaffold_10-g221,diacylglycerol kinase epsilon,K00901
+ko05231,Choline metabolism in cancer,scaffold_15-g363,growth factor receptor-bound protein 2,K04364
+ko05231,Choline metabolism in cancer,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05231,Choline metabolism in cancer,scaffold_3-g1741,choline transporter-like 2 isoform X1,K06515
+ko05231,Choline metabolism in cancer,scaffold_2-g410,organic cation transporter protein-like isoform X1,K08202
+ko05235,PD-L1 expression and PD-1 checkpoint pathway in cancer,scaffold_10-g893,casein kinase II subunit beta,K03115
+ko05410,Hypertrophic cardiomyopathy,scaffold_8-g86,sarcospan,K22194
+ko05412,Arrhythmogenic right ventricular cardiomyopathy,scaffold_8-g86,sarcospan,K22194
+ko05414,Dilated cardiomyopathy,scaffold_8-g86,sarcospan,K22194
+ko05415,Diabetic cardiomyopathy,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05415,Diabetic cardiomyopathy,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05416,Viral myocarditis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05416,Viral myocarditis,scaffold_8-g86,sarcospan,K22194
+ko05417,Lipid and atherosclerosis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05417,Lipid and atherosclerosis,scaffold_16-g759,caspase-6-like,K04397
+ko05417,Lipid and atherosclerosis,scaffold_10-g140,mitogen-activated protein kinase kinase kinase 11-like,K04733
+ko05417,Lipid and atherosclerosis,scaffold_9-g1107,LOW QUALITY PROTEIN: 1-phosphatidylinositol 4%2C5-bisphosphate phosphodiesterase epsilon-1-like,K05858
+ko05418,Fluid shear stress and atherosclerosis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392

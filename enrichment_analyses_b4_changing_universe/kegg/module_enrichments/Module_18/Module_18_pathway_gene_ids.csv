@@ -1,0 +1,4 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko04726,Serotonergic synapse,scaffold_2-g2106,potassium voltage-gated channel protein Shal isoform X1,K04892
+ko04726,Serotonergic synapse,scaffold_2-g2107,potassium voltage-gated channel protein Shal isoform X1,K04892
+ko04726,Serotonergic synapse,scaffold_7-g119,NA,K04547

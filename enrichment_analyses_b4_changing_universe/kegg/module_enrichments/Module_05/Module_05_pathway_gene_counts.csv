@@ -1,0 +1,132 @@
+pathway_id,pathway_name,gene_count
+ko01100,Metabolic pathways,16
+ko04145,Phagosome,5
+ko00600,Sphingolipid metabolism,4
+ko04071,Sphingolipid signaling pathway,4
+ko04120,Ubiquitin mediated proteolysis,4
+ko04138,Autophagy - yeast,4
+ko04151,PI3K-Akt signaling pathway,4
+ko01110,Biosynthesis of secondary metabolites,3
+ko04020,Calcium signaling pathway,3
+ko04142,Lysosome,3
+ko04360,Axon guidance,3
+ko04713,Circadian entrainment,3
+ko04725,Cholinergic synapse,3
+ko04916,Melanogenesis,3
+ko04918,Thyroid hormone synthesis,3
+ko04921,Oxytocin signaling pathway,3
+ko04935,"Growth hormone synthesis, secretion and action",3
+ko04970,Salivary secretion,3
+ko04974,Protein digestion and absorption,3
+ko01120,Microbial metabolism in diverse environments,2
+ko01240,Biosynthesis of cofactors,2
+ko02010,ABC transporters,2
+ko03440,Homologous recombination,2
+ko03460,Fanconi anemia pathway,2
+ko04012,ErbB signaling pathway,2
+ko04014,Ras signaling pathway,2
+ko04022,cGMP-PKG signaling pathway,2
+ko04024,cAMP signaling pathway,2
+ko04066,HIF-1 signaling pathway,2
+ko04136,Autophagy - other,2
+ko04137,Mitophagy - animal,2
+ko04140,Autophagy - animal,2
+ko04150,mTOR signaling pathway,2
+ko04261,Adrenergic signaling in cardiomyocytes,2
+ko04270,Vascular smooth muscle contraction,2
+ko04310,Wnt signaling pathway,2
+ko04370,VEGF signaling pathway,2
+ko04390,Hippo signaling pathway,2
+ko04510,Focal adhesion,2
+ko04540,Gap junction,2
+ko04613,Neutrophil extracellular trap formation,2
+ko04624,Toll and Imd signaling pathway,2
+ko04670,Leukocyte transendothelial migration,2
+ko04721,Synaptic vesicle cycle,2
+ko04728,Dopaminergic synapse,2
+ko04730,Long-term depression,2
+ko04750,Inflammatory mediator regulation of TRP channels,2
+ko04911,Insulin secretion,2
+ko04922,Glucagon signaling pathway,2
+ko04924,Renin secretion,2
+ko04925,Aldosterone synthesis and secretion,2
+ko04926,Relaxin signaling pathway,2
+ko04928,"Parathyroid hormone synthesis, secretion and action",2
+ko04962,Vasopressin-regulated water reabsorption,2
+ko00010,Glycolysis / Gluconeogenesis,1
+ko00040,Pentose and glucuronate interconversions,1
+ko00062,Fatty acid elongation,1
+ko00073,"Cutin, suberine and wax biosynthesis",1
+ko00230,Purine metabolism,1
+ko00270,Cysteine and methionine metabolism,1
+ko00280,"Valine, leucine and isoleucine degradation",1
+ko00350,Tyrosine metabolism,1
+ko00510,N-Glycan biosynthesis,1
+ko00513,Various types of N-glycan biosynthesis,1
+ko00514,Other types of O-glycan biosynthesis,1
+ko00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin,1
+ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,1
+ko00564,Glycerophospholipid metabolism,1
+ko00620,Pyruvate metabolism,1
+ko00640,Propanoate metabolism,1
+ko00680,Methane metabolism,1
+ko00730,Thiamine metabolism,1
+ko00790,Folate biosynthesis,1
+ko00830,Retinol metabolism,1
+ko00970,Aminoacyl-tRNA biosynthesis,1
+ko00980,Metabolism of xenobiotics by cytochrome P450,1
+ko01040,Biosynthesis of unsaturated fatty acids,1
+ko01212,Fatty acid metabolism,1
+ko02020,Two-component system,1
+ko03022,Basal transcription factors,1
+ko03250,Viral life cycle - HIV-1,1
+ko03410,Base excision repair,1
+ko03420,Nucleotide excision repair,1
+ko04010,MAPK signaling pathway,1
+ko04011,MAPK signaling pathway - yeast,1
+ko04015,Rap1 signaling pathway,1
+ko04062,Chemokine signaling pathway,1
+ko04070,Phosphatidylinositol signaling system,1
+ko04072,Phospholipase D signaling pathway,1
+ko04080,Neuroactive ligand-receptor interaction,1
+ko04139,Mitophagy - yeast,1
+ko04141,Protein processing in endoplasmic reticulum,1
+ko04144,Endocytosis,1
+ko04146,Peroxisome,1
+ko04152,AMPK signaling pathway,1
+ko04211,Longevity regulating pathway,1
+ko04212,Longevity regulating pathway - worm,1
+ko04216,Ferroptosis,1
+ko04218,Cellular senescence,1
+ko04350,TGF-beta signaling pathway,1
+ko04380,Osteoclast differentiation,1
+ko04391,Hippo signaling pathway - fly,1
+ko04520,Adherens junction,1
+ko04550,Signaling pathways regulating pluripotency of stem cells,1
+ko04611,Platelet activation,1
+ko04612,Antigen processing and presentation,1
+ko04621,NOD-like receptor signaling pathway,1
+ko04630,JAK-STAT signaling pathway,1
+ko04650,Natural killer cell mediated cytotoxicity,1
+ko04664,Fc epsilon RI signaling pathway,1
+ko04666,Fc gamma R-mediated phagocytosis,1
+ko04668,TNF signaling pathway,1
+ko04710,Circadian rhythm,1
+ko04711,Circadian rhythm - fly,1
+ko04714,Thermogenesis,1
+ko04720,Long-term potentiation,1
+ko04723,Retrograde endocannabinoid signaling,1
+ko04724,Glutamatergic synapse,1
+ko04726,Serotonergic synapse,1
+ko04727,GABAergic synapse,1
+ko04745,Phototransduction - fly,1
+ko04810,Regulation of actin cytoskeleton,1
+ko04912,GnRH signaling pathway,1
+ko04915,Estrogen signaling pathway,1
+ko04919,Thyroid hormone signaling pathway,1
+ko04927,Cortisol synthesis and secretion,1
+ko04929,GnRH secretion,1
+ko04960,Aldosterone-regulated sodium reabsorption,1
+ko04961,Endocrine and other factor-regulated calcium reabsorption,1
+ko04971,Gastric acid secretion,1
+ko04972,Pancreatic secretion,1

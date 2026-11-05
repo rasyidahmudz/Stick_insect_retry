@@ -1,0 +1,286 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00020,Citrate cycle (TCA cycle),gene_15631,NA,K00237
+ko00020,Citrate cycle (TCA cycle),scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko00020,Citrate cycle (TCA cycle),scaffold_1-g2099,argininosuccinate lyase isoform X1,K01679
+ko00020,Citrate cycle (TCA cycle),scaffold_12-g126,probable pyruvate dehydrogenase E1 component subunit alpha%2C mitochondrial,K00161
+ko00020,Citrate cycle (TCA cycle),scaffold_15-g234,ATP-citrate synthase,K01899
+ko00020,Citrate cycle (TCA cycle),scaffold_15-g384,probable citrate synthase 2%2C mitochondrial,K01647
+ko00020,Citrate cycle (TCA cycle),scaffold_15-g606,lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex%2C mitochondrial,K00658
+ko00020,Citrate cycle (TCA cycle),scaffold_2-g1341,L-lactate dehydrogenase A chain-like,K00026
+ko00020,Citrate cycle (TCA cycle),scaffold_3-g864,malate dehydrogenase%2C cytoplasmic-like,K00025
+ko00020,Citrate cycle (TCA cycle),scaffold_3-g95,thioredoxin reductase 1%2C cytoplasmic-like,K00382
+ko00190,Oxidative phosphorylation,gene_15631,NA,K00237
+ko00190,Oxidative phosphorylation,gene_1890,NA,K02256
+ko00190,Oxidative phosphorylation,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko00190,Oxidative phosphorylation,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko00190,Oxidative phosphorylation,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko00190,Oxidative phosphorylation,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko00190,Oxidative phosphorylation,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko00190,Oxidative phosphorylation,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko00620,Pyruvate metabolism,scaffold_1-g2099,argininosuccinate lyase isoform X1,K01679
+ko00620,Pyruvate metabolism,scaffold_12-g126,probable pyruvate dehydrogenase E1 component subunit alpha%2C mitochondrial,K00161
+ko00620,Pyruvate metabolism,scaffold_2-g1341,L-lactate dehydrogenase A chain-like,K00026
+ko00620,Pyruvate metabolism,scaffold_3-g864,malate dehydrogenase%2C cytoplasmic-like,K00025
+ko00620,Pyruvate metabolism,scaffold_3-g95,thioredoxin reductase 1%2C cytoplasmic-like,K00382
+ko00630,Glyoxylate and dicarboxylate metabolism,scaffold_15-g384,probable citrate synthase 2%2C mitochondrial,K01647
+ko00630,Glyoxylate and dicarboxylate metabolism,scaffold_2-g1341,L-lactate dehydrogenase A chain-like,K00026
+ko00630,Glyoxylate and dicarboxylate metabolism,scaffold_3-g864,malate dehydrogenase%2C cytoplasmic-like,K00025
+ko00630,Glyoxylate and dicarboxylate metabolism,scaffold_3-g95,thioredoxin reductase 1%2C cytoplasmic-like,K00382
+ko00630,Glyoxylate and dicarboxylate metabolism,scaffold_6-g857,4-hydroxy-2-oxoglutarate aldolase%2C mitochondrial-like,K18123
+ko00710,Carbon fixation by Calvin cycle,gene_12426,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko00710,Carbon fixation by Calvin cycle,scaffold_14-g792,triosephosphate isomerase,K01803
+ko00710,Carbon fixation by Calvin cycle,scaffold_2-g1328,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko00710,Carbon fixation by Calvin cycle,scaffold_2-g1341,L-lactate dehydrogenase A chain-like,K00026
+ko00710,Carbon fixation by Calvin cycle,scaffold_3-g864,malate dehydrogenase%2C cytoplasmic-like,K00025
+ko00710,Carbon fixation by Calvin cycle,scaffold_9-g686,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01110,Biosynthesis of secondary metabolites,gene_12426,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01110,Biosynthesis of secondary metabolites,gene_15631,NA,K00237
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g1296,adenylate kinase 8-like,K00939
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g2099,argininosuccinate lyase isoform X1,K01679
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g886,homocysteine S-methyltransferase YbgG-like,K00547
+ko01110,Biosynthesis of secondary metabolites,scaffold_12-g126,probable pyruvate dehydrogenase E1 component subunit alpha%2C mitochondrial,K00161
+ko01110,Biosynthesis of secondary metabolites,scaffold_14-g792,triosephosphate isomerase,K01803
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g193,nucleoside diphosphate kinase homolog 5-like isoform X1,K00939
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g234,ATP-citrate synthase,K01899
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g384,probable citrate synthase 2%2C mitochondrial,K01647
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g549,5-phosphohydroxy-L-lysine phospho-lyase-like,K00819
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g606,lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex%2C mitochondrial,K00658
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g1328,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g1341,L-lactate dehydrogenase A chain-like,K00026
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g1597,1%2C4-alpha-glucan-branching enzyme isoform X1,K00700
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g294,adenylate kinase,K00939
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g1435,N-fatty-acyl-amino acid synthase/hydrolase PM20D1-like isoform X1,K14677
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g864,malate dehydrogenase%2C cytoplasmic-like,K00025
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g95,thioredoxin reductase 1%2C cytoplasmic-like,K00382
+ko01110,Biosynthesis of secondary metabolites,scaffold_7-g859,adenylate kinase,K00939
+ko01110,Biosynthesis of secondary metabolites,scaffold_7-g968,UTP--glucose-1-phosphate uridylyltransferase isoform X1,K00963
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g472,short-chain specific acyl-CoA dehydrogenase%2C mitochondrial-like isoform X1,K00252
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g686,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01120,Microbial metabolism in diverse environments,gene_12426,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01120,Microbial metabolism in diverse environments,gene_15631,NA,K00237
+ko01120,Microbial metabolism in diverse environments,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko01120,Microbial metabolism in diverse environments,scaffold_1-g2099,argininosuccinate lyase isoform X1,K01679
+ko01120,Microbial metabolism in diverse environments,scaffold_12-g126,probable pyruvate dehydrogenase E1 component subunit alpha%2C mitochondrial,K00161
+ko01120,Microbial metabolism in diverse environments,scaffold_14-g792,triosephosphate isomerase,K01803
+ko01120,Microbial metabolism in diverse environments,scaffold_15-g234,ATP-citrate synthase,K01899
+ko01120,Microbial metabolism in diverse environments,scaffold_15-g384,probable citrate synthase 2%2C mitochondrial,K01647
+ko01120,Microbial metabolism in diverse environments,scaffold_15-g606,lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex%2C mitochondrial,K00658
+ko01120,Microbial metabolism in diverse environments,scaffold_2-g1328,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01120,Microbial metabolism in diverse environments,scaffold_2-g1341,L-lactate dehydrogenase A chain-like,K00026
+ko01120,Microbial metabolism in diverse environments,scaffold_3-g864,malate dehydrogenase%2C cytoplasmic-like,K00025
+ko01120,Microbial metabolism in diverse environments,scaffold_3-g95,thioredoxin reductase 1%2C cytoplasmic-like,K00382
+ko01120,Microbial metabolism in diverse environments,scaffold_7-g968,UTP--glucose-1-phosphate uridylyltransferase isoform X1,K00963
+ko01120,Microbial metabolism in diverse environments,scaffold_9-g472,short-chain specific acyl-CoA dehydrogenase%2C mitochondrial-like isoform X1,K00252
+ko01120,Microbial metabolism in diverse environments,scaffold_9-g686,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01200,Carbon metabolism,gene_12426,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01200,Carbon metabolism,gene_15631,NA,K00237
+ko01200,Carbon metabolism,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko01200,Carbon metabolism,scaffold_1-g2099,argininosuccinate lyase isoform X1,K01679
+ko01200,Carbon metabolism,scaffold_12-g126,probable pyruvate dehydrogenase E1 component subunit alpha%2C mitochondrial,K00161
+ko01200,Carbon metabolism,scaffold_14-g792,triosephosphate isomerase,K01803
+ko01200,Carbon metabolism,scaffold_15-g234,ATP-citrate synthase,K01899
+ko01200,Carbon metabolism,scaffold_15-g384,probable citrate synthase 2%2C mitochondrial,K01647
+ko01200,Carbon metabolism,scaffold_15-g606,lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex%2C mitochondrial,K00658
+ko01200,Carbon metabolism,scaffold_2-g1328,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01200,Carbon metabolism,scaffold_2-g1341,L-lactate dehydrogenase A chain-like,K00026
+ko01200,Carbon metabolism,scaffold_3-g864,malate dehydrogenase%2C cytoplasmic-like,K00025
+ko01200,Carbon metabolism,scaffold_3-g95,thioredoxin reductase 1%2C cytoplasmic-like,K00382
+ko01200,Carbon metabolism,scaffold_9-g686,fructose-bisphosphate aldolase-like isoform X1,K01623
+ko01210,2-Oxocarboxylic acid metabolism,scaffold_12-g126,probable pyruvate dehydrogenase E1 component subunit alpha%2C mitochondrial,K00161
+ko01210,2-Oxocarboxylic acid metabolism,scaffold_15-g384,probable citrate synthase 2%2C mitochondrial,K01647
+ko01210,2-Oxocarboxylic acid metabolism,scaffold_15-g606,lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex%2C mitochondrial,K00658
+ko01210,2-Oxocarboxylic acid metabolism,scaffold_3-g1435,N-fatty-acyl-amino acid synthase/hydrolase PM20D1-like isoform X1,K14677
+ko01210,2-Oxocarboxylic acid metabolism,scaffold_3-g95,thioredoxin reductase 1%2C cytoplasmic-like,K00382
+ko04932,Non-alcoholic fatty liver disease,gene_15631,NA,K00237
+ko04932,Non-alcoholic fatty liver disease,gene_1890,NA,K02256
+ko04932,Non-alcoholic fatty liver disease,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko04932,Non-alcoholic fatty liver disease,scaffold_10-g494,ras-like GTP-binding protein Rho1,K04392
+ko04932,Non-alcoholic fatty liver disease,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko04932,Non-alcoholic fatty liver disease,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko04932,Non-alcoholic fatty liver disease,scaffold_5-g626,ras-like GTP-binding protein Rho1,K04392
+ko04932,Non-alcoholic fatty liver disease,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko04932,Non-alcoholic fatty liver disease,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko04932,Non-alcoholic fatty liver disease,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko05010,Alzheimer disease,gene_15631,NA,K00237
+ko05010,Alzheimer disease,gene_1890,NA,K02256
+ko05010,Alzheimer disease,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko05010,Alzheimer disease,scaffold_1-g2372,tubulin alpha-1C chain-like isoform X1,K07374
+ko05010,Alzheimer disease,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko05010,Alzheimer disease,scaffold_10-g491,tubulin alpha-1C chain-like isoform X1,K07374
+ko05010,Alzheimer disease,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko05010,Alzheimer disease,scaffold_12-g408,calcineurin subunit B type 2,K06268
+ko05010,Alzheimer disease,scaffold_13-g429,tubulin beta chain-like,K07375
+ko05010,Alzheimer disease,scaffold_14-g568,tubulin alpha-1C chain-like isoform X1,K07374
+ko05010,Alzheimer disease,scaffold_14-g949,zinc transporter foi,K14714
+ko05010,Alzheimer disease,scaffold_15-g196,tubulin alpha-1C chain-like isoform X1,K07374
+ko05010,Alzheimer disease,scaffold_15-g860,tubulin alpha-1C chain-like isoform X1,K07374
+ko05010,Alzheimer disease,scaffold_16-g309,tubulin beta chain-like,K07375
+ko05010,Alzheimer disease,scaffold_16-g676,tubulin beta chain-like,K07375
+ko05010,Alzheimer disease,scaffold_3-g2356,tubulin alpha-1C chain-like isoform X1,K07374
+ko05010,Alzheimer disease,scaffold_5-g90,voltage-dependent anion-selective channel-like,K15040
+ko05010,Alzheimer disease,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko05010,Alzheimer disease,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko05010,Alzheimer disease,scaffold_9-g1156,tubulin alpha-1C chain-like isoform X1,K07374
+ko05010,Alzheimer disease,scaffold_9-g1157,tubulin alpha-1C chain-like isoform X1,K07374
+ko05010,Alzheimer disease,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko05012,Parkinson disease,gene_15631,NA,K00237
+ko05012,Parkinson disease,gene_1890,NA,K02256
+ko05012,Parkinson disease,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko05012,Parkinson disease,scaffold_1-g2372,tubulin alpha-1C chain-like isoform X1,K07374
+ko05012,Parkinson disease,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko05012,Parkinson disease,scaffold_10-g491,tubulin alpha-1C chain-like isoform X1,K07374
+ko05012,Parkinson disease,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko05012,Parkinson disease,scaffold_13-g429,tubulin beta chain-like,K07375
+ko05012,Parkinson disease,scaffold_14-g568,tubulin alpha-1C chain-like isoform X1,K07374
+ko05012,Parkinson disease,scaffold_14-g848,polyubiquitin-A,K04556
+ko05012,Parkinson disease,scaffold_14-g949,zinc transporter foi,K14714
+ko05012,Parkinson disease,scaffold_15-g196,tubulin alpha-1C chain-like isoform X1,K07374
+ko05012,Parkinson disease,scaffold_15-g860,tubulin alpha-1C chain-like isoform X1,K07374
+ko05012,Parkinson disease,scaffold_16-g309,tubulin beta chain-like,K07375
+ko05012,Parkinson disease,scaffold_16-g676,tubulin beta chain-like,K07375
+ko05012,Parkinson disease,scaffold_17-g150,ubiquitin-conjugating enzyme E2 L3,K10575
+ko05012,Parkinson disease,scaffold_3-g2126,protein dj-1beta,K05687
+ko05012,Parkinson disease,scaffold_3-g2356,tubulin alpha-1C chain-like isoform X1,K07374
+ko05012,Parkinson disease,scaffold_4-g1052,protein disulfide-isomerase A5,K03671
+ko05012,Parkinson disease,scaffold_5-g90,voltage-dependent anion-selective channel-like,K15040
+ko05012,Parkinson disease,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko05012,Parkinson disease,scaffold_7-g809,uncharacterized protein LOC134531931 isoform X1,K03671
+ko05012,Parkinson disease,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko05012,Parkinson disease,scaffold_8-g416,uncharacterized protein LOC134531931 isoform X4,K03671
+ko05012,Parkinson disease,scaffold_8-g867,uncharacterized protein LOC134531931 isoform X1,K03671
+ko05012,Parkinson disease,scaffold_9-g1156,tubulin alpha-1C chain-like isoform X1,K07374
+ko05012,Parkinson disease,scaffold_9-g1157,tubulin alpha-1C chain-like isoform X1,K07374
+ko05012,Parkinson disease,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko05014,Amyotrophic lateral sclerosis,gene_15631,NA,K00237
+ko05014,Amyotrophic lateral sclerosis,gene_1890,NA,K02256
+ko05014,Amyotrophic lateral sclerosis,scaffold_1-g1337,annexin B9-like,K17095
+ko05014,Amyotrophic lateral sclerosis,scaffold_1-g1510,uncharacterized protein LOC134527433,K17095
+ko05014,Amyotrophic lateral sclerosis,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko05014,Amyotrophic lateral sclerosis,scaffold_1-g2372,tubulin alpha-1C chain-like isoform X1,K07374
+ko05014,Amyotrophic lateral sclerosis,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko05014,Amyotrophic lateral sclerosis,scaffold_10-g491,tubulin alpha-1C chain-like isoform X1,K07374
+ko05014,Amyotrophic lateral sclerosis,scaffold_10-g494,ras-like GTP-binding protein Rho1,K04392
+ko05014,Amyotrophic lateral sclerosis,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko05014,Amyotrophic lateral sclerosis,scaffold_12-g408,calcineurin subunit B type 2,K06268
+ko05014,Amyotrophic lateral sclerosis,scaffold_13-g429,tubulin beta chain-like,K07375
+ko05014,Amyotrophic lateral sclerosis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05014,Amyotrophic lateral sclerosis,scaffold_14-g568,tubulin alpha-1C chain-like isoform X1,K07374
+ko05014,Amyotrophic lateral sclerosis,scaffold_14-g848,polyubiquitin-A,K04556
+ko05014,Amyotrophic lateral sclerosis,scaffold_15-g133,annexin B9-like,K17095
+ko05014,Amyotrophic lateral sclerosis,scaffold_15-g196,tubulin alpha-1C chain-like isoform X1,K07374
+ko05014,Amyotrophic lateral sclerosis,scaffold_15-g860,tubulin alpha-1C chain-like isoform X1,K07374
+ko05014,Amyotrophic lateral sclerosis,scaffold_16-g309,tubulin beta chain-like,K07375
+ko05014,Amyotrophic lateral sclerosis,scaffold_16-g676,tubulin beta chain-like,K07375
+ko05014,Amyotrophic lateral sclerosis,scaffold_3-g1834,annexin B9-like,K17095
+ko05014,Amyotrophic lateral sclerosis,scaffold_3-g2356,tubulin alpha-1C chain-like isoform X1,K07374
+ko05014,Amyotrophic lateral sclerosis,scaffold_3-g2530,profilin,K05759
+ko05014,Amyotrophic lateral sclerosis,scaffold_3-g930,actin-related protein 10,K16576
+ko05014,Amyotrophic lateral sclerosis,scaffold_5-g626,ras-like GTP-binding protein Rho1,K04392
+ko05014,Amyotrophic lateral sclerosis,scaffold_7-g1140,annexin B9-like,K17095
+ko05014,Amyotrophic lateral sclerosis,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko05014,Amyotrophic lateral sclerosis,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko05014,Amyotrophic lateral sclerosis,scaffold_9-g1156,tubulin alpha-1C chain-like isoform X1,K07374
+ko05014,Amyotrophic lateral sclerosis,scaffold_9-g1157,tubulin alpha-1C chain-like isoform X1,K07374
+ko05014,Amyotrophic lateral sclerosis,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko05016,Huntington disease,gene_15631,NA,K00237
+ko05016,Huntington disease,gene_1890,NA,K02256
+ko05016,Huntington disease,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko05016,Huntington disease,scaffold_1-g2372,tubulin alpha-1C chain-like isoform X1,K07374
+ko05016,Huntington disease,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko05016,Huntington disease,scaffold_10-g491,tubulin alpha-1C chain-like isoform X1,K07374
+ko05016,Huntington disease,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko05016,Huntington disease,scaffold_13-g429,tubulin beta chain-like,K07375
+ko05016,Huntington disease,scaffold_14-g568,tubulin alpha-1C chain-like isoform X1,K07374
+ko05016,Huntington disease,scaffold_15-g196,tubulin alpha-1C chain-like isoform X1,K07374
+ko05016,Huntington disease,scaffold_15-g860,tubulin alpha-1C chain-like isoform X1,K07374
+ko05016,Huntington disease,scaffold_16-g309,tubulin beta chain-like,K07375
+ko05016,Huntington disease,scaffold_16-g676,tubulin beta chain-like,K07375
+ko05016,Huntington disease,scaffold_3-g2356,tubulin alpha-1C chain-like isoform X1,K07374
+ko05016,Huntington disease,scaffold_3-g930,actin-related protein 10,K16576
+ko05016,Huntington disease,scaffold_5-g90,voltage-dependent anion-selective channel-like,K15040
+ko05016,Huntington disease,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko05016,Huntington disease,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko05016,Huntington disease,scaffold_9-g1156,tubulin alpha-1C chain-like isoform X1,K07374
+ko05016,Huntington disease,scaffold_9-g1157,tubulin alpha-1C chain-like isoform X1,K07374
+ko05016,Huntington disease,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko05020,Prion disease,gene_15631,NA,K00237
+ko05020,Prion disease,gene_1890,NA,K02256
+ko05020,Prion disease,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko05020,Prion disease,scaffold_1-g2372,tubulin alpha-1C chain-like isoform X1,K07374
+ko05020,Prion disease,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko05020,Prion disease,scaffold_10-g491,tubulin alpha-1C chain-like isoform X1,K07374
+ko05020,Prion disease,scaffold_10-g494,ras-like GTP-binding protein Rho1,K04392
+ko05020,Prion disease,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko05020,Prion disease,scaffold_12-g408,calcineurin subunit B type 2,K06268
+ko05020,Prion disease,scaffold_13-g429,tubulin beta chain-like,K07375
+ko05020,Prion disease,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05020,Prion disease,scaffold_14-g568,tubulin alpha-1C chain-like isoform X1,K07374
+ko05020,Prion disease,scaffold_15-g196,tubulin alpha-1C chain-like isoform X1,K07374
+ko05020,Prion disease,scaffold_15-g860,tubulin alpha-1C chain-like isoform X1,K07374
+ko05020,Prion disease,scaffold_16-g309,tubulin beta chain-like,K07375
+ko05020,Prion disease,scaffold_16-g676,tubulin beta chain-like,K07375
+ko05020,Prion disease,scaffold_3-g2356,tubulin alpha-1C chain-like isoform X1,K07374
+ko05020,Prion disease,scaffold_5-g626,ras-like GTP-binding protein Rho1,K04392
+ko05020,Prion disease,scaffold_5-g90,voltage-dependent anion-selective channel-like,K15040
+ko05020,Prion disease,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko05020,Prion disease,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko05020,Prion disease,scaffold_9-g1156,tubulin alpha-1C chain-like isoform X1,K07374
+ko05020,Prion disease,scaffold_9-g1157,tubulin alpha-1C chain-like isoform X1,K07374
+ko05020,Prion disease,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko05022,Pathways of neurodegeneration,gene_15631,NA,K00237
+ko05022,Pathways of neurodegeneration,gene_1890,NA,K02256
+ko05022,Pathways of neurodegeneration,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko05022,Pathways of neurodegeneration,scaffold_1-g2372,tubulin alpha-1C chain-like isoform X1,K07374
+ko05022,Pathways of neurodegeneration,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko05022,Pathways of neurodegeneration,scaffold_10-g491,tubulin alpha-1C chain-like isoform X1,K07374
+ko05022,Pathways of neurodegeneration,scaffold_10-g494,ras-like GTP-binding protein Rho1,K04392
+ko05022,Pathways of neurodegeneration,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko05022,Pathways of neurodegeneration,scaffold_12-g408,calcineurin subunit B type 2,K06268
+ko05022,Pathways of neurodegeneration,scaffold_13-g429,tubulin beta chain-like,K07375
+ko05022,Pathways of neurodegeneration,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05022,Pathways of neurodegeneration,scaffold_14-g568,tubulin alpha-1C chain-like isoform X1,K07374
+ko05022,Pathways of neurodegeneration,scaffold_14-g848,polyubiquitin-A,K04556
+ko05022,Pathways of neurodegeneration,scaffold_15-g196,tubulin alpha-1C chain-like isoform X1,K07374
+ko05022,Pathways of neurodegeneration,scaffold_15-g860,tubulin alpha-1C chain-like isoform X1,K07374
+ko05022,Pathways of neurodegeneration,scaffold_16-g309,tubulin beta chain-like,K07375
+ko05022,Pathways of neurodegeneration,scaffold_16-g676,tubulin beta chain-like,K07375
+ko05022,Pathways of neurodegeneration,scaffold_17-g150,ubiquitin-conjugating enzyme E2 L3,K10575
+ko05022,Pathways of neurodegeneration,scaffold_3-g2126,protein dj-1beta,K05687
+ko05022,Pathways of neurodegeneration,scaffold_3-g2356,tubulin alpha-1C chain-like isoform X1,K07374
+ko05022,Pathways of neurodegeneration,scaffold_3-g930,actin-related protein 10,K16576
+ko05022,Pathways of neurodegeneration,scaffold_5-g626,ras-like GTP-binding protein Rho1,K04392
+ko05022,Pathways of neurodegeneration,scaffold_5-g90,voltage-dependent anion-selective channel-like,K15040
+ko05022,Pathways of neurodegeneration,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko05022,Pathways of neurodegeneration,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko05022,Pathways of neurodegeneration,scaffold_9-g1156,tubulin alpha-1C chain-like isoform X1,K07374
+ko05022,Pathways of neurodegeneration,scaffold_9-g1157,tubulin alpha-1C chain-like isoform X1,K07374
+ko05022,Pathways of neurodegeneration,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko05208,Chemical carcinogenesis,gene_15631,NA,K00237
+ko05208,Chemical carcinogenesis,gene_1890,NA,K02256
+ko05208,Chemical carcinogenesis,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko05208,Chemical carcinogenesis,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko05208,Chemical carcinogenesis,scaffold_10-g494,ras-like GTP-binding protein Rho1,K04392
+ko05208,Chemical carcinogenesis,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko05208,Chemical carcinogenesis,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05208,Chemical carcinogenesis,scaffold_16-g513,epoxide hydrolase 4-like,K22369
+ko05208,Chemical carcinogenesis,scaffold_3-g761,epoxide hydrolase 4-like,K22369
+ko05208,Chemical carcinogenesis,scaffold_5-g626,ras-like GTP-binding protein Rho1,K04392
+ko05208,Chemical carcinogenesis,scaffold_5-g90,voltage-dependent anion-selective channel-like,K15040
+ko05208,Chemical carcinogenesis,scaffold_6-g313,epoxide hydrolase 4-like,K22369
+ko05208,Chemical carcinogenesis,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko05208,Chemical carcinogenesis,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko05208,Chemical carcinogenesis,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935
+ko05415,Diabetic cardiomyopathy,gene_15631,NA,K00237
+ko05415,Diabetic cardiomyopathy,gene_1890,NA,K02256
+ko05415,Diabetic cardiomyopathy,scaffold_1-g2048,succinate dehydrogenase [ubiquinone] iron-sulfur subunit%2C mitochondrial,K00235
+ko05415,Diabetic cardiomyopathy,scaffold_1-g987,ATP synthase subunit alpha%2C mitochondrial,K02133
+ko05415,Diabetic cardiomyopathy,scaffold_10-g494,ras-like GTP-binding protein Rho1,K04392
+ko05415,Diabetic cardiomyopathy,scaffold_11-g730,cytochrome c1%2C heme protein%2C mitochondrial,K00413
+ko05415,Diabetic cardiomyopathy,scaffold_12-g126,probable pyruvate dehydrogenase E1 component subunit alpha%2C mitochondrial,K00161
+ko05415,Diabetic cardiomyopathy,scaffold_14-g161,ras-like GTP-binding protein Rho1,K04392
+ko05415,Diabetic cardiomyopathy,scaffold_5-g626,ras-like GTP-binding protein Rho1,K04392
+ko05415,Diabetic cardiomyopathy,scaffold_5-g90,voltage-dependent anion-selective channel-like,K15040
+ko05415,Diabetic cardiomyopathy,scaffold_7-g614,NADH-ubiquinone oxidoreductase 75 kDa subunit%2C mitochondrial,K03934
+ko05415,Diabetic cardiomyopathy,scaffold_8-g267,probable NADH dehydrogenase [ubiquinone] flavoprotein 2%2C mitochondrial isoform X1,K03943
+ko05415,Diabetic cardiomyopathy,scaffold_9-g326,NADH-ubiquinone oxidoreductase 49 kDa subunit,K03935

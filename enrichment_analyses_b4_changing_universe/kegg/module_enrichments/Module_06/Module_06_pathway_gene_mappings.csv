@@ -1,0 +1,83 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko02020,Two-component system,scaffold_9-g868,uncharacterized protein LOC134530724,K01179
+ko03440,Homologous recombination,gene_11025,histone H2A-like,K11251
+ko03440,Homologous recombination,gene_18951,histone H2A-like,K11251
+ko03440,Homologous recombination,gene_23083,histone H2A-like,K11251
+ko03440,Homologous recombination,gene_11882,NA,K11275
+ko03440,Homologous recombination,gene_11883,NA,K11275
+ko03440,Homologous recombination,gene_11888,NA,K11275
+ko03440,Homologous recombination,gene_14034,NA,K11275
+ko03440,Homologous recombination,gene_6253,NA,K11275
+ko03440,Homologous recombination,scaffold_12-g288,NA,K11275
+ko03440,Homologous recombination,scaffold_12-g291,NA,K11275
+ko03440,Homologous recombination,scaffold_6-g758,NA,K11275
+ko03440,Homologous recombination,scaffold_7-g555,NA,K11275
+ko03440,Homologous recombination,scaffold_6-g1127,fidgetin-like protein 1 isoform X1,K22766
+ko04010,MAPK signaling pathway,scaffold_4-g925,mitogen-activated protein kinase kinase kinase 11-like,K04417
+ko04013,MAPK signaling pathway - fly,scaffold_4-g925,mitogen-activated protein kinase kinase kinase 11-like,K04417
+ko04013,MAPK signaling pathway - fly,scaffold_14-g695,E3 ubiquitin-protein ligase SIAH1A-like isoform X1,K04506
+ko04020,Calcium signaling pathway,scaffold_8-g1136,probable G-protein coupled receptor B0563.6,K04211
+ko04080,Neuroactive ligand-receptor interaction,scaffold_8-g1136,probable G-protein coupled receptor B0563.6,K04211
+ko04080,Neuroactive ligand-receptor interaction,scaffold_12-g854,neuropeptide F receptor-like,K08375
+ko04110,Cell cycle,scaffold_6-g553,cohesin subunit SA-2 isoform X1,K06671
+ko04111,Cell cycle - yeast,scaffold_6-g553,cohesin subunit SA-2 isoform X1,K06671
+ko04113,Meiosis - yeast,scaffold_6-g553,cohesin subunit SA-2 isoform X1,K06671
+ko04115,p53 signaling pathway,scaffold_14-g695,E3 ubiquitin-protein ligase SIAH1A-like isoform X1,K04506
+ko04120,Ubiquitin mediated proteolysis,scaffold_14-g695,E3 ubiquitin-protein ligase SIAH1A-like isoform X1,K04506
+ko04130,SNARE interactions in vesicular transport,gene_2241,NA,K08504
+ko04137,Mitophagy - animal,scaffold_14-g695,E3 ubiquitin-protein ligase SIAH1A-like isoform X1,K04506
+ko04137,Mitophagy - animal,scaffold_2-g1360,microphthalmia-associated transcription factor isoform X1,K09455
+ko04142,Lysosome,scaffold_2-g1360,microphthalmia-associated transcription factor isoform X1,K09455
+ko04150,mTOR signaling pathway,scaffold_17-g133,protein Wnt-16-like,K03209
+ko04212,Longevity regulating pathway - worm,scaffold_4-g1582,glutathione S-transferase omega-2-like isoform X1,K00799
+ko04217,Necroptosis,gene_11025,histone H2A-like,K11251
+ko04217,Necroptosis,gene_18951,histone H2A-like,K11251
+ko04217,Necroptosis,gene_23083,histone H2A-like,K11251
+ko04310,Wnt signaling pathway,scaffold_17-g133,protein Wnt-16-like,K03209
+ko04310,Wnt signaling pathway,scaffold_14-g695,E3 ubiquitin-protein ligase SIAH1A-like isoform X1,K04506
+ko04361,Axon regeneration,scaffold_4-g925,mitogen-activated protein kinase kinase kinase 11-like,K04417
+ko04380,Osteoclast differentiation,scaffold_2-g1360,microphthalmia-associated transcription factor isoform X1,K09455
+ko04390,Hippo signaling pathway,scaffold_17-g133,protein Wnt-16-like,K03209
+ko04391,Hippo signaling pathway - fly,scaffold_17-g133,protein Wnt-16-like,K03209
+ko04550,Signaling pathways regulating pluripotency of stem cells,scaffold_17-g133,protein Wnt-16-like,K03209
+ko04613,Neutrophil extracellular trap formation,gene_11025,histone H2A-like,K11251
+ko04613,Neutrophil extracellular trap formation,gene_18951,histone H2A-like,K11251
+ko04613,Neutrophil extracellular trap formation,gene_23083,histone H2A-like,K11251
+ko04613,Neutrophil extracellular trap formation,gene_11876,histone H4,K11254
+ko04613,Neutrophil extracellular trap formation,gene_11886,histone H4,K11254
+ko04613,Neutrophil extracellular trap formation,gene_16518,histone H4,K11254
+ko04613,Neutrophil extracellular trap formation,gene_16525,histone H4,K11254
+ko04810,Regulation of actin cytoskeleton,scaffold_2-g2296,membrane-associated protein Hem,K05750
+ko04916,Melanogenesis,scaffold_17-g133,protein Wnt-16-like,K03209
+ko04916,Melanogenesis,scaffold_2-g1360,microphthalmia-associated transcription factor isoform X1,K09455
+ko00052,Galactose metabolism,scaffold_15-g622,maltase 2-like isoform X1,K01187
+ko00230,Purine metabolism,scaffold_10-g431,3'%2C5'-cyclic-AMP phosphodiesterase-like isoform X1,K01120
+ko00230,Purine metabolism,scaffold_8-g459,5'-deoxynucleotidase HDDC2 isoform X1,K07023
+ko00240,Pyrimidine metabolism,scaffold_8-g459,5'-deoxynucleotidase HDDC2 isoform X1,K07023
+ko00260,"Glycine, serine and threonine metabolism",scaffold_10-g424,L-threonine ammonia-lyase isoform X1,K01754
+ko00270,Cysteine and methionine metabolism,scaffold_2-g2228,adenosylhomocysteinase-like 1,K01251
+ko00290,"Valine, leucine and isoleucine biosynthesis",scaffold_10-g424,L-threonine ammonia-lyase isoform X1,K01754
+ko00480,Glutathione metabolism,scaffold_4-g1582,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00500,Starch and sucrose metabolism,scaffold_9-g868,uncharacterized protein LOC134530724,K01179
+ko00500,Starch and sucrose metabolism,scaffold_15-g622,maltase 2-like isoform X1,K01187
+ko00541,O-Antigen nucleotide sugar biosynthesis,scaffold_3-g1854,serine protease snake-like isoform X1,K00326
+ko00565,Ether lipid metabolism,scaffold_2-g1729,platelet-activating factor acetylhydrolase IB subunit alpha1 isoform X1,K16795
+ko00670,One carbon pool by folate,scaffold_2-g2228,adenosylhomocysteinase-like 1,K01251
+ko00980,Metabolism of xenobiotics by cytochrome P450,scaffold_4-g1582,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00981,Insect hormone biosynthesis,scaffold_1-g2763,juvenile hormone acid O-methyltransferase,K10718
+ko00982,Drug metabolism - cytochrome P450,scaffold_4-g1582,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00983,Drug metabolism - other enzymes,scaffold_4-g1582,glutathione S-transferase omega-2-like isoform X1,K00799
+ko01100,Metabolic pathways,scaffold_4-g1582,glutathione S-transferase omega-2-like isoform X1,K00799
+ko01100,Metabolic pathways,scaffold_10-g431,3'%2C5'-cyclic-AMP phosphodiesterase-like isoform X1,K01120
+ko01100,Metabolic pathways,scaffold_9-g868,uncharacterized protein LOC134530724,K01179
+ko01100,Metabolic pathways,scaffold_15-g622,maltase 2-like isoform X1,K01187
+ko01100,Metabolic pathways,scaffold_2-g2228,adenosylhomocysteinase-like 1,K01251
+ko01100,Metabolic pathways,scaffold_10-g424,L-threonine ammonia-lyase isoform X1,K01754
+ko01100,Metabolic pathways,scaffold_8-g459,5'-deoxynucleotidase HDDC2 isoform X1,K07023
+ko01100,Metabolic pathways,scaffold_1-g2763,juvenile hormone acid O-methyltransferase,K10718
+ko01100,Metabolic pathways,scaffold_2-g1729,platelet-activating factor acetylhydrolase IB subunit alpha1 isoform X1,K16795
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g622,maltase 2-like isoform X1,K01187
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g424,L-threonine ammonia-lyase isoform X1,K01754
+ko01200,Carbon metabolism,scaffold_10-g424,L-threonine ammonia-lyase isoform X1,K01754
+ko01230,Biosynthesis of amino acids,scaffold_10-g424,L-threonine ammonia-lyase isoform X1,K01754
+ko01232,Nucleotide metabolism,scaffold_8-g459,5'-deoxynucleotidase HDDC2 isoform X1,K07023

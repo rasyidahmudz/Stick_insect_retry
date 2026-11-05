@@ -1,0 +1,167 @@
+pathway_id,pathway_name,gene_count,KO_count
+ko01100,Metabolic pathways,12,11
+ko04141,Protein processing in endoplasmic reticulum,12,12
+ko05200,Pathways in cancer,7,7
+ko05132,Salmonella infection,6,6
+ko05417,Lipid and atherosclerosis,6,6
+ko00230,Purine metabolism,5,4
+ko01110,Biosynthesis of secondary metabolites,5,4
+ko05166,Human T-cell leukemia virus 1 infection,5,5
+ko05207,Chemical carcinogenesis,5,5
+ko01232,Nucleotide metabolism,4,3
+ko04217,Necroptosis,4,4
+ko04519,Cadherin signaling,4,4
+ko05161,Hepatitis B,4,4
+ko03013,Nucleocytoplasmic transport,3,3
+ko03015,mRNA surveillance pathway,3,3
+ko04062,Chemokine signaling pathway,3,3
+ko04156,Integrated stress response (ISR) signaling pathway,3,3
+ko04612,Antigen processing and presentation,3,3
+ko04621,NOD-like receptor signaling pathway,3,3
+ko04657,IL-17 signaling pathway,3,3
+ko04659,Th17 cell differentiation,3,3
+ko04810,Regulation of actin cytoskeleton,3,3
+ko04915,Estrogen signaling pathway,3,3
+ko05022,Pathways of neurodegeneration,3,3
+ko05130,Pathogenic Escherichia coli infection,3,3
+ko05135,Yersinia infection,3,3
+ko05168,Herpes simplex virus 1 infection,3,3
+ko05169,Epstein-Barr virus infection,3,3
+ko05170,Human immunodeficiency virus 1 infection,3,3
+ko05220,Chronic myeloid leukemia,3,3
+ko00670,One carbon pool by folate,2,2
+ko01240,Biosynthesis of cofactors,2,2
+ko03250,Viral life cycle - HIV-1,2,2
+ko03440,Homologous recombination,2,2
+ko04012,ErbB signaling pathway,2,2
+ko04015,Rap1 signaling pathway,2,2
+ko04081,Hormone signaling,2,2
+ko04110,Cell cycle,2,2
+ko04120,Ubiquitin mediated proteolysis,2,2
+ko04144,Endocytosis,2,2
+ko04145,Phagocytosis,2,2
+ko04151,PI3K-Akt signaling pathway,2,2
+ko04215,Apoptosis,2,2
+ko04310,Wnt signaling pathway,2,2
+ko04390,Hippo signaling pathway,2,2
+ko04391,Hippo signaling pathway,2,2
+ko04510,Focal adhesion,2,2
+ko04620,Toll-like receptor signaling pathway,2,2
+ko04626,Plant-pathogen interaction,2,2
+ko04650,Natural killer cell mediated cytotoxicity,2,2
+ko04668,TNF signaling pathway,2,2
+ko04820,Cytoskeleton in muscle cells,2,1
+ko04914,Progesterone-mediated oocyte maturation,2,2
+ko04917,Prolactin signaling pathway,2,2
+ko04918,Thyroid hormone synthesis,2,2
+ko04933,AGE-RAGE signaling pathway in diabetic complications,2,2
+ko04935,"Growth hormone synthesis, secretion and action",2,2
+ko04936,Alcoholic liver disease,2,2
+ko05014,Amyotrophic lateral sclerosis,2,2
+ko05020,Prion disease,2,2
+ko05034,Alcoholism,2,2
+ko05142,Chagas disease,2,2
+ko05145,Toxoplasmosis,2,2
+ko05152,Tuberculosis,2,2
+ko05162,Measles,2,2
+ko05163,Human cytomegalovirus infection,2,2
+ko05164,Influenza A,2,2
+ko05206,MicroRNAs in cancer,2,2
+ko05215,Prostate cancer,2,2
+ko05225,Hepatocellular carcinoma,2,2
+ko05226,Gastric cancer,2,2
+ko05418,Fluid shear stress and atherosclerosis,2,2
+ko00040,Pentose and glucuronate interconversions,1,1
+ko00053,Ascorbate and aldarate metabolism,1,1
+ko00240,Pyrimidine metabolism,1,1
+ko00260,"Glycine, serine and threonine metabolism",1,1
+ko00270,Cysteine and methionine metabolism,1,1
+ko00520,Amino sugar and nucleotide sugar metabolism,1,1
+ko00521,Streptomycin biosynthesis,1,1
+ko00541,Biosynthesis of various nucleotide sugars,1,1
+ko00562,Inositol phosphate metabolism,1,1
+ko00590,Arachidonic acid metabolism,1,1
+ko00600,Sphingolipid metabolism,1,1
+ko00620,Pyruvate metabolism,1,1
+ko00770,Pantothenate and CoA biosynthesis,1,1
+ko01120,Microbial metabolism in diverse environments,1,1
+ko01230,Biosynthesis of amino acids,1,1
+ko01250,Biosynthesis of nucleotide sugars,1,1
+ko01521,EGFR tyrosine kinase inhibitor resistance,1,1
+ko01522,Endocrine resistance,1,1
+ko01523,Antifolate resistance,1,1
+ko01524,Platinum drug resistance,1,1
+ko03018,RNA degradation,1,1
+ko03020,RNA polymerase,1,1
+ko03060,Protein export,1,1
+ko03082,ATP-dependent chromatin remodeling,1,1
+ko03410,Base excision repair,1,1
+ko04010,MAPK signaling pathway,1,1
+ko04013,MAPK signaling pathway,1,1
+ko04014,Ras signaling pathway,1,1
+ko04024,cAMP signaling pathway,1,1
+ko04064,NF-kappa B signaling pathway,1,1
+ko04068,FoxO signaling pathway,1,1
+ko04072,Phospholipase D signaling pathway,1,1
+ko04111,Cell cycle,1,1
+ko04113,Meiosis,1,1
+ko04114,Oocyte meiosis,1,1
+ko04140,Autophagy,1,1
+ko04142,Lysosome biogenesis,1,1
+ko04146,Peroxisome,1,1
+ko04148,Efferocytosis,1,1
+ko04149,Peroxisome,1,1
+ko04210,Apoptosis,1,1
+ko04212,Longevity regulating pathway,1,1
+ko04214,Apoptosis,1,1
+ko04350,TGF-beta signaling pathway,1,1
+ko04360,Axon guidance,1,1
+ko04371,Apelin signaling pathway,1,1
+ko04380,Osteoclast differentiation,1,1
+ko04382,Cornified envelope formation,1,1
+ko04392,Hippo signaling pathway,1,1
+ko04517,IgSF CAM signaling,1,1
+ko04520,Adherens junction,1,1
+ko04550,Signaling pathways regulating pluripotency of stem cells,1,1
+ko04613,Neutrophil extracellular trap formation,1,1
+ko04622,RIG-I-like receptor signaling pathway,1,1
+ko04623,Cytosolic DNA-sensing pathway,1,1
+ko04624,Toll and Imd signaling pathway,1,1
+ko04630,JAK-STAT signaling pathway,1,1
+ko04658,Th1 and Th2 cell differentiation,1,1
+ko04660,T cell receptor signaling pathway,1,1
+ko04662,B cell receptor signaling pathway,1,1
+ko04664,Fc epsilon RI signaling pathway,1,1
+ko04666,Fc gamma R-mediated phagosome formation,1,1
+ko04670,Leukocyte transendothelial migration,1,1
+ko04711,Circadian rhythm,1,1
+ko04722,Neurotrophin signaling pathway,1,1
+ko04814,Motor proteins,1,1
+ko04910,Insulin signaling pathway,1,1
+ko04919,Thyroid hormone signaling pathway,1,1
+ko04926,Relaxin signaling pathway,1,1
+ko04934,Cushing syndrome,1,1
+ko04940,Type I diabetes mellitus,1,1
+ko04962,Vasopressin-regulated water reabsorption,1,1
+ko04979,Cholesterol metabolism,1,1
+ko05010,Alzheimer disease,1,1
+ko05012,Parkinson disease,1,1
+ko05016,Huntington disease,1,1
+ko05100,Bacterial invasion of epithelial cells,1,1
+ko05131,Shigellosis,1,1
+ko05134,Legionellosis,1,1
+ko05140,Leishmaniasis,1,1
+ko05160,Hepatitis C,1,1
+ko05165,Human papillomavirus infection,1,1
+ko05167,Kaposi sarcoma-associated herpesvirus infection,1,1
+ko05203,Viral carcinogenesis,1,1
+ko05205,Proteoglycans in cancer,1,1
+ko05210,Colorectal cancer,1,1
+ko05212,Pancreatic cancer,1,1
+ko05214,Glioma,1,1
+ko05216,Thyroid cancer,1,1
+ko05221,Acute myeloid leukemia,1,1
+ko05222,Small cell lung cancer,1,1
+ko05223,Non-small cell lung cancer,1,1
+ko05224,Breast cancer,1,1
+ko05322,Systemic lupus erythematosus,1,1

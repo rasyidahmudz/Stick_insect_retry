@@ -1,0 +1,214 @@
+pathway_id,pathway_name,gene_count
+ko01100,Metabolic pathways,53
+ko01110,Biosynthesis of secondary metabolites,22
+ko04142,Lysosome,15
+ko01120,Microbial metabolism in diverse environments,13
+ko04141,Protein processing in endoplasmic reticulum,13
+ko04218,Cellular senescence,8
+ko00510,N-Glycan biosynthesis,7
+ko01200,Carbon metabolism,7
+ko01240,Biosynthesis of cofactors,7
+ko04145,Phagosome,7
+ko04146,Peroxisome,7
+ko04210,Apoptosis,7
+ko04010,MAPK signaling pathway,6
+ko04071,Sphingolipid signaling pathway,6
+ko00051,Fructose and mannose metabolism,5
+ko00280,"Valine, leucine and isoleucine degradation",5
+ko00480,Glutathione metabolism,5
+ko00513,Various types of N-glycan biosynthesis,5
+ko01212,Fatty acid metabolism,5
+ko03013,Nucleocytoplasmic transport,5
+ko03018,RNA degradation,5
+ko03440,Homologous recombination,5
+ko04110,Cell cycle,5
+ko04140,Autophagy - animal,5
+ko04152,AMPK signaling pathway,5
+ko04350,TGF-beta signaling pathway,5
+ko04919,Thyroid hormone signaling pathway,5
+ko00062,Fatty acid elongation,4
+ko00071,Fatty acid degradation,4
+ko03008,Ribosome biogenesis in eukaryotes,4
+ko03040,Spliceosome,4
+ko03050,Proteasome,4
+ko03060,Protein export,4
+ko04012,ErbB signaling pathway,4
+ko04013,MAPK signaling pathway - fly,4
+ko04068,FoxO signaling pathway,4
+ko04115,p53 signaling pathway,4
+ko04137,Mitophagy - animal,4
+ko04138,Autophagy - yeast,4
+ko04150,mTOR signaling pathway,4
+ko04151,PI3K-Akt signaling pathway,4
+ko04550,Signaling pathways regulating pluripotency of stem cells,4
+ko04621,NOD-like receptor signaling pathway,4
+ko04660,T cell receptor signaling pathway,4
+ko04914,Progesterone-mediated oocyte maturation,4
+ko04921,Oxytocin signaling pathway,4
+ko00010,Glycolysis / Gluconeogenesis,3
+ko00030,Pentose phosphate pathway,3
+ko00230,Purine metabolism,3
+ko00520,Amino sugar and nucleotide sugar metabolism,3
+ko00600,Sphingolipid metabolism,3
+ko00650,Butanoate metabolism,3
+ko00680,Methane metabolism,3
+ko00790,Folate biosynthesis,3
+ko00900,Terpenoid backbone biosynthesis,3
+ko00980,Metabolism of xenobiotics by cytochrome P450,3
+ko00982,Drug metabolism - cytochrome P450,3
+ko03015,mRNA surveillance pathway,3
+ko04015,Rap1 signaling pathway,3
+ko04066,HIF-1 signaling pathway,3
+ko04072,Phospholipase D signaling pathway,3
+ko04111,Cell cycle - yeast,3
+ko04114,Oocyte meiosis,3
+ko04120,Ubiquitin mediated proteolysis,3
+ko04144,Endocytosis,3
+ko04213,Longevity regulating pathway - multiple species,3
+ko04214,Apoptosis - fly,3
+ko04320,Dorso-ventral axis formation,3
+ko04360,Axon guidance,3
+ko04390,Hippo signaling pathway,3
+ko04391,Hippo signaling pathway - fly,3
+ko04510,Focal adhesion,3
+ko04530,Tight junction,3
+ko04540,Gap junction,3
+ko04613,Neutrophil extracellular trap formation,3
+ko04625,C-type lectin receptor signaling pathway,3
+ko04662,B cell receptor signaling pathway,3
+ko04722,Neurotrophin signaling pathway,3
+ko04730,Long-term depression,3
+ko04810,Regulation of actin cytoskeleton,3
+ko04910,Insulin signaling pathway,3
+ko04912,GnRH signaling pathway,3
+ko04915,Estrogen signaling pathway,3
+ko04926,Relaxin signaling pathway,3
+ko00040,Pentose and glucuronate interconversions,2
+ko00052,Galactose metabolism,2
+ko00190,Oxidative phosphorylation,2
+ko00515,Mannose type O-glycan biosynthesis,2
+ko00561,Glycerolipid metabolism,2
+ko00565,Ether lipid metabolism,2
+ko00620,Pyruvate metabolism,2
+ko00860,Porphyrin metabolism,2
+ko00920,Sulfur metabolism,2
+ko00970,Aminoacyl-tRNA biosynthesis,2
+ko00983,Drug metabolism - other enzymes,2
+ko01040,Biosynthesis of unsaturated fatty acids,2
+ko01220,Degradation of aromatic compounds,2
+ko01230,Biosynthesis of amino acids,2
+ko01250,Biosynthesis of nucleotide sugars,2
+ko02010,ABC transporters,2
+ko03250,Viral life cycle - HIV-1,2
+ko03420,Nucleotide excision repair,2
+ko04014,Ras signaling pathway,2
+ko04024,cAMP signaling pathway,2
+ko04062,Chemokine signaling pathway,2
+ko04113,Meiosis - yeast,2
+ko04211,Longevity regulating pathway,2
+ko04212,Longevity regulating pathway - worm,2
+ko04217,Necroptosis,2
+ko04261,Adrenergic signaling in cardiomyocytes,2
+ko04270,Vascular smooth muscle contraction,2
+ko04310,Wnt signaling pathway,2
+ko04370,VEGF signaling pathway,2
+ko04371,Apelin signaling pathway,2
+ko04380,Osteoclast differentiation,2
+ko04520,Adherens junction,2
+ko04611,Platelet activation,2
+ko04612,Antigen processing and presentation,2
+ko04620,Toll-like receptor signaling pathway,2
+ko04624,Toll and Imd signaling pathway,2
+ko04650,Natural killer cell mediated cytotoxicity,2
+ko04657,IL-17 signaling pathway,2
+ko04658,Th1 and Th2 cell differentiation,2
+ko04659,Th17 cell differentiation,2
+ko04664,Fc epsilon RI signaling pathway,2
+ko04668,TNF signaling pathway,2
+ko04714,Thermogenesis,2
+ko04720,Long-term potentiation,2
+ko04721,Synaptic vesicle cycle,2
+ko04725,Cholinergic synapse,2
+ko04726,Serotonergic synapse,2
+ko04916,Melanogenesis,2
+ko04917,Prolactin signaling pathway,2
+ko04929,GnRH secretion,2
+ko04935,"Growth hormone synthesis, secretion and action",2
+ko04960,Aldosterone-regulated sodium reabsorption,2
+ko04966,Collecting duct acid secretion,2
+ko04974,Protein digestion and absorption,2
+ko04975,Fat digestion and absorption,2
+ko04979,Cholesterol metabolism,2
+ko00053,Ascorbate and aldarate metabolism,1
+ko00100,Steroid biosynthesis,1
+ko00120,Primary bile acid biosynthesis,1
+ko00260,"Glycine, serine and threonine metabolism",1
+ko00261,Monobactam biosynthesis,1
+ko00270,Cysteine and methionine metabolism,1
+ko00310,Lysine degradation,1
+ko00330,Arginine and proline metabolism,1
+ko00350,Tyrosine metabolism,1
+ko00360,Phenylalanine metabolism,1
+ko00362,Benzoate degradation,1
+ko00380,Tryptophan metabolism,1
+ko00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",1
+ko00410,beta-Alanine metabolism,1
+ko00440,Phosphonate and phosphinate metabolism,1
+ko00450,Selenocompound metabolism,1
+ko00500,Starch and sucrose metabolism,1
+ko00511,Other glycan degradation,1
+ko00531,Glycosaminoglycan degradation,1
+ko00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,1
+ko00541,O-Antigen nucleotide sugar biosynthesis,1
+ko00562,Inositol phosphate metabolism,1
+ko00564,Glycerophospholipid metabolism,1
+ko00590,Arachidonic acid metabolism,1
+ko00603,Glycosphingolipid biosynthesis - globo and isoglobo series,1
+ko00604,Glycosphingolipid biosynthesis - ganglio series,1
+ko00625,Chloroalkane and chloroalkene degradation,1
+ko00626,Naphthalene degradation,1
+ko00630,Glyoxylate and dicarboxylate metabolism,1
+ko00640,Propanoate metabolism,1
+ko00670,One carbon pool by folate,1
+ko00720,Carbon fixation pathways in prokaryotes,1
+ko00740,Riboflavin metabolism,1
+ko00750,Vitamin B6 metabolism,1
+ko00770,Pantothenate and CoA biosynthesis,1
+ko00830,Retinol metabolism,1
+ko00930,Caprolactam degradation,1
+ko00940,Phenylpropanoid biosynthesis,1
+ko00981,Insect hormone biosynthesis,1
+ko00984,Steroid degradation,1
+ko02020,Two-component system,1
+ko03020,RNA polymerase,1
+ko03030,DNA replication,1
+ko03320,PPAR signaling pathway,1
+ko03410,Base excision repair,1
+ko03430,Mismatch repair,1
+ko03460,Fanconi anemia pathway,1
+ko04011,MAPK signaling pathway - yeast,1
+ko04022,cGMP-PKG signaling pathway,1
+ko04064,NF-kappa B signaling pathway,1
+ko04070,Phosphatidylinositol signaling system,1
+ko04080,Neuroactive ligand-receptor interaction,1
+ko04130,SNARE interactions in vesicular transport,1
+ko04216,Ferroptosis,1
+ko04330,Notch signaling pathway,1
+ko04614,Renin-angiotensin system,1
+ko04622,RIG-I-like receptor signaling pathway,1
+ko04623,Cytosolic DNA-sensing pathway,1
+ko04630,JAK-STAT signaling pathway,1
+ko04666,Fc gamma R-mediated phagocytosis,1
+ko04670,Leukocyte transendothelial migration,1
+ko04713,Circadian entrainment,1
+ko04723,Retrograde endocannabinoid signaling,1
+ko04724,Glutamatergic synapse,1
+ko04728,Dopaminergic synapse,1
+ko04745,Phototransduction - fly,1
+ko04920,Adipocytokine signaling pathway,1
+ko04922,Glucagon signaling pathway,1
+ko04924,Renin secretion,1
+ko04928,"Parathyroid hormone synthesis, secretion and action",1
+ko04971,Gastric acid secretion,1
+ko04976,Bile secretion,1
+ko04978,Mineral absorption,1

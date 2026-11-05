@@ -1,0 +1,9 @@
+module_id,n_significant_pathways,top_p_adjust,mean_enrichment_ratio,top_pathway
+Module_09,9,3.342079677023455e-7,4.078805031478113,Citrate cycle (TCA cycle)
+Module_01,5,0.0034071497643805904,4.468795778765273,Biosynthesis of unsaturated fatty acids
+Module_15,2,0.008384084042516936,11.650786713286713,Glutathione metabolism
+Module_03,1,0.037345623157415596,6.020779220779221,Starch and sucrose metabolism
+Module_13,1,0.029139463264673614,2.8617283950617285,Nucleocytoplasmic transport
+Module_14,1,2.5593863180984945e-5,3.979019645241274,Protein processing in endoplasmic reticulum
+Module_17,1,0.004591459607605707,23.979310344827585,Cell adhesion molecule (CAM) interaction
+Module_18,1,0.027781617679042032,23.97931034482759,Serotonergic synapse

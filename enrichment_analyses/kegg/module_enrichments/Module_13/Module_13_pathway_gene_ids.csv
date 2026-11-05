@@ -1,0 +1,9 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko03013,Nucleocytoplasmic transport,scaffold_10-g556,mRNA export factor GLE1,K18723
+ko03013,Nucleocytoplasmic transport,scaffold_14-g196,importin-5,K20222
+ko03013,Nucleocytoplasmic transport,scaffold_3-g1753,guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 isoform X1,K12880
+ko03013,Nucleocytoplasmic transport,scaffold_5-g120,60S ribosomal export protein NMD3,K07562
+ko03013,Nucleocytoplasmic transport,scaffold_7-g1144,exportin-4-like,K25203
+ko03013,Nucleocytoplasmic transport,scaffold_8-g162,nuclear cap-binding protein subunit 1,K12882
+ko03013,Nucleocytoplasmic transport,scaffold_8-g166,THO complex subunit 1 isoform X1,K12878
+ko03013,Nucleocytoplasmic transport,scaffold_9-g159,nuclear pore complex protein Nup160 homolog,K14303

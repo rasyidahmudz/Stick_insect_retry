@@ -1,0 +1,115 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko02010,ABC transporters,scaffold_8-g1262,ATP-binding cassette sub-family C member 4-like,K05673
+ko02010,ABC transporters,scaffold_6-g1358,ATP-binding cassette subfamily G member 4-like,K05679
+ko03013,Nucleocytoplasmic transport,scaffold_15-g866,ATP-dependent RNA helicase me31b,K18655
+ko03015,mRNA surveillance pathway,scaffold_15-g866,ATP-dependent RNA helicase me31b,K18655
+ko03040,Spliceosome,scaffold_1-g2318,lissencephaly-1 homolog,K10599
+ko03040,Spliceosome,scaffold_1-g1614,heterogeneous nuclear ribonucleoprotein K-like isoform X1,K12886
+ko04011,MAPK signaling pathway - yeast,scaffold_13-g715,E3 ubiquitin-protein ligase Nedd-4 isoform X1,K10591
+ko04013,MAPK signaling pathway - fly,scaffold_10-g283,U4/U6 small nuclear ribonucleoprotein Prp4,K04497
+ko04014,Ras signaling pathway,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko04024,cAMP signaling pathway,scaffold_8-g1262,ATP-binding cassette sub-family C member 4-like,K05673
+ko04024,cAMP signaling pathway,scaffold_9-g342,putative transcription factor SOX-14,K18435
+ko04060,Cytokine-cytokine receptor interaction,scaffold_14-g101,cell adhesion molecule Dscam2 isoform X1,K05171
+ko04060,Cytokine-cytokine receptor interaction,scaffold_4-g1173,activin receptor type-2A isoform X1,K13596
+ko04066,HIF-1 signaling pathway,scaffold_8-g118,glucose transporter type 1 isoform X1,K07299
+ko04066,HIF-1 signaling pathway,scaffold_15-g617,NA,K09592
+ko04071,Sphingolipid signaling pathway,scaffold_16-g254,LOW QUALITY PROTEIN: acidic amino acid decarboxylase GADL1-like,K01634
+ko04110,Cell cycle,scaffold_9-g497,intraflagellar transport protein 88 homolog isoform X2,K03353
+ko04110,Cell cycle,scaffold_17-g569,transcription factor E2F5-like isoform X1,K04683
+ko04111,Cell cycle - yeast,scaffold_9-g497,intraflagellar transport protein 88 homolog isoform X2,K03353
+ko04113,Meiosis - yeast,scaffold_9-g497,intraflagellar transport protein 88 homolog isoform X2,K03353
+ko04114,Oocyte meiosis,scaffold_9-g497,intraflagellar transport protein 88 homolog isoform X2,K03353
+ko04120,Ubiquitin mediated proteolysis,scaffold_9-g497,intraflagellar transport protein 88 homolog isoform X2,K03353
+ko04120,Ubiquitin mediated proteolysis,scaffold_13-g715,E3 ubiquitin-protein ligase Nedd-4 isoform X1,K10591
+ko04120,Ubiquitin mediated proteolysis,scaffold_1-g2318,lissencephaly-1 homolog,K10599
+ko04138,Autophagy - yeast,scaffold_18-g412,proton-coupled amino acid transporter-like protein CG1139,K14209
+ko04141,Protein processing in endoplasmic reticulum,scaffold_4-g242,peptide-N(4)-(N-acetyl-beta-glucosaminyl)asparagine amidase isoform X1,K01456
+ko04141,Protein processing in endoplasmic reticulum,scaffold_15-g215,dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B,K07151
+ko04142,Lysosome,scaffold_18-g412,proton-coupled amino acid transporter-like protein CG1139,K14209
+ko04144,Endocytosis,scaffold_13-g715,E3 ubiquitin-protein ligase Nedd-4 isoform X1,K10591
+ko04144,Endocytosis,gene_5096,IST1 homolog isoform X1,K19476
+ko04145,Phagosome,scaffold_18-g138,cytoplasmic dynein 1 light intermediate chain 2,K10416
+ko04270,Vascular smooth muscle contraction,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko04310,Wnt signaling pathway,scaffold_10-g283,U4/U6 small nuclear ribonucleoprotein Prp4,K04497
+ko04320,Dorso-ventral axis formation,scaffold_1-g511,beta-1%2C4-mannosyltransferase egh,K02359
+ko04320,Dorso-ventral axis formation,scaffold_1-g293,RNA-binding protein squid isoform X1,K03102
+ko04330,Notch signaling pathway,scaffold_10-g283,U4/U6 small nuclear ribonucleoprotein Prp4,K04497
+ko04340,Hedgehog signaling pathway,scaffold_13-g767,patched domain-containing protein 3-like,K24680
+ko04341,Hedgehog signaling pathway - fly,scaffold_13-g767,patched domain-containing protein 3-like,K24680
+ko04350,TGF-beta signaling pathway,scaffold_17-g569,transcription factor E2F5-like isoform X1,K04683
+ko04350,TGF-beta signaling pathway,scaffold_4-g1173,activin receptor type-2A isoform X1,K13596
+ko04350,TGF-beta signaling pathway,scaffold_1-g712,repulsive guidance molecule B-like,K23096
+ko04360,Axon guidance,scaffold_4-g445,roundabout homolog 2-like,K06754
+ko04360,Axon guidance,scaffold_1-g712,repulsive guidance molecule B-like,K23096
+ko04361,Axon regeneration,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko04361,Axon regeneration,scaffold_4-g445,roundabout homolog 2-like,K06754
+ko04530,Tight junction,scaffold_13-g715,E3 ubiquitin-protein ligase Nedd-4 isoform X1,K10591
+ko04550,Signaling pathways regulating pluripotency of stem cells,scaffold_4-g1173,activin receptor type-2A isoform X1,K13596
+ko04614,Renin-angiotensin system,scaffold_13-g340,thymus-specific serine protease-like,K01285
+ko04624,Toll and Imd signaling pathway,scaffold_6-g201,peptidoglycan-recognition protein SD-like,K01446
+ko04624,Toll and Imd signaling pathway,scaffold_9-g657,modular serine protease-like,K20674
+ko04624,Toll and Imd signaling pathway,scaffold_7-g226,uncharacterized protein LOC134537303,K20701
+ko04659,Th17 cell differentiation,scaffold_7-g1149,circadian locomoter output cycles protein kaput isoform X1,K09093
+ko04725,Cholinergic synapse,scaffold_3-g74,fatty acyl-CoA hydrolase precursor%2C medium chain-like isoform X1,K01049
+ko04726,Serotonergic synapse,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko04728,Dopaminergic synapse,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko04911,Insulin secretion,scaffold_8-g118,glucose transporter type 1 isoform X1,K07299
+ko04914,Progesterone-mediated oocyte maturation,scaffold_9-g497,intraflagellar transport protein 88 homolog isoform X2,K03353
+ko04919,Thyroid hormone signaling pathway,scaffold_8-g118,glucose transporter type 1 isoform X1,K07299
+ko04920,Adipocytokine signaling pathway,scaffold_8-g118,glucose transporter type 1 isoform X1,K07299
+ko04922,Glucagon signaling pathway,scaffold_8-g118,glucose transporter type 1 isoform X1,K07299
+ko04962,Vasopressin-regulated water reabsorption,scaffold_18-g138,cytoplasmic dynein 1 light intermediate chain 2,K10416
+ko04972,Pancreatic secretion,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko04974,Protein digestion and absorption,scaffold_13-g340,thymus-specific serine protease-like,K01285
+ko04974,Protein digestion and absorption,scaffold_18-g412,proton-coupled amino acid transporter-like protein CG1139,K14209
+ko04975,Fat digestion and absorption,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko04975,Fat digestion and absorption,scaffold_3-g1924,DGAT1/2-independent enzyme synthesizing storage lipids isoform X2,K14457
+ko04976,Bile secretion,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko04976,Bile secretion,scaffold_8-g1262,ATP-binding cassette sub-family C member 4-like,K05673
+ko04976,Bile secretion,scaffold_8-g118,glucose transporter type 1 isoform X1,K07299
+ko04978,Mineral absorption,scaffold_1-g567,proton-coupled zinc antiporter SLC30A2-like isoform X1,K14688
+ko00030,Pentose phosphate pathway,scaffold_15-g899,glucose dehydrogenase [FAD%2C quinone]-like,K00115
+ko00040,Pentose and glucuronate interconversions,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko00053,Ascorbate and aldarate metabolism,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko00140,Steroid hormone biosynthesis,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko00270,Cysteine and methionine metabolism,scaffold_3-g1053,methylthioribose-1-phosphate isomerase,K08963
+ko00330,Arginine and proline metabolism,scaffold_6-g345,peroxisomal N(1)-acetyl-spermine/spermidine oxidase-like,K12259
+ko00350,Tyrosine metabolism,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko00360,Phenylalanine metabolism,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko00380,Tryptophan metabolism,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko00410,beta-Alanine metabolism,scaffold_6-g345,peroxisomal N(1)-acetyl-spermine/spermidine oxidase-like,K12259
+ko00510,N-Glycan biosynthesis,scaffold_15-g215,dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B,K07151
+ko00513,Various types of N-glycan biosynthesis,scaffold_15-g215,dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B,K07151
+ko00561,Glycerolipid metabolism,scaffold_3-g1924,DGAT1/2-independent enzyme synthesizing storage lipids isoform X2,K14457
+ko00564,Glycerophospholipid metabolism,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00564,Glycerophospholipid metabolism,scaffold_3-g74,fatty acyl-CoA hydrolase precursor%2C medium chain-like isoform X1,K01049
+ko00565,Ether lipid metabolism,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00590,Arachidonic acid metabolism,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00591,Linoleic acid metabolism,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00592,alpha-Linolenic acid metabolism,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko00600,Sphingolipid metabolism,scaffold_16-g254,LOW QUALITY PROTEIN: acidic amino acid decarboxylase GADL1-like,K01634
+ko00830,Retinol metabolism,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko00860,Porphyrin metabolism,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko00901,Indole alkaloid biosynthesis,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko00950,Isoquinoline alkaloid biosynthesis,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko00965,Betalain biosynthesis,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko00980,Metabolism of xenobiotics by cytochrome P450,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko00981,Insect hormone biosynthesis,scaffold_11-g535,methyl farnesoate epoxidase-like,K14937
+ko00982,Drug metabolism - cytochrome P450,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko00983,Drug metabolism - other enzymes,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko01100,Metabolic pathways,scaffold_15-g899,glucose dehydrogenase [FAD%2C quinone]-like,K00115
+ko01100,Metabolic pathways,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko01100,Metabolic pathways,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko01100,Metabolic pathways,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko01100,Metabolic pathways,scaffold_16-g254,LOW QUALITY PROTEIN: acidic amino acid decarboxylase GADL1-like,K01634
+ko01100,Metabolic pathways,scaffold_15-g215,dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B,K07151
+ko01100,Metabolic pathways,scaffold_3-g1053,methylthioribose-1-phosphate isomerase,K08963
+ko01100,Metabolic pathways,scaffold_6-g345,peroxisomal N(1)-acetyl-spermine/spermidine oxidase-like,K12259
+ko01100,Metabolic pathways,scaffold_3-g1924,DGAT1/2-independent enzyme synthesizing storage lipids isoform X2,K14457
+ko01100,Metabolic pathways,scaffold_11-g535,methyl farnesoate epoxidase-like,K14937
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g899,glucose dehydrogenase [FAD%2C quinone]-like,K00115
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1263,uncharacterized protein LOC134527637 isoform X1,K01047
+ko01110,Biosynthesis of secondary metabolites,scaffold_11-g484,cysteine sulfinic acid decarboxylase,K01593
+ko01240,Biosynthesis of cofactors,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699

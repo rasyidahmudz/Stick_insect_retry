@@ -1,0 +1,167 @@
+pathway_id,pathway_name,gene_count,KO_count
+ko01100,Metabolic pathways,16,16
+ko01110,Biosynthesis of secondary metabolites,8,8
+ko01120,Microbial metabolism in diverse environments,6,6
+ko04714,Thermogenesis,6,5
+ko04820,Cytoskeleton in muscle cells,6,5
+ko05014,Amyotrophic lateral sclerosis,6,5
+ko01200,Carbon metabolism,5,5
+ko04510,Focal adhesion,5,4
+ko01230,Biosynthesis of amino acids,4,4
+ko03010,Ribosome,4,4
+ko04015,Rap1 signaling pathway,4,3
+ko04517,IgSF CAM signaling,4,3
+ko04518,Integrin signaling,4,3
+ko04613,Neutrophil extracellular trap formation,4,2
+ko04670,Leukocyte transendothelial migration,4,3
+ko04814,Motor proteins,4,3
+ko05135,Yersinia infection,4,3
+ko00010,Glycolysis / Gluconeogenesis,3,3
+ko04146,Peroxisome,3,3
+ko04210,Apoptosis,3,2
+ko04260,Cardiac muscle contraction,3,3
+ko04519,Cadherin signaling,3,2
+ko04520,Adherens junction,3,2
+ko04530,Tight junction,3,2
+ko04611,Platelet activation,3,2
+ko04810,Regulation of actin cytoskeleton,3,2
+ko04919,Thyroid hormone signaling pathway,3,2
+ko04971,Gastric acid secretion,3,2
+ko04972,Pancreatic secretion,3,3
+ko05016,Huntington disease,3,3
+ko05022,Pathways of neurodegeneration,3,3
+ko05100,Bacterial invasion of epithelial cells,3,2
+ko05131,Shigellosis,3,2
+ko05132,Salmonella infection,3,2
+ko05203,Viral carcinogenesis,3,2
+ko05205,Proteoglycans in cancer,3,2
+ko05410,Hypertrophic cardiomyopathy,3,2
+ko05414,Dilated cardiomyopathy,3,2
+ko00230,Purine metabolism,2,2
+ko00250,"Alanine, aspartate and glutamate metabolism",2,2
+ko00680,Methane metabolism,2,2
+ko00710,Carbon fixation by Calvin cycle,2,2
+ko00900,Terpenoid backbone biosynthesis,2,2
+ko03040,Spliceosome,2,2
+ko03082,ATP-dependent chromatin remodeling,2,1
+ko04010,MAPK signaling pathway,2,2
+ko04024,cAMP signaling pathway,2,2
+ko04062,Chemokine signaling pathway,2,2
+ko04066,HIF-1 signaling pathway,2,2
+ko04137,Mitophagy,2,2
+ko04145,Phagocytosis,2,1
+ko04261,Adrenergic signaling in cardiomyocytes,2,2
+ko04390,Hippo signaling pathway,2,1
+ko04391,Hippo signaling pathway,2,1
+ko04745,Phototransduction,2,1
+ko04921,Oxytocin signaling pathway,2,1
+ko04934,Cushing syndrome,2,2
+ko04936,Alcoholic liver disease,2,2
+ko04974,Protein digestion and absorption,2,2
+ko04976,Bile secretion,2,2
+ko05034,Alcoholism,2,1
+ko05110,Vibrio cholerae infection,2,1
+ko05130,Pathogenic Escherichia coli infection,2,1
+ko05164,Influenza A,2,1
+ko05170,Human immunodeficiency virus 1 infection,2,2
+ko05225,Hepatocellular carcinoma,2,1
+ko05322,Systemic lupus erythematosus,2,1
+ko05412,Arrhythmogenic right ventricular cardiomyopathy,2,1
+ko05416,Viral myocarditis,2,1
+ko05417,Lipid and atherosclerosis,2,2
+ko05418,Fluid shear stress and atherosclerosis,2,1
+ko00030,Pentose phosphate pathway,1,1
+ko00053,Ascorbate and aldarate metabolism,1,1
+ko00100,Steroid biosynthesis,1,1
+ko00140,Steroid hormone biosynthesis,1,1
+ko00190,Oxidative phosphorylation,1,1
+ko00220,Arginine biosynthesis,1,1
+ko00260,"Glycine, serine and threonine metabolism",1,1
+ko00270,Cysteine and methionine metabolism,1,1
+ko00330,Arginine and proline metabolism,1,1
+ko00350,Tyrosine metabolism,1,1
+ko00360,Phenylalanine metabolism,1,1
+ko00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",1,1
+ko00410,beta-Alanine metabolism,1,1
+ko00470,D-Amino acid metabolism,1,1
+ko00514,Other types of O-glycan biosynthesis,1,1
+ko00541,Biosynthesis of various nucleotide sugars,1,1
+ko00564,Glycerophospholipid metabolism,1,1
+ko00591,Linoleic acid metabolism,1,1
+ko00640,Propanoate metabolism,1,1
+ko00830,Retinol metabolism,1,1
+ko00920,Sulfur metabolism,1,1
+ko00930,Caprolactam degradation,1,1
+ko00950,Isoquinoline alkaloid biosynthesis,1,1
+ko00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",1,1
+ko00980,Metabolism of xenobiotics by cytochrome P450,1,1
+ko00982,Drug metabolism,1,1
+ko00983,Drug metabolism,1,1
+ko01210,2-Oxocarboxylic acid metabolism,1,1
+ko01220,Degradation of aromatic compounds,1,1
+ko01240,Biosynthesis of cofactors,1,1
+ko01250,Biosynthesis of nucleotide sugars,1,1
+ko02025,Biofilm formation,1,1
+ko03013,Nucleocytoplasmic transport,1,1
+ko03015,mRNA surveillance pathway,1,1
+ko03018,RNA degradation,1,1
+ko03083,Polycomb repressive complex,1,1
+ko04013,MAPK signaling pathway,1,1
+ko04014,Ras signaling pathway,1,1
+ko04020,Calcium signaling pathway,1,1
+ko04022,cGMP-PKG signaling pathway,1,1
+ko04082,Neuroactive ligand signaling,1,1
+ko04113,Meiosis,1,1
+ko04141,Protein processing in endoplasmic reticulum,1,1
+ko04142,Lysosome biogenesis,1,1
+ko04149,Peroxisome,1,1
+ko04152,AMPK signaling pathway,1,1
+ko04213,Longevity regulating pathway,1,1
+ko04218,Cellular senescence,1,1
+ko04370,VEGF signaling pathway,1,1
+ko04512,ECM-receptor interaction,1,1
+ko04620,Toll-like receptor signaling pathway,1,1
+ko04624,Toll and Imd signaling pathway,1,1
+ko04626,Plant-pathogen interaction,1,1
+ko04664,Fc epsilon RI signaling pathway,1,1
+ko04668,TNF signaling pathway,1,1
+ko04720,Long-term potentiation,1,1
+ko04721,Synaptic vesicle cycle,1,1
+ko04722,Neurotrophin signaling pathway,1,1
+ko04723,Retrograde endocannabinoid signaling,1,1
+ko04724,Glutamatergic synapse,1,1
+ko04750,Inflammatory mediator regulation of TRP channels,1,1
+ko04911,Insulin secretion,1,1
+ko04912,GnRH signaling pathway,1,1
+ko04918,Thyroid hormone synthesis,1,1
+ko04922,Glucagon signaling pathway,1,1
+ko04925,Aldosterone synthesis and secretion,1,1
+ko04931,Insulin resistance,1,1
+ko04932,Non-alcoholic fatty liver disease,1,1
+ko04935,"Growth hormone synthesis, secretion and action",1,1
+ko04960,Aldosterone-regulated sodium reabsorption,1,1
+ko04961,Endocrine and other factor-regulated calcium reabsorption,1,1
+ko04964,Proximal tubule bicarbonate reclamation,1,1
+ko04970,Salivary secretion,1,1
+ko04973,Carbohydrate digestion and absorption,1,1
+ko04975,Fat digestion and absorption,1,1
+ko04978,Mineral absorption,1,1
+ko05010,Alzheimer disease,1,1
+ko05012,Parkinson disease,1,1
+ko05020,Prion disease,1,1
+ko05032,Morphine addiction,1,1
+ko05145,Toxoplasmosis,1,1
+ko05161,Hepatitis B,1,1
+ko05163,Human cytomegalovirus infection,1,1
+ko05165,Human papillomavirus infection,1,1
+ko05168,Herpes simplex virus 1 infection,1,1
+ko05169,Epstein-Barr virus infection,1,1
+ko05204,Chemical carcinogenesis,1,1
+ko05206,MicroRNAs in cancer,1,1
+ko05207,Chemical carcinogenesis,1,1
+ko05208,Chemical carcinogenesis,1,1
+ko05211,Renal cell carcinoma,1,1
+ko05230,Central carbon metabolism in cancer,1,1
+ko05231,Choline metabolism in cancer,1,1
+ko05235,PD-L1 expression and PD-1 checkpoint pathway in cancer,1,1
+ko05415,Diabetic cardiomyopathy,1,1

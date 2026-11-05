@@ -1,0 +1,244 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00010,Glycolysis / Gluconeogenesis,scaffold_4-g704,hexokinase type 2-like,K00844
+ko00010,Glycolysis / Gluconeogenesis,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko00030,Pentose phosphate pathway,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko00051,Fructose and mannose metabolism,scaffold_4-g704,hexokinase type 2-like,K00844
+ko00052,Galactose metabolism,scaffold_4-g704,hexokinase type 2-like,K00844
+ko00052,Galactose metabolism,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko00230,Purine metabolism,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko00230,Purine metabolism,scaffold_10-g1085,NA,K18533
+ko00240,Pyrimidine metabolism,scaffold_10-g1085,NA,K18533
+ko00330,Arginine and proline metabolism,scaffold_3-g859,N-fatty-acyl-amino acid synthase/hydrolase PM20D1-like isoform X1,K08660
+ko00340,Histidine metabolism,scaffold_3-g859,N-fatty-acyl-amino acid synthase/hydrolase PM20D1-like isoform X1,K08660
+ko00410,beta-Alanine metabolism,scaffold_3-g859,N-fatty-acyl-amino acid synthase/hydrolase PM20D1-like isoform X1,K08660
+ko00500,Starch and sucrose metabolism,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko00500,Starch and sucrose metabolism,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko00500,Starch and sucrose metabolism,scaffold_4-g704,hexokinase type 2-like,K00844
+ko00500,Starch and sucrose metabolism,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko00511,Other glycan degradation,scaffold_12-g117,lysosomal alpha-mannosidase-like,K12311
+ko00511,Other glycan degradation,scaffold_16-g227,hexosaminidase D,K14459
+ko00512,Mucin type O-glycan biosynthesis,scaffold_3-g2148,polypeptide N-acetylgalactosaminyltransferase 2,K00710
+ko00513,Various types of N-glycan biosynthesis,scaffold_16-g227,hexosaminidase D,K14459
+ko00514,Other types of O-glycan biosynthesis,scaffold_3-g2148,polypeptide N-acetylgalactosaminyltransferase 2,K00710
+ko00520,Amino sugar and nucleotide sugar metabolism,scaffold_4-g704,hexokinase type 2-like,K00844
+ko00520,Amino sugar and nucleotide sugar metabolism,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko00521,Streptomycin biosynthesis,scaffold_4-g704,hexokinase type 2-like,K00844
+ko00524,"Neomycin, kanamycin and gentamicin biosynthesis",scaffold_4-g704,hexokinase type 2-like,K00844
+ko00562,Inositol phosphate metabolism,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko00760,Nicotinate and nicotinamide metabolism,scaffold_12-g887,NAD(P)H pyrophosphatase NUDT13%2C mitochondrial-like,K03426
+ko00830,Retinol metabolism,scaffold_15-g126,retinol dehydrogenase 11-like isoform X1,K11153
+ko00981,Insect hormone biosynthesis,scaffold_15-g565,methyl farnesoate epoxidase-like,K14939
+ko01100,Metabolic pathways,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko01100,Metabolic pathways,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko01100,Metabolic pathways,scaffold_3-g2148,polypeptide N-acetylgalactosaminyltransferase 2,K00710
+ko01100,Metabolic pathways,scaffold_4-g704,hexokinase type 2-like,K00844
+ko01100,Metabolic pathways,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko01100,Metabolic pathways,scaffold_12-g887,NAD(P)H pyrophosphatase NUDT13%2C mitochondrial-like,K03426
+ko01100,Metabolic pathways,scaffold_3-g859,N-fatty-acyl-amino acid synthase/hydrolase PM20D1-like isoform X1,K08660
+ko01100,Metabolic pathways,scaffold_15-g126,retinol dehydrogenase 11-like isoform X1,K11153
+ko01100,Metabolic pathways,scaffold_16-g227,hexosaminidase D,K14459
+ko01100,Metabolic pathways,scaffold_15-g565,methyl farnesoate epoxidase-like,K14939
+ko01100,Metabolic pathways,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko01100,Metabolic pathways,scaffold_10-g1085,NA,K18533
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g704,hexokinase type 2-like,K00844
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g1085,NA,K18533
+ko01120,Microbial metabolism in diverse environments,scaffold_4-g704,hexokinase type 2-like,K00844
+ko01120,Microbial metabolism in diverse environments,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko01200,Carbon metabolism,scaffold_4-g704,hexokinase type 2-like,K00844
+ko01232,Nucleotide metabolism,scaffold_10-g1085,NA,K18533
+ko01240,Biosynthesis of cofactors,scaffold_15-g126,retinol dehydrogenase 11-like isoform X1,K11153
+ko01240,Biosynthesis of cofactors,scaffold_10-g1085,NA,K18533
+ko01250,Biosynthesis of nucleotide sugars,scaffold_4-g704,hexokinase type 2-like,K00844
+ko01250,Biosynthesis of nucleotide sugars,scaffold_3-g2186,phosphoacetylglucosamine mutase isoform X1,K15779
+ko01523,Antifolate resistance,scaffold_14-g606,probable multidrug resistance-associated protein lethal(2)03659,K05673
+ko02010,ABC transporters,scaffold_14-g606,probable multidrug resistance-associated protein lethal(2)03659,K05673
+ko02026,Biofilm formation,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko03013,Nucleocytoplasmic transport,scaffold_9-g985,exportin-7 isoform X1,K18460
+ko03015,mRNA surveillance pathway,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko03018,RNA degradation,scaffold_9-g786,serine/threonine-protein kinase Nek8-like,K12572
+ko03022,Basal transcription factors,scaffold_10-g763,general transcription factor IIF subunit 2,K03139
+ko03030,DNA replication,scaffold_15-g559,DNA replication licensing factor Mcm6,K02209
+ko03030,DNA replication,scaffold_3-g342,DNA primase large subunit-like,K02685
+ko03030,DNA replication,scaffold_10-g116,regulator of nonsense transcripts 1,K10742
+ko03040,Spliceosome,scaffold_8-g354,U11/U12 small nuclear ribonucleoprotein 35 kDa protein-like,K11093
+ko03040,Spliceosome,scaffold_6-g1473,polyadenylate-binding protein 4-like,K12838
+ko03083,Polycomb repressive complex,scaffold_10-g349,lysine-specific demethylase PHF2-like,K10276
+ko03083,Polycomb repressive complex,scaffold_10-g197,zinc finger protein jing isoform X1,K17452
+ko03420,Nucleotide excision repair,scaffold_3-g459,DNA damage-binding protein 1,K10610
+ko03440,Homologous recombination,scaffold_15-g559,DNA replication licensing factor Mcm6,K02209
+ko03440,Homologous recombination,scaffold_4-g257,ankyrin-3 isoform X1,K10683
+ko03440,Homologous recombination,scaffold_6-g749,BRCA1-associated RING domain protein 1-like isoform X1,K10683
+ko03440,Homologous recombination,scaffold_10-g116,regulator of nonsense transcripts 1,K10742
+ko03440,Homologous recombination,scaffold_1-g2103,activating signal cointegrator 1 complex subunit 3,K10896
+ko03460,Fanconi anemia pathway,scaffold_15-g730,DNA polymerase eta isoform X1,K03510
+ko03460,Fanconi anemia pathway,scaffold_1-g2103,activating signal cointegrator 1 complex subunit 3,K10896
+ko04010,MAPK signaling pathway,scaffold_2-g1613,uncharacterized protein LOC134527553,K04437
+ko04010,MAPK signaling pathway,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04012,ErbB signaling pathway,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04014,Ras signaling pathway,gene_3370,leucine-rich repeat protein soc-2 homolog,K19613
+ko04015,Rap1 signaling pathway,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04024,cAMP signaling pathway,scaffold_9-g45,gamma-aminobutyric acid type B receptor subunit 1 isoform X1,K04615
+ko04024,cAMP signaling pathway,scaffold_14-g606,probable multidrug resistance-associated protein lethal(2)03659,K05673
+ko04060,Cytokine-cytokine receptor interaction,scaffold_1-g607,tumor necrosis factor receptor superfamily member 3-like isoform X1,K05142
+ko04062,Chemokine signaling pathway,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04066,HIF-1 signaling pathway,scaffold_4-g704,hexokinase type 2-like,K00844
+ko04068,FoxO signaling pathway,scaffold_6-g1100,forkhead box protein fkh-2-like,K09385
+ko04070,Phosphatidylinositol signaling system,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko04071,Sphingolipid signaling pathway,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04080,Neuroactive ligand-receptor interaction,scaffold_9-g45,gamma-aminobutyric acid type B receptor subunit 1 isoform X1,K04615
+ko04082,Neuroactive ligand signaling,scaffold_9-g45,gamma-aminobutyric acid type B receptor subunit 1 isoform X1,K04615
+ko04082,Neuroactive ligand signaling,scaffold_12-g701,sodium-dependent noradrenaline transporter-like isoform X1,K05035
+ko04110,Cell cycle,scaffold_15-g559,DNA replication licensing factor Mcm6,K02209
+ko04110,Cell cycle,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04111,Cell cycle,scaffold_15-g559,DNA replication licensing factor Mcm6,K02209
+ko04113,Meiosis,scaffold_15-g559,DNA replication licensing factor Mcm6,K02209
+ko04113,Meiosis,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04114,Oocyte meiosis,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04120,Ubiquitin mediated proteolysis,scaffold_3-g2506,ubiquitin-like modifier-activating enzyme 1,K03178
+ko04120,Ubiquitin mediated proteolysis,scaffold_18-g761,ras-related protein Rac1 isoform X1,K07868
+ko04120,Ubiquitin mediated proteolysis,scaffold_3-g459,DNA damage-binding protein 1,K10610
+ko04130,SNARE interactions in vesicular transport,scaffold_8-g674,syntaxin-18,K08492
+ko04136,Autophagy,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko04136,Autophagy,gene_18378,ubiquitin-like-conjugating enzyme ATG10,K17888
+ko04138,Autophagy,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko04138,Autophagy,scaffold_18-g832,proton-coupled amino acid transporter-like protein pathetic isoform X1,K14209
+ko04138,Autophagy,gene_18378,ubiquitin-like-conjugating enzyme ATG10,K17888
+ko04139,Mitophagy,scaffold_3-g699,dynamin isoform X1,K17065
+ko04140,Autophagy,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko04140,Autophagy,gene_18378,ubiquitin-like-conjugating enzyme ATG10,K17888
+ko04142,Lysosome biogenesis,scaffold_7-g502,major facilitator superfamily domain-containing protein 8,K12307
+ko04142,Lysosome biogenesis,scaffold_12-g117,lysosomal alpha-mannosidase-like,K12311
+ko04142,Lysosome biogenesis,scaffold_18-g832,proton-coupled amino acid transporter-like protein pathetic isoform X1,K14209
+ko04145,Phagocytosis,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko04145,Phagocytosis,scaffold_8-g674,syntaxin-18,K08492
+ko04145,Phagocytosis,scaffold_3-g108,cytoplasmic dynein 1 intermediate chain isoform X1,K10415
+ko04146,Peroxisome,scaffold_12-g887,NAD(P)H pyrophosphatase NUDT13%2C mitochondrial-like,K03426
+ko04148,Efferocytosis,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04149,Peroxisome,scaffold_3-g699,dynamin isoform X1,K17065
+ko04150,mTOR signaling pathway,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko04151,PI3K-Akt signaling pathway,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko04151,PI3K-Akt signaling pathway,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04151,PI3K-Akt signaling pathway,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04152,AMPK signaling pathway,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko04152,AMPK signaling pathway,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04214,Apoptosis,scaffold_3-g699,dynamin isoform X1,K17065
+ko04217,Necroptosis,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko04217,Necroptosis,scaffold_3-g699,dynamin isoform X1,K17065
+ko04261,Adrenergic signaling in cardiomyocytes,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04310,Wnt signaling pathway,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko04310,Wnt signaling pathway,scaffold_14-g289,glypican-5,K08110
+ko04330,Notch signaling pathway,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko04360,Axon guidance,scaffold_1-g2038,rho GTPase-activating protein 44-like isoform X1,K07526
+ko04371,Apelin signaling pathway,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko04382,Cornified envelope formation,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04390,Hippo signaling pathway,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko04390,Hippo signaling pathway,scaffold_5-g663,MAGUK p55 subfamily member 7 isoform X1,K12076
+ko04391,Hippo signaling pathway,scaffold_5-g663,MAGUK p55 subfamily member 7 isoform X1,K12076
+ko04510,Focal adhesion,scaffold_2-g1613,uncharacterized protein LOC134527553,K04437
+ko04510,Focal adhesion,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04510,Focal adhesion,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04512,ECM-receptor interaction,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04517,IgSF CAM signaling,scaffold_5-g810,protein PALS2 isoform X1,K06103
+ko04517,IgSF CAM signaling,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04517,IgSF CAM signaling,scaffold_1-g2038,rho GTPase-activating protein 44-like isoform X1,K07526
+ko04518,Integrin signaling,scaffold_2-g1613,uncharacterized protein LOC134527553,K04437
+ko04518,Integrin signaling,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04519,Cadherin signaling,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko04519,Cadherin signaling,gene_3370,leucine-rich repeat protein soc-2 homolog,K19613
+ko04530,Tight junction,scaffold_5-g663,MAGUK p55 subfamily member 7 isoform X1,K12076
+ko04550,Signaling pathways regulating pluripotency of stem cells,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko04621,NOD-like receptor signaling pathway,scaffold_3-g699,dynamin isoform X1,K17065
+ko04624,Toll and Imd signaling pathway,scaffold_5-g576,protein slit isoform X1,K18809
+ko04640,Hematopoietic cell lineage,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04660,T cell receptor signaling pathway,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04660,T cell receptor signaling pathway,scaffold_5-g663,MAGUK p55 subfamily member 7 isoform X1,K12076
+ko04666,Fc gamma R-mediated phagosome formation,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04668,TNF signaling pathway,scaffold_3-g699,dynamin isoform X1,K17065
+ko04670,Leukocyte transendothelial migration,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04672,Intestinal immune network for IgA production,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04721,Synaptic vesicle cycle,scaffold_12-g701,sodium-dependent noradrenaline transporter-like isoform X1,K05035
+ko04722,Neurotrophin signaling pathway,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04727,GABAergic synapse,scaffold_9-g45,gamma-aminobutyric acid type B receptor subunit 1 isoform X1,K04615
+ko04728,Dopaminergic synapse,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko04742,Taste transduction,scaffold_9-g45,gamma-aminobutyric acid type B receptor subunit 1 isoform X1,K04615
+ko04810,Regulation of actin cytoskeleton,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04810,Regulation of actin cytoskeleton,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04814,Motor proteins,scaffold_3-g108,cytoplasmic dynein 1 intermediate chain isoform X1,K10415
+ko04814,Motor proteins,scaffold_6-g1523,kinesin-like protein KIF3B isoform X1,K26157
+ko04820,Cytoskeleton in muscle cells,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko04910,Insulin signaling pathway,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko04910,Insulin signaling pathway,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko04910,Insulin signaling pathway,scaffold_4-g704,hexokinase type 2-like,K00844
+ko04910,Insulin signaling pathway,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04915,Estrogen signaling pathway,scaffold_9-g45,gamma-aminobutyric acid type B receptor subunit 1 isoform X1,K04615
+ko04916,Melanogenesis,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko04922,Glucagon signaling pathway,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko04922,Glucagon signaling pathway,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko04929,GnRH secretion,scaffold_9-g45,gamma-aminobutyric acid type B receptor subunit 1 isoform X1,K04615
+ko04930,Type II diabetes mellitus,scaffold_4-g704,hexokinase type 2-like,K00844
+ko04931,Insulin resistance,scaffold_3-g2323,glycogen phosphorylase,K00688
+ko04931,Insulin resistance,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693
+ko04934,Cushing syndrome,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko04962,Vasopressin-regulated water reabsorption,scaffold_3-g108,cytoplasmic dynein 1 intermediate chain isoform X1,K10415
+ko04964,Proximal tubule bicarbonate reclamation,scaffold_8-g797,sodium/hydrogen exchanger 2-like isoform X1,K12040
+ko04973,Carbohydrate digestion and absorption,scaffold_4-g704,hexokinase type 2-like,K00844
+ko04974,Protein digestion and absorption,scaffold_8-g797,sodium/hydrogen exchanger 2-like isoform X1,K12040
+ko04974,Protein digestion and absorption,scaffold_1-g1341,b(0%2C+)-type amino acid transporter 1-like,K13868
+ko04974,Protein digestion and absorption,scaffold_18-g832,proton-coupled amino acid transporter-like protein pathetic isoform X1,K14209
+ko04976,Bile secretion,scaffold_14-g606,probable multidrug resistance-associated protein lethal(2)03659,K05673
+ko04976,Bile secretion,scaffold_8-g797,sodium/hydrogen exchanger 2-like isoform X1,K12040
+ko04978,Mineral absorption,scaffold_8-g797,sodium/hydrogen exchanger 2-like isoform X1,K12040
+ko04981,Folate transport and metabolism,scaffold_14-g606,probable multidrug resistance-associated protein lethal(2)03659,K05673
+ko05010,Alzheimer disease,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05010,Alzheimer disease,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko05012,Parkinson disease,scaffold_3-g2506,ubiquitin-like modifier-activating enzyme 1,K03178
+ko05014,Amyotrophic lateral sclerosis,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05016,Huntington disease,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05017,Spinocerebellar ataxia,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05022,Pathways of neurodegeneration,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05022,Pathways of neurodegeneration,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko05022,Pathways of neurodegeneration,scaffold_3-g2506,ubiquitin-like modifier-activating enzyme 1,K03178
+ko05032,Morphine addiction,scaffold_9-g45,gamma-aminobutyric acid type B receptor subunit 1 isoform X1,K04615
+ko05100,Bacterial invasion of epithelial cells,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05131,Shigellosis,scaffold_4-g704,hexokinase type 2-like,K00844
+ko05131,Shigellosis,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05131,Shigellosis,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05132,Salmonella infection,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05132,Salmonella infection,scaffold_2-g1613,uncharacterized protein LOC134527553,K04437
+ko05132,Salmonella infection,scaffold_3-g108,cytoplasmic dynein 1 intermediate chain isoform X1,K10415
+ko05135,Yersinia infection,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05135,Yersinia infection,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko05140,Leishmaniasis,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko05152,Tuberculosis,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05161,Hepatitis B,scaffold_3-g459,DNA damage-binding protein 1,K10610
+ko05163,Human cytomegalovirus infection,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05165,Human papillomavirus infection,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko05165,Human papillomavirus infection,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko05165,Human papillomavirus infection,scaffold_4-g1673,serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform,K11584
+ko05165,Human papillomavirus infection,scaffold_5-g663,MAGUK p55 subfamily member 7 isoform X1,K12076
+ko05166,Human T-cell leukemia virus 1 infection,scaffold_5-g663,MAGUK p55 subfamily member 7 isoform X1,K12076
+ko05167,Kaposi sarcoma-associated herpesvirus infection,scaffold_3-g470,phosphatidylinositol 4-kinase alpha isoform X1,K00914
+ko05170,Human immunodeficiency virus 1 infection,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05170,Human immunodeficiency virus 1 infection,scaffold_3-g459,DNA damage-binding protein 1,K10610
+ko05200,Pathways in cancer,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko05200,Pathways in cancer,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05203,Viral carcinogenesis,scaffold_3-g459,DNA damage-binding protein 1,K10610
+ko05203,Viral carcinogenesis,scaffold_5-g663,MAGUK p55 subfamily member 7 isoform X1,K12076
+ko05205,Proteoglycans in cancer,scaffold_2-g1613,uncharacterized protein LOC134527553,K04437
+ko05206,MicroRNAs in cancer,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05211,Renal cell carcinoma,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05217,Basal cell carcinoma,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko05220,Chronic myeloid leukemia,scaffold_2-g453,adapter molecule Crk isoform X1,K04438
+ko05224,Breast cancer,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko05225,Hepatocellular carcinoma,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko05226,Gastric cancer,scaffold_2-g1718,segment polarity protein dishevelled homolog DVL-3 isoform X1,K02353
+ko05230,Central carbon metabolism in cancer,scaffold_4-g704,hexokinase type 2-like,K00844
+ko05410,Hypertrophic cardiomyopathy,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko05412,Arrhythmogenic right ventricular cardiomyopathy,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko05414,Dilated cardiomyopathy,scaffold_9-g723,integrin alpha-4-like isoform X1,K06483
+ko05415,Diabetic cardiomyopathy,scaffold_2-g610,glycogen [starch] synthase isoform X1,K00693

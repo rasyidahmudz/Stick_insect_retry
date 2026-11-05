@@ -1,0 +1,175 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00981,Insect hormone biosynthesis,scaffold_1-g829,methyl farnesoate epoxidase-like,K14985
+ko00981,Insect hormone biosynthesis,scaffold_12-g725,farnesol dehydrogenase-like,K15890
+ko00981,Insect hormone biosynthesis,scaffold_14-g771,esterase E4-like,K01063
+ko00981,Insect hormone biosynthesis,scaffold_17-g369,farnesol dehydrogenase-like isoform X1,K15890
+ko00981,Insect hormone biosynthesis,scaffold_3-g1229,glycerol-3-phosphate phosphatase,K21013
+ko00981,Insect hormone biosynthesis,scaffold_8-g1060,juvenile hormone epoxide hydrolase 1-like isoform X1,K10719
+ko00981,Insect hormone biosynthesis,scaffold_8-g1097,juvenile hormone epoxide hydrolase 1-like isoform X1,K10719
+ko00981,Insect hormone biosynthesis,scaffold_8-g384,juvenile hormone epoxide hydrolase 1-like isoform X1,K10719
+ko00981,Insect hormone biosynthesis,scaffold_8-g385,juvenile hormone epoxide hydrolase 1-like isoform X1,K10719
+ko00981,Insect hormone biosynthesis,scaffold_8-g415,juvenile hormone epoxide hydrolase 1-like isoform X1,K10719
+ko00981,Insect hormone biosynthesis,scaffold_9-g1053,farnesol dehydrogenase-like isoform X1,K15890
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_1-g182,very long chain fatty acid elongase AAEL008004-like isoform X1,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_1-g2060,very long chain fatty acid elongase 7-like,K10249
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_1-g888,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_10-g1029,very long chain fatty acid elongase AAEL008004-like isoform X2,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_10-g406,very long chain fatty acid elongase AAEL008004-like isoform X3,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_10-g407,very long chain fatty acid elongase AAEL008004-like,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_10-g409,very long chain fatty acid elongase AAEL008004-like isoform X3,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_10-g415,very long chain fatty acid elongase AAEL008004,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_10-g420,very long chain fatty acid elongase AAEL008004,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_10-g595,very long chain fatty acid elongase AAEL008004-like,K10249
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_18-g246,peroxisomal acyl-coenzyme A oxidase 3-like isoform X1,K00232
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_20-g2,very long chain fatty acid elongase 7-like,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_3-g1169,very long chain fatty acid elongase 7-like,K10250
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_4-g1600,probable very-long-chain enoyl-CoA reductase art-1,K10258
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g188,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g189,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g190,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g192,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g196,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g197,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g718,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g797,acyl-CoA Delta-9 desaturase,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_5-g798,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_6-g430,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko01110,Biosynthesis of secondary metabolites,gene_13303,oxygen-dependent coproporphyrinogen-III oxidase,K00228
+ko01110,Biosynthesis of secondary metabolites,gene_13307,catalase isoform X1,K03781
+ko01110,Biosynthesis of secondary metabolites,gene_13332,glucose-6-phosphate 1-dehydrogenase isoform X1,K00036
+ko01110,Biosynthesis of secondary metabolites,gene_13338,6-phosphogluconate dehydrogenase%2C decarboxylating,K00033
+ko01110,Biosynthesis of secondary metabolites,gene_13376,adenylate kinase,K00939
+ko01110,Biosynthesis of secondary metabolites,gene_13427,uroporphyrinogen decarboxylase isoform X2,K01599
+ko01110,Biosynthesis of secondary metabolites,gene_13435,catalase isoform X1,K03781
+ko01110,Biosynthesis of secondary metabolites,gene_14125,galactose mutarotase-like,K01785
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g1266,fatty acyl-CoA reductase wat-like isoform X1,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g1296,adenylate kinase 8-like,K00939
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g182,very long chain fatty acid elongase AAEL008004-like isoform X1,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g2060,very long chain fatty acid elongase 7-like,K10249
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g888,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g1029,very long chain fatty acid elongase AAEL008004-like isoform X2,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g357,galactose mutarotase-like,K01785
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g406,very long chain fatty acid elongase AAEL008004-like isoform X3,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g407,very long chain fatty acid elongase AAEL008004-like,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g409,very long chain fatty acid elongase AAEL008004-like isoform X3,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g415,very long chain fatty acid elongase AAEL008004,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g420,very long chain fatty acid elongase AAEL008004,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g595,very long chain fatty acid elongase AAEL008004-like,K10249
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g981,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_11-g360,protein-S-isoprenylcysteine O-methyltransferase,K00587
+ko01110,Biosynthesis of secondary metabolites,scaffold_12-g719,transketolase-like protein 2 isoform X1,K00615
+ko01110,Biosynthesis of secondary metabolites,scaffold_12-g725,farnesol dehydrogenase-like,K15890
+ko01110,Biosynthesis of secondary metabolites,scaffold_12-g844,phosphatidylcholine:ceramide cholinephosphotransferase 2-like isoform X1,K04714
+ko01110,Biosynthesis of secondary metabolites,scaffold_13-g530,glucose dehydrogenase [FAD%2C quinone]-like,K08248
+ko01110,Biosynthesis of secondary metabolites,scaffold_13-g595,oxygen-dependent coproporphyrinogen-III oxidase,K00228
+ko01110,Biosynthesis of secondary metabolites,scaffold_13-g75,UDP-glucosyltransferase 2-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_13-g76,UDP-glucosyltransferase 2-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g193,nucleoside diphosphate kinase homolog 5-like isoform X1,K00939
+ko01110,Biosynthesis of secondary metabolites,scaffold_16-g346,5'-3' exonuclease PLD3-like isoform X1,K16860
+ko01110,Biosynthesis of secondary metabolites,scaffold_17-g20,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_17-g367,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_17-g369,farnesol dehydrogenase-like isoform X1,K15890
+ko01110,Biosynthesis of secondary metabolites,scaffold_18-g246,peroxisomal acyl-coenzyme A oxidase 3-like isoform X1,K00232
+ko01110,Biosynthesis of secondary metabolites,scaffold_18-g282,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g1466,galactose mutarotase-like,K01785
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g1495,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g160,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g227,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g294,adenylate kinase,K00939
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g811,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_20-g2,very long chain fatty acid elongase 7-like,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g1169,very long chain fatty acid elongase 7-like,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g1257,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g1490,cytochrome P450 4c3-like,K20771
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g1655,mannosylglucosyl-3-phosphoglycerate phosphatase isoform X2,K19970
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g2059,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g2268,catalase isoform X1,K03781
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g407,uroporphyrinogen decarboxylase isoform X2,K01599
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g456,D-amino-acid oxidase isoform X1,K00273
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1204,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1205,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1555,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1556,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1560,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1562,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1563,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1569,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1573,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1600,probable very-long-chain enoyl-CoA reductase art-1,K10258
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g170,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g575,vitamin K epoxide reductase complex subunit 1,K05357
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g809,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g929,uncharacterized protein LOC134533057,K01904
+ko01110,Biosynthesis of secondary metabolites,scaffold_48-g3,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g1219,glucose-6-phosphate 1-dehydrogenase isoform X1,K00036
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g63,cytochrome P450 4c3-like,K05917
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g630,luciferin 4-monooxygenase-like,K01904
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g65,cytochrome P450 4c3-like,K05917
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g688,cytochrome P450 4c3-like,K20771
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g689,cytochrome P450 4c3-like,K20771
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g690,cytochrome P450 4c3-like,K20771
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g692,cytochrome P450 4c3-like,K05917
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g694,cytochrome P450 4c3-like,K05917
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g695,cytochrome P450 4c3-like,K05917
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g857,UDP-glucosyltransferase 2-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_6-g706,6-phosphogluconate dehydrogenase%2C decarboxylating,K00033
+ko01110,Biosynthesis of secondary metabolites,scaffold_7-g1120,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_7-g409,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_7-g859,adenylate kinase,K00939
+ko01110,Biosynthesis of secondary metabolites,scaffold_7-g889,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g1001,UDP-glucosyltransferase 2-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g1002,UDP-glucosyltransferase 2-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g1003,UDP-glucosyltransferase 2-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g1053,farnesol dehydrogenase-like isoform X1,K15890
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g525,putative fatty acyl-CoA reductase CG5065,K13356
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g706,luciferin 4-monooxygenase-like,K01904
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g707,luciferin 4-monooxygenase-like,K01904
+ko03320,PPAR signaling pathway,scaffold_1-g1330,malonate--CoA ligase ACSF3%2C mitochondrial-like,K08745
+ko03320,PPAR signaling pathway,scaffold_1-g1332,uncharacterized protein LOC134533057,K08745
+ko03320,PPAR signaling pathway,scaffold_1-g373,acyl-CoA-binding domain-containing protein 6-like,K08762
+ko03320,PPAR signaling pathway,scaffold_1-g374,acyl-CoA-binding domain-containing protein 6-like,K08762
+ko03320,PPAR signaling pathway,scaffold_1-g888,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko03320,PPAR signaling pathway,scaffold_14-g445,probable fatty acid-binding protein isoform X1,K08752
+ko03320,PPAR signaling pathway,scaffold_15-g834,probable fatty acid-binding protein isoform X1,K08752
+ko03320,PPAR signaling pathway,scaffold_16-g321,medium-chain acyl-CoA ligase ACSF2%2C mitochondrial isoform X1,K08745
+ko03320,PPAR signaling pathway,scaffold_18-g246,peroxisomal acyl-coenzyme A oxidase 3-like isoform X1,K00232
+ko03320,PPAR signaling pathway,scaffold_3-g1903,NADP-dependent malic enzyme-like isoform X1,K00029
+ko03320,PPAR signaling pathway,scaffold_3-g515,NADP-dependent malic enzyme-like isoform X1,K00029
+ko03320,PPAR signaling pathway,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko03320,PPAR signaling pathway,scaffold_5-g188,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_5-g189,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_5-g190,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_5-g192,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_5-g196,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_5-g197,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_5-g718,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_5-g797,acyl-CoA Delta-9 desaturase,K00507
+ko03320,PPAR signaling pathway,scaffold_5-g798,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_6-g430,stearoyl-CoA desaturase 5-like isoform X1,K00507
+ko03320,PPAR signaling pathway,scaffold_9-g440,probable fatty acid-binding protein isoform X1,K08752
+ko04146,Peroxisome,gene_13307,catalase isoform X1,K03781
+ko04146,Peroxisome,gene_13435,catalase isoform X1,K03781
+ko04146,Peroxisome,scaffold_1-g1266,fatty acyl-CoA reductase wat-like isoform X1,K13356
+ko04146,Peroxisome,scaffold_1-g888,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko04146,Peroxisome,scaffold_15-g524,uncharacterized protein LOC134532658,K04565
+ko04146,Peroxisome,scaffold_15-g525,uncharacterized protein LOC134532658,K04565
+ko04146,Peroxisome,scaffold_15-g62,uncharacterized protein LOC134532658,K04565
+ko04146,Peroxisome,scaffold_17-g20,putative fatty acyl-CoA reductase CG5065,K13356
+ko04146,Peroxisome,scaffold_17-g367,putative fatty acyl-CoA reductase CG5065,K13356
+ko04146,Peroxisome,scaffold_18-g246,peroxisomal acyl-coenzyme A oxidase 3-like isoform X1,K00232
+ko04146,Peroxisome,scaffold_18-g282,putative fatty acyl-CoA reductase CG5065,K13356
+ko04146,Peroxisome,scaffold_2-g1495,putative fatty acyl-CoA reductase CG5065,K13356
+ko04146,Peroxisome,scaffold_2-g160,putative fatty acyl-CoA reductase CG5065,K13356
+ko04146,Peroxisome,scaffold_2-g227,putative fatty acyl-CoA reductase CG5065,K13356
+ko04146,Peroxisome,scaffold_2-g811,putative fatty acyl-CoA reductase CG5065,K13356
+ko04146,Peroxisome,scaffold_3-g2268,catalase isoform X1,K03781
+ko04146,Peroxisome,scaffold_3-g456,D-amino-acid oxidase isoform X1,K00273
+ko04146,Peroxisome,scaffold_4-g1460,peroxisomal acyl-coenzyme A oxidase 3,K00232
+ko04146,Peroxisome,scaffold_6-g1268,dehydrogenase/reductase SDR family member 4,K11147
+ko04146,Peroxisome,scaffold_7-g504,uncharacterized protein LOC134532658,K04565
+ko04146,Peroxisome,scaffold_8-g621,uncharacterized protein LOC134538935,K13239
+ko04146,Peroxisome,scaffold_9-g525,putative fatty acyl-CoA reductase CG5065,K13356
+ko04146,Peroxisome,scaffold_9-g529,mitochondrial thiamine pyrophosphate carrier-like isoform X5,K13354

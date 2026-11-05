@@ -1,0 +1,15 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_1-g1842,integrin beta-PS-like,K05719
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_11-g371,integrin alpha-4-like isoform X1,K06585
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_14-g224,neuroligin-2-like,K07378
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_14-g272,neuroligin-2-like,K07378
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_14-g564,neuroligin-2-like,K07378
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_17-g261,neuroligin-2-like,K07378
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_17-g548,neuroligin-2-like,K07378
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04518,Integrin signaling,scaffold_1-g1842,integrin beta-PS-like,K05719
+ko04518,Integrin signaling,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04518,Integrin signaling,scaffold_11-g371,integrin alpha-4-like isoform X1,K06585
+ko04518,Integrin signaling,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04518,Integrin signaling,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704

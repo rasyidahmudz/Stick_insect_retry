@@ -1,0 +1,15 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko04141,Protein processing in endoplasmic reticulum,gene_13377,heat shock protein 83,K04079
+ko04141,Protein processing in endoplasmic reticulum,scaffold_12-g170,protein disulfide-isomerase A5,K09584
+ko04141,Protein processing in endoplasmic reticulum,scaffold_12-g273,protein transport protein Sec24C,K14007
+ko04141,Protein processing in endoplasmic reticulum,scaffold_12-g730,heat shock protein 83,K04079
+ko04141,Protein processing in endoplasmic reticulum,scaffold_14-g677,UDP-glucose:glycoprotein glucosyltransferase isoform X1,K11718
+ko04141,Protein processing in endoplasmic reticulum,scaffold_18-g589,heat shock protein 83,K09487
+ko04141,Protein processing in endoplasmic reticulum,scaffold_2-g1187,protein transport protein Sec24C,K14007
+ko04141,Protein processing in endoplasmic reticulum,scaffold_2-g2031,endoplasmic reticulum resident protein 29,K09586
+ko04141,Protein processing in endoplasmic reticulum,scaffold_3-g1098,calreticulin,K08057
+ko04141,Protein processing in endoplasmic reticulum,scaffold_3-g2224,sortilin-related receptor-like,K08288
+ko04141,Protein processing in endoplasmic reticulum,scaffold_5-g473,heat shock 70 kDa protein cognate 4,K09490
+ko04141,Protein processing in endoplasmic reticulum,scaffold_7-g1045,dnaJ homolog subfamily C member 7 isoform X1,K09523
+ko04141,Protein processing in endoplasmic reticulum,scaffold_7-g821,heat shock 70 kDa protein cognate 4,K09485
+ko04141,Protein processing in endoplasmic reticulum,scaffold_9-g485,uncharacterized protein LOC134527506 isoform X1,K10601

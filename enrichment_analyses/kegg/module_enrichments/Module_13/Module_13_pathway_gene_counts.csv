@@ -1,0 +1,106 @@
+pathway_id,pathway_name,gene_count,KO_count
+ko01100,Metabolic pathways,14,14
+ko03013,Nucleocytoplasmic transport,8,8
+ko05014,Amyotrophic lateral sclerosis,7,7
+ko01240,Biosynthesis of cofactors,6,6
+ko03015,mRNA surveillance pathway,6,6
+ko03040,Spliceosome,6,6
+ko01110,Biosynthesis of secondary metabolites,5,5
+ko03008,Ribosome biogenesis in eukaryotes,5,5
+ko05016,Huntington disease,5,5
+ko05017,Spinocerebellar ataxia,5,5
+ko03050,Proteasome,4,4
+ko05010,Alzheimer disease,4,4
+ko05012,Parkinson disease,4,4
+ko05020,Prion disease,4,4
+ko05022,Pathways of neurodegeneration,4,4
+ko05169,Epstein-Barr virus infection,3,3
+ko05205,Proteoglycans in cancer,3,3
+ko00240,Pyrimidine metabolism,2,2
+ko00970,Aminoacyl-tRNA biosynthesis,2,2
+ko01232,Nucleotide metabolism,2,2
+ko03010,Ribosome,2,2
+ko03018,RNA degradation,2,2
+ko03030,DNA replication,2,2
+ko03060,Protein export,2,2
+ko03440,Homologous recombination,2,2
+ko04013,MAPK signaling pathway,2,2
+ko04137,Mitophagy,2,2
+ko04142,Lysosome biogenesis,2,2
+ko04149,Peroxisome,2,2
+ko04151,PI3K-Akt signaling pathway,2,2
+ko04382,Cornified envelope formation,2,2
+ko04660,T cell receptor signaling pathway,2,2
+ko05160,Hepatitis C,2,2
+ko00030,Pentose phosphate pathway,1,1
+ko00040,Pentose and glucuronate interconversions,1,1
+ko00130,Ubiquinone and other terpenoid-quinone biosynthesis,1,1
+ko00230,Purine metabolism,1,1
+ko00250,"Alanine, aspartate and glutamate metabolism",1,1
+ko00270,Cysteine and methionine metabolism,1,1
+ko00511,Other glycan degradation,1,1
+ko00513,Various types of N-glycan biosynthesis,1,1
+ko00531,Glycosaminoglycan degradation,1,1
+ko00561,Glycerolipid metabolism,1,1
+ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,1,1
+ko00564,Glycerophospholipid metabolism,1,1
+ko00590,Arachidonic acid metabolism,1,1
+ko00670,One carbon pool by folate,1,1
+ko00770,Pantothenate and CoA biosynthesis,1,1
+ko00860,Porphyrin metabolism,1,1
+ko00940,Phenylpropanoid biosynthesis,1,1
+ko00999,Biosynthesis of various plant secondary metabolites,1,1
+ko01120,Microbial metabolism in diverse environments,1,1
+ko01230,Biosynthesis of amino acids,1,1
+ko03020,RNA polymerase,1,1
+ko03320,PPAR signaling pathway,1,1
+ko03410,Base excision repair,1,1
+ko03420,Nucleotide excision repair,1,1
+ko03450,Non-homologous end-joining,1,1
+ko03460,Fanconi anemia pathway,1,1
+ko04064,NF-kappa B signaling pathway,1,1
+ko04071,Sphingolipid signaling pathway,1,1
+ko04110,Cell cycle,1,1
+ko04111,Cell cycle,1,1
+ko04113,Meiosis,1,1
+ko04114,Oocyte meiosis,1,1
+ko04120,Ubiquitin mediated proteolysis,1,1
+ko04130,SNARE interactions in vesicular transport,1,1
+ko04136,Autophagy,1,1
+ko04138,Autophagy,1,1
+ko04140,Autophagy,1,1
+ko04141,Protein processing in endoplasmic reticulum,1,1
+ko04144,Endocytosis,1,1
+ko04145,Phagocytosis,1,1
+ko04146,Peroxisome,1,1
+ko04148,Efferocytosis,1,1
+ko04150,mTOR signaling pathway,1,1
+ko04152,AMPK signaling pathway,1,1
+ko04156,Integrated stress response (ISR) signaling pathway,1,1
+ko04213,Longevity regulating pathway,1,1
+ko04217,Necroptosis,1,1
+ko04218,Cellular senescence,1,1
+ko04261,Adrenergic signaling in cardiomyocytes,1,1
+ko04310,Wnt signaling pathway,1,1
+ko04350,TGF-beta signaling pathway,1,1
+ko04361,Axon regeneration,1,1
+ko04390,Hippo signaling pathway,1,1
+ko04391,Hippo signaling pathway,1,1
+ko04530,Tight junction,1,1
+ko04614,Renin-angiotensin system,1,1
+ko04625,C-type lectin receptor signaling pathway,1,1
+ko04626,Plant-pathogen interaction,1,1
+ko04662,B cell receptor signaling pathway,1,1
+ko04668,TNF signaling pathway,1,1
+ko04723,Retrograde endocannabinoid signaling,1,1
+ko04728,Dopaminergic synapse,1,1
+ko04730,Long-term depression,1,1
+ko04745,Phototransduction,1,1
+ko04925,Aldosterone synthesis and secretion,1,1
+ko04931,Insulin resistance,1,1
+ko04975,Fat digestion and absorption,1,1
+ko05131,Shigellosis,1,1
+ko05142,Chagas disease,1,1
+ko05152,Tuberculosis,1,1
+ko05165,Human papillomavirus infection,1,1
+ko05168,Herpes simplex virus 1 infection,1,1

@@ -1,0 +1,65 @@
+pathway_id,pathway_name,gene_count
+ko01100,Metabolic pathways,9
+ko01110,Biosynthesis of secondary metabolites,4
+ko04510,Focal adhesion,3
+ko04514,Cell adhesion molecules,3
+ko04810,Regulation of actin cytoskeleton,3
+ko00350,Tyrosine metabolism,2
+ko00950,Isoquinoline alkaloid biosynthesis,2
+ko04013,MAPK signaling pathway - fly,2
+ko04015,Rap1 signaling pathway,2
+ko04151,PI3K-Akt signaling pathway,2
+ko04360,Axon guidance,2
+ko04512,ECM-receptor interaction,2
+ko04530,Tight junction,2
+ko04611,Platelet activation,2
+ko04916,Melanogenesis,2
+ko00040,Pentose and glucuronate interconversions,1
+ko00053,Ascorbate and aldarate metabolism,1
+ko00140,Steroid hormone biosynthesis,1
+ko00310,Lysine degradation,1
+ko00330,Arginine and proline metabolism,1
+ko00531,Glycosaminoglycan degradation,1
+ko00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,1
+ko00561,Glycerolipid metabolism,1
+ko00601,Glycosphingolipid biosynthesis - lacto and neolacto series,1
+ko00603,Glycosphingolipid biosynthesis - globo and isoglobo series,1
+ko00830,Retinol metabolism,1
+ko00860,Porphyrin metabolism,1
+ko00920,Sulfur metabolism,1
+ko00980,Metabolism of xenobiotics by cytochrome P450,1
+ko00982,Drug metabolism - cytochrome P450,1
+ko00983,Drug metabolism - other enzymes,1
+ko01120,Microbial metabolism in diverse environments,1
+ko01240,Biosynthesis of cofactors,1
+ko04010,MAPK signaling pathway,1
+ko04012,ErbB signaling pathway,1
+ko04024,cAMP signaling pathway,1
+ko04062,Chemokine signaling pathway,1
+ko04080,Neuroactive ligand-receptor interaction,1
+ko04137,Mitophagy - animal,1
+ko04141,Protein processing in endoplasmic reticulum,1
+ko04142,Lysosome,1
+ko04144,Endocytosis,1
+ko04145,Phagosome,1
+ko04370,VEGF signaling pathway,1
+ko04520,Adherens junction,1
+ko04540,Gap junction,1
+ko04613,Neutrophil extracellular trap formation,1
+ko04624,Toll and Imd signaling pathway,1
+ko04625,C-type lectin receptor signaling pathway,1
+ko04670,Leukocyte transendothelial migration,1
+ko04727,GABAergic synapse,1
+ko04750,Inflammatory mediator regulation of TRP channels,1
+ko04911,Insulin secretion,1
+ko04912,GnRH signaling pathway,1
+ko04915,Estrogen signaling pathway,1
+ko04917,Prolactin signaling pathway,1
+ko04918,Thyroid hormone synthesis,1
+ko04919,Thyroid hormone signaling pathway,1
+ko04921,Oxytocin signaling pathway,1
+ko04926,Relaxin signaling pathway,1
+ko04972,Pancreatic secretion,1
+ko04975,Fat digestion and absorption,1
+ko04976,Bile secretion,1
+ko04977,Vitamin digestion and absorption,1

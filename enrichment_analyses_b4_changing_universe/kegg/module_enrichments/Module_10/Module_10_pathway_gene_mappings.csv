@@ -1,0 +1,164 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00970,Aminoacyl-tRNA biosynthesis,scaffold_6-g71,asparaginyl-tRNA synthetase isoform X1,K01893
+ko00970,Aminoacyl-tRNA biosynthesis,scaffold_3-g1346,glutamyl-tRNA(Gln) amidotransferase subunit A%2C mitochondrial,K02433
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_6-g168,RNA cytidine acetyltransferase,K14521
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_9-g954,guanine nucleotide-binding protein-like 3 homolog,K14539
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_1-g2061,U4/U6 small nuclear ribonucleoprotein Prp4,K14558
+ko03013,Nucleocytoplasmic transport,scaffold_1-g1656,THO complex subunit 5 homolog,K13174
+ko03013,Nucleocytoplasmic transport,scaffold_8-g1059,protein phosphatase 1 regulatory subunit 37 isoform X1,K14319
+ko03013,Nucleocytoplasmic transport,scaffold_13-g416,regulator of nonsense transcripts 1,K14326
+ko03015,mRNA surveillance pathway,scaffold_13-g416,regulator of nonsense transcripts 1,K14326
+ko03018,RNA degradation,scaffold_3-g1751,exosome complex component RRP42 isoform X1,K03678
+ko03018,RNA degradation,scaffold_4-g659,CCR4-NOT transcription complex subunit 10 isoform X1,K12607
+ko03040,Spliceosome,scaffold_4-g254,RNA-binding protein Musashi homolog Rbp6 isoform X3,K12741
+ko03040,Spliceosome,scaffold_1-g1656,THO complex subunit 5 homolog,K13174
+ko03250,Viral life cycle - HIV-1,scaffold_8-g402,negative elongation factor B isoform X1,K15180
+ko03440,Homologous recombination,scaffold_5-g228,E3 SUMO-protein ligase NSE2-like,K22756
+ko04010,MAPK signaling pathway,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04010,MAPK signaling pathway,scaffold_8-g506,activin receptor type-1,K04674
+ko04012,ErbB signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04013,MAPK signaling pathway - fly,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04020,Calcium signaling pathway,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04020,Calcium signaling pathway,scaffold_1-g1020,calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type isoform X1,K05853
+ko04022,cGMP-PKG signaling pathway,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04022,cGMP-PKG signaling pathway,scaffold_1-g1020,calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type isoform X1,K05853
+ko04024,cAMP signaling pathway,scaffold_1-g1020,calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type isoform X1,K05853
+ko04024,cAMP signaling pathway,scaffold_4-g207,3'%2C5'-cyclic-AMP phosphodiesterase-like isoform X1,K13293
+ko04060,Cytokine-cytokine receptor interaction,scaffold_8-g506,activin receptor type-1,K04674
+ko04062,Chemokine signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04064,NF-kappa B signaling pathway,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04064,NF-kappa B signaling pathway,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04066,HIF-1 signaling pathway,scaffold_14-g299,glucose transporter type 1 isoform X2,K07299
+ko04068,FoxO signaling pathway,scaffold_8-g506,activin receptor type-1,K04674
+ko04070,Phosphatidylinositol signaling system,scaffold_11-g229,myotubularin-related protein 2 isoform X1,K18081
+ko04070,Phosphatidylinositol signaling system,scaffold_6-g83,phosphatidylinositol-3-phosphatase SAC1-B,K21798
+ko04110,Cell cycle,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04110,Cell cycle,scaffold_3-g1965,cohesin subunit SA-2 isoform X1,K06671
+ko04111,Cell cycle - yeast,scaffold_3-g1965,cohesin subunit SA-2 isoform X1,K06671
+ko04113,Meiosis - yeast,scaffold_3-g1965,cohesin subunit SA-2 isoform X1,K06671
+ko04120,Ubiquitin mediated proteolysis,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04120,Ubiquitin mediated proteolysis,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04136,Autophagy - other,scaffold_3-g1990,autophagy-related protein 2 homolog A,K17906
+ko04136,Autophagy - other,scaffold_3-g1991,autophagy-related protein 2 homolog A,K17906
+ko04137,Mitophagy - animal,scaffold_6-g1175,metaxin-1 isoform X1,K17776
+ko04138,Autophagy - yeast,scaffold_3-g1990,autophagy-related protein 2 homolog A,K17906
+ko04138,Autophagy - yeast,scaffold_3-g1991,autophagy-related protein 2 homolog A,K17906
+ko04140,Autophagy - animal,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04140,Autophagy - animal,scaffold_3-g1990,autophagy-related protein 2 homolog A,K17906
+ko04140,Autophagy - animal,scaffold_3-g1991,autophagy-related protein 2 homolog A,K17906
+ko04144,Endocytosis,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04144,Endocytosis,scaffold_8-g506,activin receptor type-1,K04674
+ko04146,Peroxisome,scaffold_17-g437,LOW QUALITY PROTEIN: ATPase family gene 2 protein homolog B-like,K13338
+ko04150,mTOR signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04151,PI3K-Akt signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04210,Apoptosis,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04214,Apoptosis - fly,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04215,Apoptosis - multiple species,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04217,Necroptosis,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04218,Cellular senescence,scaffold_8-g506,activin receptor type-1,K04674
+ko04218,Cellular senescence,scaffold_5-g92,chromosome-associated kinesin KIF4,K21776
+ko04260,Cardiac muscle contraction,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04260,Cardiac muscle contraction,scaffold_1-g1020,calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type isoform X1,K05853
+ko04261,Adrenergic signaling in cardiomyocytes,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04261,Adrenergic signaling in cardiomyocytes,scaffold_1-g1020,calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type isoform X1,K05853
+ko04310,Wnt signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04310,Wnt signaling pathway,scaffold_13-g289,Kv channel-interacting protein 1-like,K03213
+ko04330,Notch signaling pathway,scaffold_11-g531,protein crumbs isoform X4,K06051
+ko04340,Hedgehog signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04341,Hedgehog signaling pathway - fly,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04350,TGF-beta signaling pathway,scaffold_3-g121,noggin-2-like,K04658
+ko04350,TGF-beta signaling pathway,scaffold_8-g506,activin receptor type-1,K04674
+ko04360,Axon guidance,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04371,Apelin signaling pathway,scaffold_8-g506,activin receptor type-1,K04674
+ko04371,Apelin signaling pathway,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04380,Osteoclast differentiation,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04380,Osteoclast differentiation,scaffold_8-g506,activin receptor type-1,K04674
+ko04380,Osteoclast differentiation,scaffold_1-g1020,calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type isoform X1,K05853
+ko04390,Hippo signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04390,Hippo signaling pathway,scaffold_13-g289,Kv channel-interacting protein 1-like,K03213
+ko04390,Hippo signaling pathway,scaffold_8-g506,activin receptor type-1,K04674
+ko04390,Hippo signaling pathway,scaffold_6-g616,probable E3 ubiquitin-protein ligase HERC1 isoform X1,K06094
+ko04390,Hippo signaling pathway,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04391,Hippo signaling pathway - fly,scaffold_6-g616,probable E3 ubiquitin-protein ligase HERC1 isoform X1,K06094
+ko04510,Focal adhesion,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04510,Focal adhesion,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04514,Cell adhesion molecules,scaffold_9-g1054,chondroitin sulfate proteoglycan 4 isoform X1,K07377
+ko04520,Adherens junction,scaffold_8-g506,activin receptor type-1,K04674
+ko04530,Tight junction,scaffold_6-g616,probable E3 ubiquitin-protein ligase HERC1 isoform X1,K06094
+ko04550,Signaling pathways regulating pluripotency of stem cells,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04620,Toll-like receptor signaling pathway,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04621,NOD-like receptor signaling pathway,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04621,NOD-like receptor signaling pathway,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04622,RIG-I-like receptor signaling pathway,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04624,Toll and Imd signaling pathway,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04630,JAK-STAT signaling pathway,scaffold_9-g177,phosphatidylinositol 3-kinase regulatory subunit alpha-like isoform X1,K04701
+ko04657,IL-17 signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04657,IL-17 signaling pathway,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04658,Th1 and Th2 cell differentiation,scaffold_11-g531,protein crumbs isoform X4,K06051
+ko04659,Th17 cell differentiation,scaffold_8-g506,activin receptor type-1,K04674
+ko04660,T cell receptor signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04662,B cell receptor signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04668,TNF signaling pathway,scaffold_7-g495,baculoviral IAP repeat-containing protein 6 isoform X2,K16060
+ko04711,Circadian rhythm - fly,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04714,Thermogenesis,scaffold_5-g149,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,K00234
+ko04722,Neurotrophin signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04722,Neurotrophin signaling pathway,scaffold_15-g413,E3 ubiquitin-protein ligase COP1-like,K03175
+ko04726,Serotonergic synapse,scaffold_2-g2107,potassium voltage-gated channel protein Shal isoform X1,K04892
+ko04728,Dopaminergic synapse,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04740,Olfactory transduction,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04910,Insulin signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04911,Insulin secretion,scaffold_14-g299,glucose transporter type 1 isoform X2,K07299
+ko04916,Melanogenesis,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04917,Prolactin signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04917,Prolactin signaling pathway,scaffold_9-g177,phosphatidylinositol 3-kinase regulatory subunit alpha-like isoform X1,K04701
+ko04919,Thyroid hormone signaling pathway,scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04919,Thyroid hormone signaling pathway,scaffold_1-g1020,calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type isoform X1,K05853
+ko04919,Thyroid hormone signaling pathway,scaffold_14-g299,glucose transporter type 1 isoform X2,K07299
+ko04920,Adipocytokine signaling pathway,scaffold_14-g299,glucose transporter type 1 isoform X2,K07299
+ko04922,Glucagon signaling pathway,scaffold_14-g299,glucose transporter type 1 isoform X2,K07299
+ko04926,Relaxin signaling pathway,scaffold_8-g506,activin receptor type-1,K04674
+ko04928,"Parathyroid hormone synthesis, secretion and action",scaffold_4-g207,3'%2C5'-cyclic-AMP phosphodiesterase-like isoform X1,K13293
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_12-g940,serine/threonine-protein kinase dyf-5 isoform X4,K03083
+ko04961,Endocrine and other factor-regulated calcium reabsorption,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04972,Pancreatic secretion,scaffold_1-g1020,calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type isoform X1,K05853
+ko04974,Protein digestion and absorption,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04976,Bile secretion,scaffold_14-g299,glucose transporter type 1 isoform X2,K07299
+ko04978,Mineral absorption,scaffold_15-g626,sodium/potassium/calcium exchanger 4 isoform X2,K05849
+ko04978,Mineral absorption,scaffold_3-g1369,proton-coupled zinc antiporter SLC30A2-like isoform X1,K14688
+ko00020,Citrate cycle (TCA cycle),scaffold_5-g149,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,K00234
+ko00190,Oxidative phosphorylation,scaffold_5-g149,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,K00234
+ko00230,Purine metabolism,scaffold_4-g1611,5'-nucleotidase domain-containing protein 3 isoform X1,K01081
+ko00230,Purine metabolism,scaffold_4-g207,3'%2C5'-cyclic-AMP phosphodiesterase-like isoform X1,K13293
+ko00240,Pyrimidine metabolism,scaffold_4-g1611,5'-nucleotidase domain-containing protein 3 isoform X1,K01081
+ko00260,"Glycine, serine and threonine metabolism",scaffold_4-g1667,probable phospholipid-transporting ATPase IIB isoform X1,K01079
+ko00270,Cysteine and methionine metabolism,scaffold_1-g1345,alanine aminotransferase 1,K00816
+ko00380,Tryptophan metabolism,scaffold_1-g1345,alanine aminotransferase 1,K00816
+ko00450,Selenocompound metabolism,scaffold_1-g1345,alanine aminotransferase 1,K00816
+ko00514,Other types of O-glycan biosynthesis,scaffold_18-g601,protein O-mannosyl-transferase TMTC4-like isoform X1,K09667
+ko00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,scaffold_10-g1053,chondroitin sulfate synthase 2 isoform X1,K00746
+ko00562,Inositol phosphate metabolism,scaffold_11-g229,myotubularin-related protein 2 isoform X1,K18081
+ko00562,Inositol phosphate metabolism,scaffold_6-g83,phosphatidylinositol-3-phosphatase SAC1-B,K21798
+ko00564,Glycerophospholipid metabolism,scaffold_6-g17,glycerol-3-phosphate acyltransferase 3 isoform X1,K13510
+ko00565,Ether lipid metabolism,scaffold_6-g17,glycerol-3-phosphate acyltransferase 3 isoform X1,K13510
+ko00680,Methane metabolism,scaffold_4-g1667,probable phospholipid-transporting ATPase IIB isoform X1,K01079
+ko00760,Nicotinate and nicotinamide metabolism,scaffold_4-g1611,5'-nucleotidase domain-containing protein 3 isoform X1,K01081
+ko01100,Metabolic pathways,scaffold_5-g149,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,K00234
+ko01100,Metabolic pathways,scaffold_10-g1053,chondroitin sulfate synthase 2 isoform X1,K00746
+ko01100,Metabolic pathways,scaffold_1-g1345,alanine aminotransferase 1,K00816
+ko01100,Metabolic pathways,scaffold_4-g1667,probable phospholipid-transporting ATPase IIB isoform X1,K01079
+ko01100,Metabolic pathways,scaffold_4-g1611,5'-nucleotidase domain-containing protein 3 isoform X1,K01081
+ko01100,Metabolic pathways,scaffold_3-g1346,glutamyl-tRNA(Gln) amidotransferase subunit A%2C mitochondrial,K02433
+ko01100,Metabolic pathways,scaffold_4-g207,3'%2C5'-cyclic-AMP phosphodiesterase-like isoform X1,K13293
+ko01100,Metabolic pathways,scaffold_6-g17,glycerol-3-phosphate acyltransferase 3 isoform X1,K13510
+ko01100,Metabolic pathways,scaffold_11-g229,myotubularin-related protein 2 isoform X1,K18081
+ko01100,Metabolic pathways,scaffold_6-g83,phosphatidylinositol-3-phosphatase SAC1-B,K21798
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g149,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,K00234
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g1345,alanine aminotransferase 1,K00816
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1667,probable phospholipid-transporting ATPase IIB isoform X1,K01079
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1611,5'-nucleotidase domain-containing protein 3 isoform X1,K01081
+ko01120,Microbial metabolism in diverse environments,scaffold_5-g149,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,K00234
+ko01120,Microbial metabolism in diverse environments,scaffold_4-g1667,probable phospholipid-transporting ATPase IIB isoform X1,K01079
+ko01200,Carbon metabolism,scaffold_5-g149,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,K00234
+ko01200,Carbon metabolism,scaffold_4-g1667,probable phospholipid-transporting ATPase IIB isoform X1,K01079
+ko01230,Biosynthesis of amino acids,scaffold_4-g1667,probable phospholipid-transporting ATPase IIB isoform X1,K01079
+ko01232,Nucleotide metabolism,scaffold_4-g1611,5'-nucleotidase domain-containing protein 3 isoform X1,K01081

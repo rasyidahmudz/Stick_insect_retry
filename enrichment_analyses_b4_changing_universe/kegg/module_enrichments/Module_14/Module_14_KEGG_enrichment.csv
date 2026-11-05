@@ -1,0 +1,2 @@
+category,subcategory,ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count,module_id,bg_ratio_numeric,enrichment_ratio
+Genetic Information Processing,"Folding, sorting and degradation",ko04141,Protein processing in endoplasmic reticulum,12/60,107/3477,0.11214953271028037,6.499065420560748,7.655240592465925,1.5798680975916632e-7,2.5593863180984945e-5,5.639303353017468e-6,K09487/K09485/K09523/K09584/K08288/K04079/K09586/K09490/K08057/K10601/K14007/K11718,12,Module_14,0.030773655450100662,3.979019645241274

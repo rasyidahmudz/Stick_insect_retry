@@ -1,0 +1,145 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00970,Aminoacyl-tRNA biosynthesis,scaffold_6-g716,tyrosine--tRNA ligase%2C mitochondrial isoform X1,K01866
+ko00970,Aminoacyl-tRNA biosynthesis,scaffold_13-g32,cysteine--tRNA ligase%2C mitochondrial isoform X1,K01883
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_18-g322,eukaryotic translation initiation factor 6,K03264
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_5-g120,60S ribosomal export protein NMD3,K07562
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_4-g1614,U3 small nucleolar RNA-associated protein 15 homolog,K14549
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_6-g287,dynein axonemal intermediate chain 4-like isoform X2,K14553
+ko03008,Ribosome biogenesis in eukaryotes,scaffold_12-g677,WD repeat-containing protein 3,K14556
+ko03010,Ribosome,scaffold_18-g578,large ribosomal subunit protein uL15m,K02876
+ko03010,Ribosome,scaffold_9-g119,large ribosomal subunit protein mL65,K17418
+ko03013,Nucleocytoplasmic transport,scaffold_5-g120,60S ribosomal export protein NMD3,K07562
+ko03013,Nucleocytoplasmic transport,scaffold_8-g166,THO complex subunit 1 isoform X1,K12878
+ko03013,Nucleocytoplasmic transport,scaffold_3-g1753,guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 isoform X1,K12880
+ko03013,Nucleocytoplasmic transport,scaffold_8-g162,nuclear cap-binding protein subunit 1,K12882
+ko03013,Nucleocytoplasmic transport,scaffold_9-g159,nuclear pore complex protein Nup160 homolog,K14303
+ko03013,Nucleocytoplasmic transport,scaffold_10-g556,mRNA export factor GLE1,K18723
+ko03013,Nucleocytoplasmic transport,scaffold_14-g196,importin-5,K20222
+ko03013,Nucleocytoplasmic transport,scaffold_7-g1144,exportin-4-like,K25203
+ko03015,mRNA surveillance pathway,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko03015,mRNA surveillance pathway,scaffold_8-g162,nuclear cap-binding protein subunit 1,K12882
+ko03015,mRNA surveillance pathway,scaffold_4-g801,protein CLP1 homolog isoform X1,K14399
+ko03015,mRNA surveillance pathway,scaffold_1-g2109,probable cleavage and polyadenylation specificity factor subunit 2,K14403
+ko03015,mRNA surveillance pathway,scaffold_5-g323,poly(U)-binding-splicing factor half pint isoform X1,K14407
+ko03015,mRNA surveillance pathway,scaffold_10-g556,mRNA export factor GLE1,K18723
+ko03018,RNA degradation,scaffold_10-g295,exosome complex component RRP4 isoform X1,K03679
+ko03018,RNA degradation,scaffold_3-g1689,CCR4-NOT transcription complex subunit 6 isoform X1,K12603
+ko03020,RNA polymerase,scaffold_7-g533,DNA-directed RNA polymerase II subunit RPB7,K03015
+ko03030,DNA replication,scaffold_1-g1520,DNA primase small subunit isoform X1,K02684
+ko03030,DNA replication,scaffold_16-g769,flap endonuclease GEN,K04799
+ko03040,Spliceosome,scaffold_10-g1190,acidic leucine-rich nuclear phosphoprotein 32 family member A,K11092
+ko03040,Spliceosome,scaffold_15-g12,F-box/WD repeat-containing protein 7-like isoform X1,K12862
+ko03040,Spliceosome,scaffold_7-g10,pre-mRNA-splicing factor RBM22,K12872
+ko03040,Spliceosome,scaffold_8-g166,THO complex subunit 1 isoform X1,K12878
+ko03040,Spliceosome,scaffold_3-g1753,guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 isoform X1,K12880
+ko03040,Spliceosome,scaffold_8-g162,nuclear cap-binding protein subunit 1,K12882
+ko03050,Proteasome,scaffold_4-g1152,proteasome subunit alpha type-3,K02728
+ko03050,Proteasome,scaffold_5-g155,COP9 signalosome complex subunit 5,K03030
+ko03050,Proteasome,scaffold_1-g380,26S proteasome regulatory subunit 4 isoform X1,K03066
+ko03050,Proteasome,scaffold_4-g1503,LOW QUALITY PROTEIN: proteasomal ubiquitin receptor ADRM1-like,K06691
+ko03060,Protein export,scaffold_10-g690,signal recognition particle subunit SRP68,K03107
+ko03060,Protein export,scaffold_4-g1770,signal recognition particle subunit SRP72,K03108
+ko03320,PPAR signaling pathway,scaffold_1-g1332,uncharacterized protein LOC134533057,K08745
+ko03410,Base excision repair,scaffold_16-g769,flap endonuclease GEN,K04799
+ko03420,Nucleotide excision repair,scaffold_7-g533,DNA-directed RNA polymerase II subunit RPB7,K03015
+ko03440,Homologous recombination,scaffold_12-g912,DNA repair protein XRCC3-like isoform X1,K10880
+ko03440,Homologous recombination,scaffold_6-g1430,advillin-like isoform X1,K20776
+ko03450,Non-homologous end-joining,scaffold_16-g769,flap endonuclease GEN,K04799
+ko03460,Fanconi anemia pathway,scaffold_17-g291,DNA polymerase eta isoform X1,K03515
+ko04013,MAPK signaling pathway - fly,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04013,MAPK signaling pathway - fly,scaffold_14-g540,F-box/WD repeat-containing protein 7-like isoform X2,K04508
+ko04064,NF-kappa B signaling pathway,scaffold_1-g2679,lachesin,K07369
+ko04071,Sphingolipid signaling pathway,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04110,Cell cycle,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04111,Cell cycle - yeast,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04113,Meiosis - yeast,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04114,Oocyte meiosis,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04120,Ubiquitin mediated proteolysis,scaffold_3-g1749,baculoviral IAP repeat-containing protein 6 isoform X1,K10585
+ko04130,SNARE interactions in vesicular transport,scaffold_17-g32,vesicle transport protein SEC20,K08497
+ko04136,Autophagy - other,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04137,Mitophagy - animal,scaffold_4-g940,serine/threonine-protein phosphatase PGAM5%2C mitochondrial-like isoform X1,K15637
+ko04137,Mitophagy - animal,scaffold_1-g1013,protein sprint isoform X1,K20131
+ko04138,Autophagy - yeast,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04140,Autophagy - animal,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04141,Protein processing in endoplasmic reticulum,scaffold_3-g1060,F-box/WD repeat-containing protein 7-like isoform X1,K14018
+ko04142,Lysosome,scaffold_4-g587,lysosomal-associated transmembrane protein 4A,K12387
+ko04142,Lysosome,scaffold_3-g26,AP-5 complex subunit beta-1-like isoform X1,K19022
+ko04144,Endocytosis,scaffold_15-g831,vacuolar protein-sorting-associated protein 36,K12190
+ko04145,Phagosome,scaffold_1-g1013,protein sprint isoform X1,K20131
+ko04146,Peroxisome,scaffold_17-g210,peroxisomal membrane protein PEX14 isoform X1,K13343
+ko04150,mTOR signaling pathway,scaffold_10-g536,uncharacterized protein LOC134527156,K03258
+ko04151,PI3K-Akt signaling pathway,scaffold_10-g536,uncharacterized protein LOC134527156,K03258
+ko04151,PI3K-Akt signaling pathway,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04152,AMPK signaling pathway,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04213,Longevity regulating pathway - multiple species,scaffold_15-g890,poly [ADP-ribose] polymerase tankyrase-like,K03695
+ko04217,Necroptosis,scaffold_4-g940,serine/threonine-protein phosphatase PGAM5%2C mitochondrial-like isoform X1,K15637
+ko04218,Cellular senescence,scaffold_10-g686,protein lin-9 homolog,K21773
+ko04261,Adrenergic signaling in cardiomyocytes,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04310,Wnt signaling pathway,scaffold_14-g540,F-box/WD repeat-containing protein 7-like isoform X2,K04508
+ko04350,TGF-beta signaling pathway,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04361,Axon regeneration,scaffold_3-g1168,gastrula zinc finger protein XlCGF57.1-like,K23480
+ko04390,Hippo signaling pathway,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04391,Hippo signaling pathway - fly,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04530,Tight junction,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04614,Renin-angiotensin system,scaffold_5-g199,puromycin-sensitive aminopeptidase isoform X1,K11141
+ko04625,C-type lectin receptor signaling pathway,scaffold_1-g2679,lachesin,K07369
+ko04626,Plant-pathogen interaction,scaffold_4-g1769,elongation factor Tu,K02358
+ko04660,T cell receptor signaling pathway,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04660,T cell receptor signaling pathway,scaffold_1-g2679,lachesin,K07369
+ko04662,B cell receptor signaling pathway,scaffold_1-g2679,lachesin,K07369
+ko04668,TNF signaling pathway,scaffold_4-g940,serine/threonine-protein phosphatase PGAM5%2C mitochondrial-like isoform X1,K15637
+ko04723,Retrograde endocannabinoid signaling,scaffold_2-g197,diacylglycerol lipase-alpha isoform X1,K13806
+ko04728,Dopaminergic synapse,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04730,Long-term depression,scaffold_5-g833,serine/threonine-protein phosphatase 4 catalytic subunit isoform X1,K04382
+ko04745,Phototransduction - fly,scaffold_2-g197,diacylglycerol lipase-alpha isoform X1,K13806
+ko04925,Aldosterone synthesis and secretion,scaffold_2-g197,diacylglycerol lipase-alpha isoform X1,K13806
+ko04975,Fat digestion and absorption,scaffold_1-g1332,uncharacterized protein LOC134533057,K08745
+ko00030,Pentose phosphate pathway,scaffold_4-g395,deoxyribose-phosphate aldolase,K01619
+ko00040,Pentose and glucuronate interconversions,scaffold_6-g733,dehydrogenase/reductase SDR family member 4,K03331
+ko00130,Ubiquinone and other terpenoid-quinone biosynthesis,scaffold_9-g706,luciferin 4-monooxygenase-like,K01904
+ko00230,Purine metabolism,scaffold_7-g714,adenylosuccinate lyase,K01756
+ko00240,Pyrimidine metabolism,scaffold_11-g524,dihydroorotate dehydrogenase (quinone)%2C mitochondrial isoform X1,K00254
+ko00240,Pyrimidine metabolism,scaffold_12-g645,CTP synthase isoform X1,K01937
+ko00250,"Alanine, aspartate and glutamate metabolism",scaffold_7-g714,adenylosuccinate lyase,K01756
+ko00270,Cysteine and methionine metabolism,scaffold_4-g139,S-adenosylmethionine synthase isoform X1,K00789
+ko00511,Other glycan degradation,scaffold_7-g164,hexosaminidase D,K14459
+ko00513,Various types of N-glycan biosynthesis,scaffold_7-g164,hexosaminidase D,K14459
+ko00531,Glycosaminoglycan degradation,scaffold_16-g554,heparanase-like,K07964
+ko00561,Glycerolipid metabolism,scaffold_18-g401,dihydroxyacetone phosphate acyltransferase,K00629
+ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,scaffold_10-g764,phosphatidylinositol N-acetylglucosaminyltransferase subunit A isoform X1,K03857
+ko00564,Glycerophospholipid metabolism,scaffold_18-g401,dihydroxyacetone phosphate acyltransferase,K00629
+ko00590,Arachidonic acid metabolism,scaffold_18-g602,prostaglandin E synthase 2 isoform X1,K05309
+ko00670,One carbon pool by folate,scaffold_4-g139,S-adenosylmethionine synthase isoform X1,K00789
+ko00770,Pantothenate and CoA biosynthesis,scaffold_10-g1137,phosphopantothenate--cysteine ligase isoform X1,K01922
+ko00860,Porphyrin metabolism,scaffold_17-g687,uroporphyrinogen-III synthase-like isoform X1,K01719
+ko00940,Phenylpropanoid biosynthesis,scaffold_9-g706,luciferin 4-monooxygenase-like,K01904
+ko00999,Biosynthesis of various plant secondary metabolites,scaffold_4-g139,S-adenosylmethionine synthase isoform X1,K00789
+ko01100,Metabolic pathways,scaffold_11-g524,dihydroorotate dehydrogenase (quinone)%2C mitochondrial isoform X1,K00254
+ko01100,Metabolic pathways,scaffold_18-g401,dihydroxyacetone phosphate acyltransferase,K00629
+ko01100,Metabolic pathways,scaffold_4-g139,S-adenosylmethionine synthase isoform X1,K00789
+ko01100,Metabolic pathways,scaffold_4-g395,deoxyribose-phosphate aldolase,K01619
+ko01100,Metabolic pathways,scaffold_17-g687,uroporphyrinogen-III synthase-like isoform X1,K01719
+ko01100,Metabolic pathways,scaffold_7-g714,adenylosuccinate lyase,K01756
+ko01100,Metabolic pathways,scaffold_9-g706,luciferin 4-monooxygenase-like,K01904
+ko01100,Metabolic pathways,scaffold_10-g1137,phosphopantothenate--cysteine ligase isoform X1,K01922
+ko01100,Metabolic pathways,scaffold_12-g645,CTP synthase isoform X1,K01937
+ko01100,Metabolic pathways,scaffold_6-g733,dehydrogenase/reductase SDR family member 4,K03331
+ko01100,Metabolic pathways,scaffold_10-g764,phosphatidylinositol N-acetylglucosaminyltransferase subunit A isoform X1,K03857
+ko01100,Metabolic pathways,scaffold_18-g602,prostaglandin E synthase 2 isoform X1,K05309
+ko01100,Metabolic pathways,scaffold_16-g554,heparanase-like,K07964
+ko01100,Metabolic pathways,scaffold_7-g164,hexosaminidase D,K14459
+ko01110,Biosynthesis of secondary metabolites,scaffold_18-g401,dihydroxyacetone phosphate acyltransferase,K00629
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g139,S-adenosylmethionine synthase isoform X1,K00789
+ko01110,Biosynthesis of secondary metabolites,scaffold_17-g687,uroporphyrinogen-III synthase-like isoform X1,K01719
+ko01110,Biosynthesis of secondary metabolites,scaffold_7-g714,adenylosuccinate lyase,K01756
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g706,luciferin 4-monooxygenase-like,K01904
+ko01120,Microbial metabolism in diverse environments,scaffold_17-g687,uroporphyrinogen-III synthase-like isoform X1,K01719
+ko01230,Biosynthesis of amino acids,scaffold_4-g139,S-adenosylmethionine synthase isoform X1,K00789
+ko01232,Nucleotide metabolism,scaffold_7-g714,adenylosuccinate lyase,K01756
+ko01232,Nucleotide metabolism,scaffold_12-g645,CTP synthase isoform X1,K01937
+ko01240,Biosynthesis of cofactors,scaffold_11-g524,dihydroorotate dehydrogenase (quinone)%2C mitochondrial isoform X1,K00254
+ko01240,Biosynthesis of cofactors,scaffold_4-g139,S-adenosylmethionine synthase isoform X1,K00789
+ko01240,Biosynthesis of cofactors,scaffold_17-g687,uroporphyrinogen-III synthase-like isoform X1,K01719
+ko01240,Biosynthesis of cofactors,scaffold_7-g714,adenylosuccinate lyase,K01756
+ko01240,Biosynthesis of cofactors,scaffold_10-g1137,phosphopantothenate--cysteine ligase isoform X1,K01922
+ko01240,Biosynthesis of cofactors,scaffold_12-g645,CTP synthase isoform X1,K01937

@@ -1,0 +1,144 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00040,Pentose and glucuronate interconversions,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko00053,Ascorbate and aldarate metabolism,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko00140,Steroid hormone biosynthesis,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko00310,Lysine degradation,scaffold_5-g852,zinc finger protein OZF-like isoform X1,K04462
+ko00330,Arginine and proline metabolism,scaffold_3-g1859,prolyl 4-hydroxylase subunit alpha-1 isoform X1,K00472
+ko00350,Tyrosine metabolism,scaffold_2-g1508,phenoloxidase 1-like,K00505
+ko00350,Tyrosine metabolism,scaffold_4-g1215,phenoloxidase 1-like,K00505
+ko00531,Glycosaminoglycan degradation,scaffold_2-g115,hyaluronidase-like,K01197
+ko00532,Glycosaminoglycan biosynthesis,scaffold_8-g868,carbohydrate sulfotransferase 11 isoform X1,K01017
+ko00561,Glycerolipid metabolism,scaffold_10-g132,pancreatic lipase-related protein 2-like isoform X2,K14073
+ko00601,Glycosphingolipid biosynthesis,scaffold_9-g277,uncharacterized protein LOC134533838 isoform X2,K01988
+ko00603,Glycosphingolipid biosynthesis,scaffold_9-g277,uncharacterized protein LOC134533838 isoform X2,K01988
+ko00830,Retinol metabolism,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko00860,Porphyrin metabolism,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko00920,Sulfur metabolism,scaffold_9-g564,methanethiol oxidase-like,K17285
+ko00950,Isoquinoline alkaloid biosynthesis,scaffold_2-g1508,phenoloxidase 1-like,K00505
+ko00950,Isoquinoline alkaloid biosynthesis,scaffold_4-g1215,phenoloxidase 1-like,K00505
+ko00980,Metabolism of xenobiotics by cytochrome P450,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko00982,Drug metabolism,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko00983,Drug metabolism,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko01100,Metabolic pathways,scaffold_3-g1859,prolyl 4-hydroxylase subunit alpha-1 isoform X1,K00472
+ko01100,Metabolic pathways,scaffold_2-g1508,phenoloxidase 1-like,K00505
+ko01100,Metabolic pathways,scaffold_4-g1215,phenoloxidase 1-like,K00505
+ko01100,Metabolic pathways,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko01100,Metabolic pathways,scaffold_2-g115,hyaluronidase-like,K01197
+ko01100,Metabolic pathways,scaffold_9-g277,uncharacterized protein LOC134533838 isoform X2,K01988
+ko01100,Metabolic pathways,scaffold_5-g852,zinc finger protein OZF-like isoform X1,K04462
+ko01100,Metabolic pathways,scaffold_10-g132,pancreatic lipase-related protein 2-like isoform X2,K14073
+ko01100,Metabolic pathways,scaffold_9-g564,methanethiol oxidase-like,K17285
+ko01110,Biosynthesis of secondary metabolites,scaffold_2-g1508,phenoloxidase 1-like,K00505
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g1215,phenoloxidase 1-like,K00505
+ko01110,Biosynthesis of secondary metabolites,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g132,pancreatic lipase-related protein 2-like isoform X2,K14073
+ko01120,Microbial metabolism in diverse environments,scaffold_9-g564,methanethiol oxidase-like,K17285
+ko01240,Biosynthesis of cofactors,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko01521,EGFR tyrosine kinase inhibitor resistance,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko01522,Endocrine resistance,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko03271,Virion,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04010,MAPK signaling pathway,scaffold_5-g852,zinc finger protein OZF-like isoform X1,K04462
+ko04012,ErbB signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04013,MAPK signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04013,MAPK signaling pathway,scaffold_8-g301,NADPH oxidase 5,K13411
+ko04015,Rap1 signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04015,Rap1 signaling pathway,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04024,cAMP signaling pathway,scaffold_4-g1395,5-hydroxytryptamine receptor 1A-like,K08424
+ko04062,Chemokine signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04080,Neuroactive ligand-receptor interaction,scaffold_8-g283,alpha-1A adrenergic receptor-like,K04134
+ko04081,Hormone signaling,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04137,Mitophagy,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04141,Protein processing in endoplasmic reticulum,scaffold_10-g742,dnaJ protein homolog 1-like isoform X2,K09525
+ko04142,Lysosome biogenesis,scaffold_2-g115,hyaluronidase-like,K01197
+ko04144,Endocytosis,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04145,Phagocytosis,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04151,PI3K-Akt signaling pathway,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04151,PI3K-Akt signaling pathway,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04360,Axon guidance,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04360,Axon guidance,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04370,VEGF signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04382,Cornified envelope formation,scaffold_9-g746,hemocyte protein-glutamine gamma-glutamyltransferase-like,K05619
+ko04510,Focal adhesion,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04510,Focal adhesion,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04510,Focal adhesion,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04512,ECM-receptor interaction,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04512,ECM-receptor interaction,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04514,Cell adhesion molecule (CAM) interaction,scaffold_17-g261,neuroligin-2-like,K07378
+ko04517,IgSF CAM signaling,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04517,IgSF CAM signaling,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04517,IgSF CAM signaling,scaffold_17-g261,neuroligin-2-like,K07378
+ko04518,Integrin signaling,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04518,Integrin signaling,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04518,Integrin signaling,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04520,Adherens junction,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04530,Tight junction,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04530,Tight junction,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04540,Gap junction,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04611,Platelet activation,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04611,Platelet activation,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04613,Neutrophil extracellular trap formation,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04624,Toll and Imd signaling pathway,scaffold_8-g301,NADPH oxidase 5,K13411
+ko04625,C-type lectin receptor signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04670,Leukocyte transendothelial migration,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04727,GABAergic synapse,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04750,Inflammatory mediator regulation of TRP channels,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04810,Regulation of actin cytoskeleton,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04810,Regulation of actin cytoskeleton,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04810,Regulation of actin cytoskeleton,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04820,Cytoskeleton in muscle cells,scaffold_11-g187,integrin beta-PS-like,K05719
+ko04820,Cytoskeleton in muscle cells,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko04911,Insulin secretion,scaffold_4-g1395,5-hydroxytryptamine receptor 1A-like,K08424
+ko04912,GnRH signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04915,Estrogen signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04916,Melanogenesis,scaffold_2-g1508,phenoloxidase 1-like,K00505
+ko04916,Melanogenesis,scaffold_4-g1215,phenoloxidase 1-like,K00505
+ko04917,Prolactin signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04918,Thyroid hormone synthesis,scaffold_8-g301,NADPH oxidase 5,K13411
+ko04919,Thyroid hormone signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04921,Oxytocin signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04926,Relaxin signaling pathway,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko04972,Pancreatic secretion,scaffold_10-g132,pancreatic lipase-related protein 2-like isoform X2,K14073
+ko04975,Fat digestion and absorption,scaffold_10-g132,pancreatic lipase-related protein 2-like isoform X2,K14073
+ko04976,Bile secretion,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko04977,Vitamin digestion and absorption,scaffold_10-g132,pancreatic lipase-related protein 2-like isoform X2,K14073
+ko05100,Bacterial invasion of epithelial cells,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05100,Bacterial invasion of epithelial cells,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05120,Epithelial cell signaling in Helicobacter pylori infection,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05130,Pathogenic Escherichia coli infection,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05130,Pathogenic Escherichia coli infection,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05131,Shigellosis,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05131,Shigellosis,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05133,Pertussis,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05135,Yersinia infection,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05135,Yersinia infection,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05140,Leishmaniasis,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05145,Toxoplasmosis,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05152,Tuberculosis,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05161,Hepatitis B,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05163,Human cytomegalovirus infection,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05165,Human papillomavirus infection,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05165,Human papillomavirus infection,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko05167,Kaposi sarcoma-associated herpesvirus infection,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05168,Herpes simplex virus 1 infection,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05200,Pathways in cancer,scaffold_5-g852,zinc finger protein OZF-like isoform X1,K04462
+ko05200,Pathways in cancer,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05203,Viral carcinogenesis,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05204,Chemical carcinogenesis,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko05205,Proteoglycans in cancer,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05205,Proteoglycans in cancer,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05207,Chemical carcinogenesis,scaffold_4-g630,UDP-glycosyltransferase UGT5-like,K00699
+ko05207,Chemical carcinogenesis,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05208,Chemical carcinogenesis,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05219,Bladder cancer,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05220,Chronic myeloid leukemia,scaffold_5-g852,zinc finger protein OZF-like isoform X1,K04462
+ko05222,Small cell lung cancer,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05410,Hypertrophic cardiomyopathy,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05410,Hypertrophic cardiomyopathy,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko05412,Arrhythmogenic right ventricular cardiomyopathy,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05412,Arrhythmogenic right ventricular cardiomyopathy,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko05414,Dilated cardiomyopathy,scaffold_11-g187,integrin beta-PS-like,K05719
+ko05414,Dilated cardiomyopathy,scaffold_4-g22,integrin alpha-4-like isoform X1,K06585
+ko05417,Lipid and atherosclerosis,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704
+ko05418,Fluid shear stress and atherosclerosis,scaffold_8-g181,tyrosine-protein kinase Src42A isoform X1,K05704

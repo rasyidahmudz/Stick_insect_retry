@@ -1,0 +1,53 @@
+pathway_id,pathway_name,gene_count,KO_count
+ko01100,Metabolic pathways,11,10
+ko01110,Biosynthesis of secondary metabolites,5,5
+ko00480,Glutathione metabolism,4,3
+ko04145,Phagocytosis,4,4
+ko05010,Alzheimer disease,3,3
+ko00330,Arginine and proline metabolism,2,2
+ko00430,Taurine and hypotaurine metabolism,2,2
+ko00980,Metabolism of xenobiotics by cytochrome P450,2,1
+ko00982,Drug metabolism,2,1
+ko00983,Drug metabolism,2,1
+ko01240,Biosynthesis of cofactors,2,2
+ko01524,Platinum drug resistance,2,1
+ko04212,Longevity regulating pathway,2,1
+ko04970,Salivary secretion,2,2
+ko05012,Parkinson disease,2,2
+ko05146,Amoebiasis,2,1
+ko05200,Pathways in cancer,2,1
+ko05204,Chemical carcinogenesis,2,1
+ko05207,Chemical carcinogenesis,2,1
+ko05208,Chemical carcinogenesis,2,1
+ko05225,Hepatocellular carcinoma,2,1
+ko05418,Fluid shear stress and atherosclerosis,2,1
+ko00130,Ubiquinone and other terpenoid-quinone biosynthesis,1,1
+ko00220,Arginine biosynthesis,1,1
+ko00260,"Glycine, serine and threonine metabolism",1,1
+ko00310,Lysine degradation,1,1
+ko00410,beta-Alanine metabolism,1,1
+ko00460,Cyanoamino acid metabolism,1,1
+ko00590,Arachidonic acid metabolism,1,1
+ko00730,Thiamine metabolism,1,1
+ko00770,Pantothenate and CoA biosynthesis,1,1
+ko00790,Folate biosynthesis,1,1
+ko00860,Porphyrin metabolism,1,1
+ko00940,Phenylpropanoid biosynthesis,1,1
+ko02020,Two-component system,1,1
+ko04020,Calcium signaling pathway,1,1
+ko04081,Hormone signaling,1,1
+ko04142,Lysosome biogenesis,1,1
+ko04371,Apelin signaling pathway,1,1
+ko04614,Renin-angiotensin system,1,1
+ko04640,Hematopoietic cell lineage,1,1
+ko04713,Circadian entrainment,1,1
+ko04730,Long-term depression,1,1
+ko04820,Cytoskeleton in muscle cells,1,1
+ko04926,Relaxin signaling pathway,1,1
+ko04928,"Parathyroid hormone synthesis, secretion and action",1,1
+ko05014,Amyotrophic lateral sclerosis,1,1
+ko05022,Pathways of neurodegeneration,1,1
+ko05410,Hypertrophic cardiomyopathy,1,1
+ko05412,Arrhythmogenic right ventricular cardiomyopathy,1,1
+ko05414,Dilated cardiomyopathy,1,1
+ko05416,Viral myocarditis,1,1

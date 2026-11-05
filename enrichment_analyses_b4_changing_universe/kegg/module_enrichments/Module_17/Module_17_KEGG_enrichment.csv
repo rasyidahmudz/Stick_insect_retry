@@ -1,0 +1,2 @@
+category,subcategory,ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count,module_id,bg_ratio_numeric,enrichment_ratio
+Environmental Information Processing,Signaling molecules and interaction,ko04514,Cell adhesion molecule (CAM) interaction,3/18,15/3477,0.2,38.63333333333333,10.535511861588452,5.101621786228563e-5,0.004591459607605707,0.0038664923011416485,K07378/K05719/K06585,3,Module_17,0.004314063848144953,23.979310344827585

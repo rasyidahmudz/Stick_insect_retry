@@ -1,0 +1,35 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00480,Glutathione metabolism,scaffold_1-g1484,uncharacterized protein LOC134533028,K00799
+ko00480,Glutathione metabolism,scaffold_10-g15,uncharacterized protein LOC134535042,K11140
+ko00480,Glutathione metabolism,scaffold_10-g40,uncharacterized protein LOC134535042,K11140
+ko00480,Glutathione metabolism,scaffold_10-g624,uncharacterized protein LOC134535042,K11140
+ko00480,Glutathione metabolism,scaffold_10-g647,uncharacterized protein LOC134535042,K11140
+ko00480,Glutathione metabolism,scaffold_15-g221,microsomal glutathione S-transferase 1-like,K00799
+ko00480,Glutathione metabolism,scaffold_15-g222,microsomal glutathione S-transferase 1-like,K00799
+ko00480,Glutathione metabolism,scaffold_3-g1160,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko00480,Glutathione metabolism,scaffold_3-g1412,glutathione S-transferase-like isoform X2,K00799
+ko00480,Glutathione metabolism,scaffold_3-g1894,uncharacterized protein LOC134533028,K00799
+ko00480,Glutathione metabolism,scaffold_3-g888,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko00480,Glutathione metabolism,scaffold_3-g889,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko00480,Glutathione metabolism,scaffold_3-g890,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko00480,Glutathione metabolism,scaffold_4-g1582,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00480,Glutathione metabolism,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00480,Glutathione metabolism,scaffold_5-g419,uncharacterized protein LOC134533028,K00799
+ko00480,Glutathione metabolism,scaffold_5-g423,uncharacterized protein LOC134533028,K00799
+ko00480,Glutathione metabolism,scaffold_5-g966,uncharacterized protein LOC134533028,K00799
+ko00480,Glutathione metabolism,scaffold_7-g1176,glutathione S-transferase 3%2C mitochondrial-like,K00799
+ko00480,Glutathione metabolism,scaffold_9-g1109,uncharacterized protein LOC134533028,K00799
+ko00480,Glutathione metabolism,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko04145,Phagocytosis,scaffold_1-g1547,alkaline phosphatase-like,K01077
+ko04145,Phagocytosis,scaffold_1-g2118,lysozyme 2-like,K13915
+ko04145,Phagocytosis,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04145,Phagocytosis,scaffold_10-g15,uncharacterized protein LOC134535042,K11140
+ko04145,Phagocytosis,scaffold_10-g40,uncharacterized protein LOC134535042,K11140
+ko04145,Phagocytosis,scaffold_10-g624,uncharacterized protein LOC134535042,K11140
+ko04145,Phagocytosis,scaffold_10-g647,uncharacterized protein LOC134535042,K11140
+ko04145,Phagocytosis,scaffold_14-g57,alkaline phosphatase-like,K01077
+ko04145,Phagocytosis,scaffold_16-g51,alkaline phosphatase-like,K01077
+ko04145,Phagocytosis,scaffold_17-g235,alkaline phosphatase-like,K01077
+ko04145,Phagocytosis,scaffold_4-g766,alkaline phosphatase-like,K01077
+ko04145,Phagocytosis,scaffold_5-g373,lysozyme 2-like,K13915
+ko04145,Phagocytosis,scaffold_7-g406,alkaline phosphatase-like,K01077

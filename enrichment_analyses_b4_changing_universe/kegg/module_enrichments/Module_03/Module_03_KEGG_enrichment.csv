@@ -1,0 +1,2 @@
+category,subcategory,ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count,module_id,bg_ratio_numeric,enrichment_ratio
+Metabolism,Carbohydrate metabolism,ko00500,Starch and sucrose metabolism,4/54,21/3477,0.19047619047619047,12.264550264550264,6.502344153865972,2.557919394343534e-4,0.037345623157415596,0.002242264780181663,K00688/K00693/K15779/K00844,4,Module_03,0.0060396893874029335,6.020779220779221

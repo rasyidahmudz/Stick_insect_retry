@@ -36,7 +36,7 @@ httr::set_config(httr::config(ssl_verifypeer = FALSE))
 
 # Working Directory and Output Setup --------------------------------------
 
-setwd("~/Desktop/Stick_insect/enrichment_analyses")
+setwd("~/Desktop/Stick_insect/Stick_insect_retry/enrichment_analyses")
 
 kegg_dirs <- c(
   "kegg/module_enrichments",
@@ -78,14 +78,14 @@ theme_cpb <- theme_bw() +
 # Data Loading and Preparation --------------------------------------------
 
 # Load WGCNA module assignments from script 01
-module_assignments <- read_csv(file.path("..", "clitarchus_Module_Summary.csv"))
+module_assignments <- read_csv(file.path("~/Desktop/Stick_insect/clitarchus_Module_Summary_Annotated.csv"))
 
 # Load BLAST annotations from BRR species
-blast_annot <- read.csv(file.path("..", "clitarchus_annotation.csv"))
+blast_annot <- read.csv(file.path("~/Desktop/Stick_insect/clitarchus_annotation.csv"))
 
 # Load KEGG ortholog mappings from KAAS annotation
 cli_kegg <- read.table(
-  "./kegg/clitarchus_KAAS_query.txt",
+  "~/Desktop/Stick_insect/clitarchus_KAAS_query.txt",
   header = FALSE,
   colClasses = c("character", "factor"),
   sep = "",
@@ -111,34 +111,74 @@ cli_annot <- cli_annot %>%
 # Merge ref_transcript_name from BLAST to cli_annot
 cli_annot <- cli_annot %>%
   left_join(
-    blast_annot %>% select(qry_transcript_id, gene_annotation),
-    by = "qry_transcript_id"
+    blast_annot %>% select(qry_gene_id, gene_annotation),
+    by = c("gene_id" = "qry_gene_id")
   )
 
-# Create kegg_genes mapping (gene to KEGG ortholog)
+# Create gene-to-KEGG ortholog mapping
 kegg_genes <- cli_annot %>%
-  dplyr::select(qry_transcript_id, gene_annotation, kegg_id) %>%
-  drop_na(gene_annotation, kegg_id) %>%
+  dplyr::select(gene_id, gene_annotation, kegg_id) %>%
+  drop_na(gene_id, kegg_id) %>%
   distinct()
 
-# Get current KEGG pathway gene sets
-kg.ko <- kegg.gsets("ko")
-kegg.gs <- kg.ko$kg.sets[kg.ko$sigmet.idx]  # Remove disease pathways
+# -------------------------------------------------------
+# DEFINE EXPRESSED GENE UNIVERSE
+# -------------------------------------------------------
 
-# Extract pathway IDs for filtering
-kegg.gs_names <- names(kegg.gs)
-kegg.gs_names <- as.data.frame(gsub(" .*$", "", kegg.gs_names))
-names(kegg.gs_names) <- "ID"
+# Include all genes from the original WGCNA network:
+# 18 retained modules + excluded modules + grey/unassigned
 
-# Define universe for enrichments
+expressed_gene_ids <- module_assignments %>%
+  pull(gene_id) %>%
+  unique()
+
+# Confirm expected number of expressed genes
+length(expressed_gene_ids)
+
+stopifnot(length(expressed_gene_ids) == 19252)
+
+# Filter KEGG annotations to expressed genes only
+kegg_genes <- kegg_genes %>%
+  filter(gene_id %in% expressed_gene_ids) %>%
+  distinct(gene_id, kegg_id, .keep_all = TRUE)
+
+# Define background universe using unique KO IDs
 universe_kegg <- kegg_genes %>%
   pull(kegg_id) %>%
   unique() %>%
   as.character()
 
+# Download KEGG pathway-to-KO mappings
+kegg_data <- clusterProfiler::download_KEGG(
+  species = "ko",
+  keggType = "KEGG",
+  keyType = "kegg"
+)
+
+# Create pathway-to-KO mapping
+kegg.gs <- split(
+  kegg_data$KEGGPATHID2EXTID$to,
+  kegg_data$KEGGPATHID2EXTID$from
+)
+
+# Create pathway ID-to-name mapping
+kegg.gs_names <- kegg_data$KEGGPATHID2NAME
+
+# Check objects
+length(kegg.gs)
+head(kegg.gs)
+head(kegg.gs_names)
+
 # Filter module assignments to genes with KEGG annotations
 module_assignments_kegg <- module_assignments %>%
-  filter(Reference_Transcript_Name %in% kegg_genes$qry_transcript_id)
+  filter(gene_id %in% kegg_genes$gene_id)
+
+# Check numbers
+cat("Total expressed genes:", length(expressed_gene_ids), "\n")
+cat("Expressed genes with KEGG annotations:",
+    n_distinct(kegg_genes$gene_id), "\n")
+cat("Unique KO IDs in background universe:",
+    length(universe_kegg), "\n")
 
 # KEGG Enrichment Functions -----------------------------------------------
 
@@ -146,17 +186,21 @@ module_assignments_kegg <- module_assignments %>%
 perform_module_kegg_enrichment <- function(module_id, module_genes) {
   
   # Get KEGG IDs for genes in this module
-  module_kegg <- tibble(qry_transcript_id = module_genes) %>%
-    left_join(kegg_genes, by = "qry_transcript_id") %>%
-    drop_na(kegg_id)
+  module_kegg <- tibble(gene_id = module_genes) %>%
+    left_join(kegg_genes %>% select(gene_id, kegg_id), by = "gene_id") %>%
+    drop_na(kegg_id) %>%
+    distinct()
   
-  # Skip modules with too few KEGG-annotated genes
-  if (nrow(module_kegg) < 5) {
+  # Extract unique KEGG ortholog IDs - contained in expressed gene set
+  module_kegg_ids <- intersect(
+    unique(as.character(module_kegg$kegg_id)),
+    universe_kegg
+  )
+  
+  # Skip modules with fewer than 5 annotated KO IDs
+  if (length(module_kegg_ids) < 5) {
     return(NULL)
   }
-  
-  # Create vector of KEGG ortholog IDs
-  module_kegg_ids <- as.character(module_kegg$kegg_id)
   
   # Over-representation analysis using Fisher's exact test
   enrich_result <- enrichKEGG(
@@ -164,23 +208,27 @@ perform_module_kegg_enrichment <- function(module_id, module_genes) {
     universe = universe_kegg,
     organism = "ko",
     keyType = 'kegg',
-    pvalueCutoff = 0.05
+    pvalueCutoff = 1,
+    qvalueCutoff = 1
   )
   
-  # Convert to data frame and process results
+  # Check whether enrichment returned any results
   if (is.null(enrich_result) || nrow(enrich_result@result) == 0) {
     return(NULL)
   }
   
-  enrich_df <- data.frame(enrich_result@result) %>%
+  # Convert to dataframe and and retain FDR-significant pathways
+  enrich_df <- as.data.frame(enrich_result) %>%
     filter(p.adjust <= 0.05) %>%
-    subset(ID %in% kegg.gs_names$ID) %>%  # Remove disease pathways
     mutate(
       module_id = module_id,
-      bg_ratio_numeric = as.numeric(sub("/.*", "", BgRatio)) / as.numeric(sub(".*/", "", BgRatio)),
-      enrichment_ratio = (Count / length(module_kegg_ids)) / bg_ratio_numeric
+      bg_ratio_numeric =
+        as.numeric(sub("/.*", "", BgRatio)) /
+        as.numeric(sub(".*/", "", BgRatio)),
+      enrichment_ratio =
+        (Count / length(module_kegg_ids)) / bg_ratio_numeric
     ) %>%
-    arrange(p.adjust)  # Sort by adjusted p-value
+    arrange(p.adjust)
   
   return(enrich_df)
 }
@@ -189,45 +237,61 @@ perform_module_kegg_enrichment <- function(module_id, module_genes) {
 generate_module_pathway_mappings <- function(module_id, module_genes) {
   
   # Get KEGG annotations for module genes
-  module_kegg <- tibble(qry_transcript_id = module_genes) %>%
-    left_join(kegg_genes, by = "qry_transcript_id") %>%
-    drop_na(kegg_id)
+  module_kegg <- tibble(gene_id = module_genes) %>%
+    left_join(
+      kegg_genes,
+      by = "gene_id"
+    ) %>%
+    drop_na(kegg_id) %>%
+    distinct()
   
   if (nrow(module_kegg) == 0) {
     return(NULL)
   }
   
-  # Create named vector: KEGG_ID -> transcript_ID
-  module_kegg_transcripts <- with(module_kegg, setNames(qry_transcript_id, kegg_id))
+  # Create pathway-to-KO mapping
+  pathway_kegg <- tibble(
+    pathway_id = rep(names(kegg.gs), lengths(kegg.gs)),
+    kegg_id = unlist(kegg.gs, use.names = FALSE)
+  )
   
-  # Find which pathways contain genes from this module
-  module_pathway_genes <- lapply(kegg.gs, function(pathway_kegg_ids) {
-    as.vector(na.omit(module_kegg_transcripts[pathway_kegg_ids]))
-  })
+  # Add pathway names
+  pathway_kegg <- pathway_kegg %>%
+    mutate(
+      pathway_name = kegg.gs_names$to[
+        match(pathway_id, kegg.gs_names$from)
+      ]
+    )
   
-  # Remove pathways with no genes from this module
-  module_pathway_genes <- module_pathway_genes[lengths(module_pathway_genes) > 0]
+  # Match module genes to KEGG pathways
+  pathway_transcripts <- pathway_kegg %>%
+    inner_join(
+      module_kegg,
+      by = "kegg_id",
+      relationship = "many-to-many"
+    ) %>%
+    select(
+      pathway_id,
+      pathway_name,
+      gene_id,
+      gene_annotation,
+      kegg_id
+    ) %>%
+    distinct()
   
-  if (length(module_pathway_genes) == 0) {
+  if (nrow(pathway_transcripts) == 0) {
     return(NULL)
   }
   
   # Create pathway gene count summary
-  pathway_gene_counts <- tibble(
-    pathway = names(module_pathway_genes),
-    gene_count = lengths(module_pathway_genes)
-  ) %>%
-    separate(pathway, into = c("pathway_id", "pathway_name"), sep = "^\\S*\\K\\s+", remove = FALSE)
-  
-  # Create detailed gene-pathway mappings
-  pathway_transcripts <- module_pathway_genes %>%
-    enframe(name = "pathway", value = "qry_transcript_id") %>%
-    unnest_longer(qry_transcript_id) %>%
-    separate(pathway, into = c("pathway_id", "pathway_name"), sep = "^\\S*\\K\\s+") %>%
-    left_join(module_kegg %>% dplyr::select(gene_annotation, qry_transcript_id, kegg_id), 
-              by = "qry_transcript_id") %>%
-    drop_na() %>%
-    distinct()
+  pathway_gene_counts <- pathway_transcripts %>%
+    group_by(pathway_id, pathway_name) %>%
+    summarise(
+      gene_count = n_distinct(gene_id),
+      KO_count = n_distinct(kegg_id),
+      .groups = "drop"
+    ) %>%
+    arrange(desc(gene_count))
   
   return(list(
     counts = pathway_gene_counts,
@@ -237,29 +301,16 @@ generate_module_pathway_mappings <- function(module_id, module_genes) {
 
 # Run KEGG Enrichment Analysis --------------------------------------------
 
-# Get modules to analyze (exclude Module_00, require minimum size)
+# Get modules to analyze (require minimum size)
 modules_to_analyze <- module_assignments_kegg %>%
-  filter(Module_ID != "Module_00") %>%
+  filter(Module_Type == "retained") %>%
   group_by(Module_ID) %>%
   summarise(
-    genes = list(Reference_Transcript_Name),
+    genes = list(gene_id),
     n_genes = n(),
     .groups = 'drop'
   ) %>%
   filter(n_genes >= 10)
-
-# Also include Module_00 if it has sufficient genes with KEGG annotations
-module_00_data <- module_assignments_kegg %>%
-  filter(Module_ID == "Module_00")
-
-if (nrow(module_00_data) >= 10) {
-  module_00_summary <- tibble(
-    Module_ID = "Module_00",
-    genes = list(module_00_data$Reference_Transcript_Name),
-    n_genes = nrow(module_00_data)
-  )
-  modules_to_analyze <- bind_rows(modules_to_analyze, module_00_summary)
-}
 
 # Run enrichment analysis for all modules
 all_kegg_enrichments <- list()
@@ -282,54 +333,63 @@ for (i in 1:nrow(modules_to_analyze)) {
   }
 }
 
+
 # Save Individual Module Results ------------------------------------------
 
-for (i in 1:nrow(modules_to_analyze)) {
+for (i in seq_len(nrow(modules_to_analyze))) {
+  
   module_id <- modules_to_analyze$Module_ID[i]
   module_genes <- modules_to_analyze$genes[[i]]
   
   # Create module directory
   module_dir <- file.path("./kegg/module_enrichments", module_id)
-  if (!dir.exists(module_dir)) dir.create(module_dir, recursive = TRUE)
+  dir.create(module_dir, recursive = TRUE, showWarnings = FALSE)
   
   # Save enrichment results
-  if (module_id %in% names(all_kegg_enrichments)) {
+  enrich_df <- all_kegg_enrichments[[module_id]]
+  
+  if (!is.null(enrich_df) && nrow(enrich_df) > 0) {
+    
     write_csv(
-      all_kegg_enrichments[[module_id]],
+      enrich_df,
       file.path(module_dir, paste0(module_id, "_KEGG_enrichment.csv"))
     )
     
-    # Create pathway-gene mapping file for easy reference
-    enrich_df <- all_kegg_enrichments[[module_id]]
-    if (nrow(enrich_df) > 0) {
-      pathway_gene_mapping <- map_dfr(1:nrow(enrich_df), function(j) {
-        pathway_id <- enrich_df$ID[j]
-        pathway_name <- enrich_df$Description[j]
-        
-        # Get genes in this pathway
-        pathway_genes <- strsplit(enrich_df$geneID[j], "/")[[1]]
-        
-        # Create mapping dataframe
-        data.frame(
-          pathway_id = pathway_id,
-          pathway_name = pathway_name,
-          kegg_id = pathway_genes,
-          stringsAsFactors = FALSE
-        )
-      }) %>%
-        # Add transcript IDs by joining with KEGG annotations
-        left_join(kegg_genes, by = "kegg_id", relationship = "many-to-many") %>%
-        dplyr::select(pathway_id, pathway_name, qry_transcript_id, gene_annotation, kegg_id) %>%
-        filter(!is.na(qry_transcript_id)) %>%
-        arrange(pathway_id, qry_transcript_id)
+    # Create pathway-gene mapping from enriched pathways
+    pathway_gene_mapping <- map_dfr(seq_len(nrow(enrich_df)), function(j) {
       
-      # Save pathway-gene mapping
-      write_csv(
-        pathway_gene_mapping,
-        file.path(module_dir, paste0(module_id, "_pathway_gene_ids.csv"))
-      )
-    }
+      pathway_id <- enrich_df$ID[j]
+      pathway_name <- enrich_df$Description[j]
+      
+      # Extract KO IDs from enriched pathway
+      pathway_kos <- strsplit(enrich_df$geneID[j], "/", fixed = TRUE)[[1]]
+      
+      # Map KO IDs back to original genes
+      tibble(kegg_id = pathway_kos) %>%
+        inner_join(
+          kegg_genes %>%
+            select(gene_id, gene_annotation, kegg_id) %>%
+            distinct(),
+          by = "kegg_id"
+        ) %>%
+        mutate(
+          pathway_id = pathway_id,
+          pathway_name = pathway_name
+        ) %>%
+        select(pathway_id, pathway_name, gene_id, gene_annotation, kegg_id)
+      
+    }) %>%
+      distinct() %>%
+      arrange(pathway_id, gene_id)
+    
+    # Save pathway-gene mapping
+    write_csv(
+      pathway_gene_mapping,
+      file.path(module_dir, paste0(module_id, "_pathway_gene_ids.csv"))
+    )
+    
   } else {
+    
     write_lines(
       paste("No significant KEGG pathways found for", module_id),
       file.path(module_dir, paste0(module_id, "_no_KEGG_enrichment.txt"))
@@ -337,14 +397,17 @@ for (i in 1:nrow(modules_to_analyze)) {
   }
   
   # Save pathway mappings if available
-  if (module_id %in% names(all_pathway_mappings)) {
+  pathway_mapping <- all_pathway_mappings[[module_id]]
+  
+  if (!is.null(pathway_mapping)) {
+    
     write_csv(
-      all_pathway_mappings[[module_id]]$counts,
+      pathway_mapping$counts,
       file.path(module_dir, paste0(module_id, "_pathway_gene_counts.csv"))
     )
     
     write_csv(
-      all_pathway_mappings[[module_id]]$mappings,
+      pathway_mapping$mappings,
       file.path(module_dir, paste0(module_id, "_pathway_gene_mappings.csv"))
     )
   }
@@ -356,52 +419,75 @@ for (i in 1:nrow(modules_to_analyze)) {
   )
 }
 
+
 # Create Summary Tables ---------------------------------------------------
 
+# Combined enrichment results across all modules
 if (length(all_kegg_enrichments) > 0) {
   
-  # Combined enrichment results across all modules
-  combined_enrichments <- bind_rows(all_kegg_enrichments, .id = "module_id")
-  
-  write_csv(
-    combined_enrichments,
-    file.path("./kegg/summary_tables", "All_Modules_KEGG_Enrichment.csv")
+  combined_enrichments <- bind_rows(
+    all_kegg_enrichments,
+    .id = "module_id"
   )
   
-  # Module enrichment summary
-  module_kegg_summary <- combined_enrichments %>%
-    group_by(module_id) %>%
-    summarise(
-      n_significant_pathways = n(),
-      top_p_adjust = min(p.adjust, na.rm = TRUE),
-      mean_enrichment_ratio = mean(enrichment_ratio, na.rm = TRUE),
-      top_pathway = Description[which.min(pvalue)],
-      .groups = 'drop'
-    ) %>%
-    arrange(desc(n_significant_pathways))
-  
-  write_csv(
-    module_kegg_summary,
-    file.path("./kegg/summary_tables", "Module_KEGG_Summary.csv")
-  )
-  
-  # Top enriched pathways across all modules
-  top_pathways <- combined_enrichments %>%
-    arrange(pvalue) %>%
-    slice_head(n = 30) %>%
-    dplyr::select(module_id, Description, pvalue, qvalue, Count, enrichment_ratio)
-  
-  write_csv(
-    top_pathways,
-    file.path("./kegg/summary_tables", "Top_KEGG_Pathways_All_Modules.csv")
-  )
-  
+  if (nrow(combined_enrichments) > 0) {
+    
+    write_csv(
+      combined_enrichments,
+      file.path("./kegg/summary_tables", "All_Modules_KEGG_Enrichment.csv")
+    )
+    
+    # Module enrichment summary
+    module_kegg_summary <- combined_enrichments %>%
+      group_by(module_id) %>%
+      summarise(
+        n_significant_pathways = n(),
+        top_p_adjust = min(p.adjust, na.rm = TRUE),
+        mean_enrichment_ratio = mean(enrichment_ratio, na.rm = TRUE),
+        top_pathway = Description[which.min(p.adjust)],
+        .groups = "drop"
+      ) %>%
+      arrange(desc(n_significant_pathways))
+    
+    write_csv(
+      module_kegg_summary,
+      file.path("./kegg/summary_tables", "Module_KEGG_Summary.csv")
+    )
+    
+    # Top enriched pathways across all modules
+    top_pathways <- combined_enrichments %>%
+      arrange(p.adjust) %>%
+      slice_head(n = 30) %>%
+      select(
+        module_id, Description, pvalue, p.adjust,
+        qvalue, Count, enrichment_ratio
+      )
+    
+    write_csv(
+      top_pathways,
+      file.path("./kegg/summary_tables", "Top_KEGG_Pathways_All_Modules.csv")
+    )
+  }
 }
 
-# Combined pathway mappings
+
+# Combined Pathway Mappings ------------------------------------------------
+
 if (length(all_pathway_mappings) > 0) {
-  combined_pathway_counts <- map_dfr(all_pathway_mappings, ~.x$counts, .id = "module_id")
-  combined_pathway_mappings <- map_dfr(all_pathway_mappings, ~.x$mappings, .id = "module_id")
+  
+  # Combine pathway gene counts
+  combined_pathway_counts <- map_dfr(
+    all_pathway_mappings,
+    ~ .x$counts,
+    .id = "module_id"
+  )
+  
+  # Combine detailed pathway-gene mappings
+  combined_pathway_mappings <- map_dfr(
+    all_pathway_mappings,
+    ~ .x$mappings,
+    .id = "module_id"
+  )
   
   write_csv(
     combined_pathway_counts,
@@ -413,6 +499,7 @@ if (length(all_pathway_mappings) > 0) {
     file.path("./kegg/summary_tables", "All_Modules_Pathway_Mappings.csv")
   )
 }
+
 
 # Create Visualization Plots ----------------------------------------------
 
@@ -556,9 +643,10 @@ if (length(all_kegg_enrichments) > 0) {
       # Get module genes with KEGG annotations
       module_genes <- modules_to_analyze$genes[[which(modules_to_analyze$Module_ID == module_id)]]
       
-      module_kegg <- tibble(gene_annotation = module_genes) %>%
-        left_join(kegg_genes, by = "gene_annotation") %>%
-        drop_na(kegg_id)
+      module_kegg <- tibble(gene_id = module_genes) %>%
+        left_join(kegg_genes, by = "gene_id") %>%
+        drop_na(kegg_id) %>%
+        distinct(kegg_id, .keep_all = TRUE)
       
       if (nrow(module_kegg) == 0) next
       
@@ -584,7 +672,7 @@ if (length(all_kegg_enrichments) > 0) {
       )
       
       # Return to working directory
-      setwd("~/Desktop/Stick_insect/enrichment_analyses")
+      setwd("~/Desktop/Stick_insect/Stick_insect_retry/enrichment_analyses")
     }
   }
 }
@@ -594,7 +682,7 @@ if (length(all_kegg_enrichments) > 0) {
 analysis_summary <- list(
   modules_analyzed = nrow(modules_to_analyze),
   modules_with_enrichments = length(all_kegg_enrichments),
-  total_genes_with_kegg = nrow(kegg_genes),
+  total_genes_with_kegg = n_distinct(kegg_genes$gene_id),
   genes_in_modules_with_kegg = nrow(module_assignments_kegg),
   enrichment_results = if (length(all_kegg_enrichments) > 0) combined_enrichments else NULL,
   pathway_mappings = if (length(all_pathway_mappings) > 0) combined_pathway_mappings else NULL
@@ -606,181 +694,3 @@ saveRDS(analysis_summary, file.path("./kegg", "kegg_analysis_summary.rds"))
 
 writeLines(capture.output(sessionInfo()), "./kegg/session_info.txt")
 
-
-#########
-
-# Top 5 pathways by module
-# Sorts pathways by largest no. of contributing genes in each module
-# If two pathways have the same Count, higher p.adjust comes first
-top_pathways_by_module <- combined_enrichments %>%
-  group_by(module_id) %>%
-  arrange(desc(Count), p.adjust, .by_group = TRUE) %>%
-  slice_head(n = 5) %>%
-  ungroup()
-
-write_csv(
-  top_pathways_by_module,
-  file.path(
-    "./kegg/summary_tables",
-    "Top_KEGG_Pathways_By_Module.csv"
-  )
-)
-
-# 9 (green box) modules to visualize
-# Module 24,10,26,30,28,17,08,33,29
-modules_to_visualize <- c(
-  "Module_24",
-  "Module_10",
-  "Module_26",
-  "Module_30",
-  "Module_28",
-  "Module_17",
-  "Module_08",
-  "Module_33",
-  "Module_29"
-)
-pathway_mapping_results <- list()
-
-for (mod in modules_to_visualize) {
-  
-  module_genes <- module_assignments_kegg %>%
-    filter(Module_ID == mod) %>%
-    pull(Reference_Transcript_Name)
-  
-  pathway_mapping_results[[mod]] <-
-    generate_module_pathway_mappings(
-      module_id = mod,
-      module_genes = module_genes
-    )
-}
-sapply(
-  pathway_mapping_results,
-  function(x) {
-    if (is.null(x)) 0 else nrow(x$mappings)
-  }
-)
-
-for (mod in modules_to_visualize) {
-  
-  result <- pathway_mapping_results[[mod]]
-  
-  if (is.null(result) || nrow(result$counts) == 0) {
-    message(mod, ": no pathway mappings")
-    next
-  }
-  
-  plot_data <- result$counts %>%
-    arrange(desc(gene_count)) %>%
-    slice_head(n = 15) %>%
-    mutate(
-      pathway_name = stringr::str_remove(
-        pathway_name,
-        "^ko[0-9]+\\s*"
-      ),
-      pathway_name = forcats::fct_reorder(
-        pathway_name,
-        gene_count
-      )
-    )
-  
-  p <- ggplot(
-    plot_data,
-    aes(x = pathway_name, y = gene_count)
-  ) +
-    geom_col() +
-    coord_flip() +
-    labs(
-      title = paste0(mod, ": KEGG pathway gene representation"),
-      x = "KEGG pathway",
-      y = "Number of module genes"
-    ) +
-    theme_classic()
-  
-  ggsave(
-    filename = file.path(
-      "kegg/pathway_visualizations",
-      paste0(mod, "_KEGG_Pathway_Gene_Counts.png")
-    ),
-    plot = p,
-    width = 9,
-    height = 7,
-    dpi = 300
-  )
-  
-  message(mod, ": plot saved")
-  
-# Make individual plots
-library(ggplot2)
-library(dplyr)
-library(stringr)
-library(forcats)
-library(patchwork)
-  
-module_plots <- list()
-  
-for (mod in modules_to_visualize) {
-    
-    result <- pathway_mapping_results[[mod]]
-    
-    if (is.null(result) || nrow(result$counts) == 0) {
-      message(mod, ": no pathway mappings")
-      next
-    }
-    
-    plot_data <- result$counts %>%
-      arrange(desc(gene_count)) %>%
-      slice_head(n = 10) %>%
-      mutate(
-        pathway_name = str_remove(
-          pathway_name,
-          "^ko[0-9]+\\s*"
-        ),
-        pathway_name = fct_reorder(
-          pathway_name,
-          gene_count
-        )
-      )
-    
-    module_plots[[mod]] <- ggplot(
-      plot_data,
-      aes(x = pathway_name, y = gene_count)
-    ) +
-      geom_col() +
-      coord_flip() +
-      labs(
-        title = mod,
-        x = NULL,
-        y = "Number of genes"
-      ) +
-      theme_classic() +
-      theme(
-        plot.title = element_text(
-          face = "bold",
-          size = 12
-        ),
-        axis.text.y = element_text(size = 8)
-      )
-  }
-
-# Combine into 3x3 figure
-combined_pathway_plot <- wrap_plots(
-    module_plots[modules_to_visualize],
-    ncol = 3
-  )
-  
-combined_pathway_plot
-
-# Save plot
-dir.create(
-  "kegg/pathway_visualizations",
-  recursive = TRUE,
-  showWarnings = FALSE
-)
-
-ggsave(
-  "kegg/pathway_visualizations/9_Modules_KEGG_Pathway_Representation.png",
-  combined_pathway_plot,
-  width = 18,
-  height = 18,
-  dpi = 300
-)

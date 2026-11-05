@@ -1,0 +1,2 @@
+category,subcategory,ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count,module_id,bg_ratio_numeric,enrichment_ratio
+Organismal Systems,Nervous system,ko04726,Serotonergic synapse,2/5,29/3477,0.06896551724137931,47.95862068965518,9.635310847621781,6.614670875962389e-4,0.027781617679042032,0.016014466331277365,K04547/K04892,2,Module_18,0.008340523439746908,23.97931034482759

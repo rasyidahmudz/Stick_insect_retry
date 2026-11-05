@@ -1,0 +1,46 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko04014,Ras signaling pathway,scaffold_7-g119,NA,K04547
+ko04014,Ras signaling pathway,scaffold_9-g1224,LOW QUALITY PROTEIN: ral GTPase-activating protein subunit alpha-1,K25769
+ko04062,Chemokine signaling pathway,scaffold_7-g119,NA,K04547
+ko04142,Lysosome,scaffold_12-g74,V-type proton ATPase 116 kDa subunit a 1 isoform X1,K02154
+ko04145,Phagosome,scaffold_12-g74,V-type proton ATPase 116 kDa subunit a 1 isoform X1,K02154
+ko04151,PI3K-Akt signaling pathway,scaffold_7-g119,NA,K04547
+ko04371,Apelin signaling pathway,scaffold_7-g119,NA,K04547
+ko04713,Circadian entrainment,scaffold_7-g119,NA,K04547
+ko04721,Synaptic vesicle cycle,scaffold_12-g74,V-type proton ATPase 116 kDa subunit a 1 isoform X1,K02154
+ko04723,Retrograde endocannabinoid signaling,scaffold_7-g119,NA,K04547
+ko04724,Glutamatergic synapse,scaffold_7-g119,NA,K04547
+ko04725,Cholinergic synapse,scaffold_7-g119,NA,K04547
+ko04726,Serotonergic synapse,scaffold_7-g119,NA,K04547
+ko04726,Serotonergic synapse,scaffold_2-g2106,potassium voltage-gated channel protein Shal isoform X1,K04892
+ko04727,GABAergic synapse,scaffold_7-g119,NA,K04547
+ko04728,Dopaminergic synapse,scaffold_7-g119,NA,K04547
+ko04740,Olfactory transduction,scaffold_7-g119,NA,K04547
+ko04742,Taste transduction,scaffold_7-g119,NA,K04547
+ko04745,Phototransduction - fly,scaffold_7-g119,NA,K04547
+ko04926,Relaxin signaling pathway,scaffold_7-g119,NA,K04547
+ko04966,Collecting duct acid secretion,scaffold_12-g74,V-type proton ATPase 116 kDa subunit a 1 isoform X1,K02154
+ko00010,Glycolysis / Gluconeogenesis,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00010,Glycolysis / Gluconeogenesis,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00040,Pentose and glucuronate interconversions,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00040,Pentose and glucuronate interconversions,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00053,Ascorbate and aldarate metabolism,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00053,Ascorbate and aldarate metabolism,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00190,Oxidative phosphorylation,scaffold_12-g74,V-type proton ATPase 116 kDa subunit a 1 isoform X1,K02154
+ko00561,Glycerolipid metabolism,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00561,Glycerolipid metabolism,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00620,Pyruvate metabolism,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00620,Pyruvate metabolism,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00930,Caprolactam degradation,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko00930,Caprolactam degradation,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01100,Metabolic pathways,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01100,Metabolic pathways,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01100,Metabolic pathways,scaffold_12-g74,V-type proton ATPase 116 kDa subunit a 1 isoform X1,K02154
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01120,Microbial metabolism in diverse environments,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01120,Microbial metabolism in diverse environments,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01220,Degradation of aromatic compounds,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01220,Degradation of aromatic compounds,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01240,Biosynthesis of cofactors,scaffold_15-g691,1%2C5-anhydro-D-fructose reductase-like,K00002
+ko01240,Biosynthesis of cofactors,scaffold_15-g692,1%2C5-anhydro-D-fructose reductase-like,K00002

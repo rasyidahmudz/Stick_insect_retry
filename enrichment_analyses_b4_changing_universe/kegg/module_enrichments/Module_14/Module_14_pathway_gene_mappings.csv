@@ -1,0 +1,179 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko03013,Nucleocytoplasmic transport,scaffold_6-g460,transportin-3,K15436
+ko03013,Nucleocytoplasmic transport,scaffold_18-g108,importin-11-like isoform X1,K20221
+ko03013,Nucleocytoplasmic transport,scaffold_9-g730,importin subunit alpha-3,K23583
+ko03015,mRNA surveillance pathway,scaffold_3-g2594,eukaryotic peptide chain release factor subunit 1,K03265
+ko03015,mRNA surveillance pathway,scaffold_11-g168,elongation factor Tu,K03267
+ko03015,mRNA surveillance pathway,scaffold_3-g421,RNA-binding protein squid isoform X2,K14398
+ko03018,RNA degradation,scaffold_14-g732,T-complex protein 1 subunit epsilon,K04077
+ko03020,RNA polymerase,scaffold_8-g881,uncharacterized protein LOC134541556,K03004
+ko03060,Protein export,scaffold_5-g473,heat shock 70 kDa protein cognate 4,K09490
+ko03250,Viral life cycle - HIV-1,scaffold_3-g421,RNA-binding protein squid isoform X2,K14398
+ko03250,Viral life cycle - HIV-1,scaffold_6-g460,transportin-3,K15436
+ko03410,Base excision repair,scaffold_2-g903,uncharacterized protein LOC134529515 isoform X1,K20813
+ko03440,Homologous recombination,scaffold_4-g1639,DNA repair protein RAD52 homolog,K10873
+ko03440,Homologous recombination,scaffold_12-g375,core histone macro-H2A.1-like,K11251
+ko04010,MAPK signaling pathway,scaffold_16-g172,probable protein phosphatase CG10417 isoform X1,K04403
+ko04012,ErbB signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04012,ErbB signaling pathway,scaffold_15-g129,signal transducer and activator of transcription 5B isoform X1,K11224
+ko04013,MAPK signaling pathway - fly,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04014,Ras signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04015,Rap1 signaling pathway,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04015,Rap1 signaling pathway,scaffold_18-g272,homer protein homolog 2-like isoform X1,K05746
+ko04024,cAMP signaling pathway,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04062,Chemokine signaling pathway,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04062,Chemokine signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04062,Chemokine signaling pathway,scaffold_15-g129,signal transducer and activator of transcription 5B isoform X1,K11224
+ko04064,NF-kappa B signaling pathway,scaffold_16-g172,probable protein phosphatase CG10417 isoform X1,K04403
+ko04068,FoxO signaling pathway,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04072,Phospholipase D signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04110,Cell cycle,scaffold_18-g830,mitotic spindle assembly checkpoint protein MAD2A-like,K02537
+ko04110,Cell cycle,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04111,Cell cycle - yeast,scaffold_18-g830,mitotic spindle assembly checkpoint protein MAD2A-like,K02537
+ko04113,Meiosis - yeast,scaffold_18-g830,mitotic spindle assembly checkpoint protein MAD2A-like,K02537
+ko04114,Oocyte meiosis,scaffold_18-g830,mitotic spindle assembly checkpoint protein MAD2A-like,K02537
+ko04120,Ubiquitin mediated proteolysis,scaffold_9-g485,uncharacterized protein LOC134527506 isoform X1,K10601
+ko04120,Ubiquitin mediated proteolysis,scaffold_7-g242,baculoviral IAP repeat-containing protein 6 isoform X1,K16061
+ko04140,Autophagy - animal,scaffold_1-g154,Golgi reassembly-stacking protein 2,K26797
+ko04141,Protein processing in endoplasmic reticulum,scaffold_12-g730,heat shock protein 83,K04079
+ko04141,Protein processing in endoplasmic reticulum,scaffold_3-g1098,calreticulin,K08057
+ko04141,Protein processing in endoplasmic reticulum,scaffold_3-g2224,sortilin-related receptor-like,K08288
+ko04141,Protein processing in endoplasmic reticulum,scaffold_7-g821,heat shock 70 kDa protein cognate 4,K09485
+ko04141,Protein processing in endoplasmic reticulum,scaffold_18-g589,heat shock protein 83,K09487
+ko04141,Protein processing in endoplasmic reticulum,scaffold_5-g473,heat shock 70 kDa protein cognate 4,K09490
+ko04141,Protein processing in endoplasmic reticulum,scaffold_7-g1045,dnaJ homolog subfamily C member 7 isoform X1,K09523
+ko04141,Protein processing in endoplasmic reticulum,scaffold_12-g170,protein disulfide-isomerase A5,K09584
+ko04141,Protein processing in endoplasmic reticulum,scaffold_2-g2031,endoplasmic reticulum resident protein 29,K09586
+ko04141,Protein processing in endoplasmic reticulum,scaffold_9-g485,uncharacterized protein LOC134527506 isoform X1,K10601
+ko04141,Protein processing in endoplasmic reticulum,scaffold_14-g677,UDP-glucose:glycoprotein glucosyltransferase isoform X1,K11718
+ko04141,Protein processing in endoplasmic reticulum,scaffold_12-g273,protein transport protein Sec24C,K14007
+ko04142,Lysosome,scaffold_1-g726,oxysterol-binding protein-related protein 6-like isoform X2,K20456
+ko04144,Endocytosis,scaffold_1-g2476,cilia- and flagella-associated protein 57,K12472
+ko04144,Endocytosis,scaffold_5-g17,PTB domain-containing engulfment adapter protein 1 isoform X1,K12474
+ko04145,Phagosome,scaffold_3-g1098,calreticulin,K08057
+ko04145,Phagosome,scaffold_16-g363,dynactin subunit 4,K10426
+ko04146,Peroxisome,scaffold_1-g1612,peroxisomal membrane protein 11B,K13352
+ko04151,PI3K-Akt signaling pathway,scaffold_12-g730,heat shock protein 83,K04079
+ko04151,PI3K-Akt signaling pathway,scaffold_18-g589,heat shock protein 83,K09487
+ko04210,Apoptosis,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04212,Longevity regulating pathway - worm,scaffold_14-g732,T-complex protein 1 subunit epsilon,K04077
+ko04214,Apoptosis - fly,scaffold_15-g411,uncharacterized protein LOC134534824 isoform X1,K10149
+ko04215,Apoptosis - multiple species,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04215,Apoptosis - multiple species,scaffold_7-g242,baculoviral IAP repeat-containing protein 6 isoform X1,K16061
+ko04217,Necroptosis,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04217,Necroptosis,scaffold_12-g730,heat shock protein 83,K04079
+ko04217,Necroptosis,scaffold_15-g129,signal transducer and activator of transcription 5B isoform X1,K11224
+ko04217,Necroptosis,scaffold_12-g375,core histone macro-H2A.1-like,K11251
+ko04310,Wnt signaling pathway,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04310,Wnt signaling pathway,scaffold_1-g375,calcyclin-binding protein,K04507
+ko04350,TGF-beta signaling pathway,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04360,Axon guidance,scaffold_18-g272,homer protein homolog 2-like isoform X1,K05746
+ko04371,Apelin signaling pathway,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04380,Osteoclast differentiation,scaffold_16-g172,probable protein phosphatase CG10417 isoform X1,K04403
+ko04390,Hippo signaling pathway,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04390,Hippo signaling pathway,scaffold_11-g711,transcriptional coactivator YAP1-A,K16687
+ko04391,Hippo signaling pathway - fly,scaffold_15-g411,uncharacterized protein LOC134534824 isoform X1,K10149
+ko04391,Hippo signaling pathway - fly,scaffold_11-g711,transcriptional coactivator YAP1-A,K16687
+ko04392,Hippo signaling pathway - multiple species,scaffold_11-g711,transcriptional coactivator YAP1-A,K16687
+ko04510,Focal adhesion,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04510,Focal adhesion,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04520,Adherens junction,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04550,Signaling pathways regulating pluripotency of stem cells,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04612,Antigen processing and presentation,scaffold_12-g730,heat shock protein 83,K04079
+ko04612,Antigen processing and presentation,scaffold_3-g1098,calreticulin,K08057
+ko04612,Antigen processing and presentation,scaffold_5-g473,heat shock 70 kDa protein cognate 4,K09490
+ko04613,Neutrophil extracellular trap formation,scaffold_12-g375,core histone macro-H2A.1-like,K11251
+ko04620,Toll-like receptor signaling pathway,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04620,Toll-like receptor signaling pathway,scaffold_16-g172,probable protein phosphatase CG10417 isoform X1,K04403
+ko04621,NOD-like receptor signaling pathway,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04621,NOD-like receptor signaling pathway,scaffold_12-g730,heat shock protein 83,K04079
+ko04621,NOD-like receptor signaling pathway,scaffold_16-g172,probable protein phosphatase CG10417 isoform X1,K04403
+ko04622,RIG-I-like receptor signaling pathway,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04623,Cytosolic DNA-sensing pathway,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04624,Toll and Imd signaling pathway,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04626,Plant-pathogen interaction,scaffold_12-g730,heat shock protein 83,K04079
+ko04626,Plant-pathogen interaction,scaffold_18-g589,heat shock protein 83,K09487
+ko04630,JAK-STAT signaling pathway,scaffold_15-g129,signal transducer and activator of transcription 5B isoform X1,K11224
+ko04650,Natural killer cell mediated cytotoxicity,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04650,Natural killer cell mediated cytotoxicity,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04657,IL-17 signaling pathway,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04657,IL-17 signaling pathway,scaffold_12-g730,heat shock protein 83,K04079
+ko04657,IL-17 signaling pathway,scaffold_18-g589,heat shock protein 83,K09487
+ko04658,Th1 and Th2 cell differentiation,scaffold_15-g129,signal transducer and activator of transcription 5B isoform X1,K11224
+ko04659,Th17 cell differentiation,scaffold_12-g730,heat shock protein 83,K04079
+ko04659,Th17 cell differentiation,scaffold_15-g435,mothers against decapentaplegic homolog 3 isoform X1,K04501
+ko04659,Th17 cell differentiation,scaffold_15-g129,signal transducer and activator of transcription 5B isoform X1,K11224
+ko04660,T cell receptor signaling pathway,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04662,B cell receptor signaling pathway,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04664,Fc epsilon RI signaling pathway,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04666,Fc gamma R-mediated phagocytosis,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04668,TNF signaling pathway,scaffold_3-g394,fas-associated death domain protein,K02373
+ko04668,TNF signaling pathway,scaffold_16-g172,probable protein phosphatase CG10417 isoform X1,K04403
+ko04670,Leukocyte transendothelial migration,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04711,Circadian rhythm - fly,scaffold_4-g193,hairy/enhancer-of-split related with YRPW motif protein 1-like,K27237
+ko04722,Neurotrophin signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04810,Regulation of actin cytoskeleton,scaffold_5-g1081,protein still life%2C isoforms C/SIF type 2,K05730
+ko04810,Regulation of actin cytoskeleton,scaffold_18-g272,homer protein homolog 2-like isoform X1,K05746
+ko04810,Regulation of actin cytoskeleton,scaffold_3-g1824,uncharacterized protein LOC134534785 isoform X1,K13710
+ko04910,Insulin signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04914,Progesterone-mediated oocyte maturation,scaffold_18-g830,mitotic spindle assembly checkpoint protein MAD2A-like,K02537
+ko04914,Progesterone-mediated oocyte maturation,scaffold_12-g730,heat shock protein 83,K04079
+ko04915,Estrogen signaling pathway,scaffold_12-g730,heat shock protein 83,K04079
+ko04915,Estrogen signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04915,Estrogen signaling pathway,scaffold_18-g589,heat shock protein 83,K09487
+ko04917,Prolactin signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04917,Prolactin signaling pathway,scaffold_15-g129,signal transducer and activator of transcription 5B isoform X1,K11224
+ko04918,Thyroid hormone synthesis,scaffold_18-g589,heat shock protein 83,K09487
+ko04918,Thyroid hormone synthesis,scaffold_5-g473,heat shock 70 kDa protein cognate 4,K09490
+ko04919,Thyroid hormone signaling pathway,scaffold_6-g324,mediator of RNA polymerase II transcription subunit 17 isoform X1,K15133
+ko04926,Relaxin signaling pathway,scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_1-g814,tyrosine-protein kinase Fer isoform X1,K06279
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_15-g129,signal transducer and activator of transcription 5B isoform X1,K11224
+ko04962,Vasopressin-regulated water reabsorption,scaffold_16-g363,dynactin subunit 4,K10426
+ko04979,Cholesterol metabolism,scaffold_5-g17,PTB domain-containing engulfment adapter protein 1 isoform X1,K12474
+ko00040,Pentose and glucuronate interconversions,scaffold_8-g1162,UDP-glucose 6-dehydrogenase,K00012
+ko00053,Ascorbate and aldarate metabolism,scaffold_8-g1162,UDP-glucose 6-dehydrogenase,K00012
+ko00230,Purine metabolism,scaffold_1-g1033,guanylate kinase isoform X1,K00942
+ko00230,Purine metabolism,scaffold_6-g361,AMP deaminase 2 isoform X1,K01490
+ko00230,Purine metabolism,scaffold_6-g362,AMP deaminase 2 isoform X1,K01490
+ko00230,Purine metabolism,scaffold_10-g322,ectonucleoside triphosphate diphosphohydrolase 5 isoform X1,K01511
+ko00230,Purine metabolism,scaffold_6-g261,trifunctional purine biosynthetic protein adenosine-3 isoform X1,K11787
+ko00240,Pyrimidine metabolism,scaffold_10-g322,ectonucleoside triphosphate diphosphohydrolase 5 isoform X1,K01511
+ko00260,"Glycine, serine and threonine metabolism",scaffold_15-g670,cystathionine beta-synthase,K01697
+ko00270,Cysteine and methionine metabolism,scaffold_15-g670,cystathionine beta-synthase,K01697
+ko00520,Amino sugar and nucleotide sugar metabolism,scaffold_8-g1162,UDP-glucose 6-dehydrogenase,K00012
+ko00521,Streptomycin biosynthesis,scaffold_5-g730,inositol-3-phosphate synthase 1-A isoform X1,K01858
+ko00541,O-Antigen nucleotide sugar biosynthesis,scaffold_8-g1162,UDP-glucose 6-dehydrogenase,K00012
+ko00562,Inositol phosphate metabolism,scaffold_5-g730,inositol-3-phosphate synthase 1-A isoform X1,K01858
+ko00590,Arachidonic acid metabolism,scaffold_10-g161,very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase isoform X1,K15730
+ko00600,Sphingolipid metabolism,scaffold_2-g1212,ceramide glucosyltransferase-like isoform X1,K00720
+ko00620,Pyruvate metabolism,scaffold_16-g600,fumarylacetoacetase isoform X1,K29029
+ko00670,One carbon pool by folate,scaffold_15-g670,cystathionine beta-synthase,K01697
+ko00670,One carbon pool by folate,scaffold_6-g261,trifunctional purine biosynthetic protein adenosine-3 isoform X1,K11787
+ko00770,Pantothenate and CoA biosynthesis,scaffold_17-g412,dephospho-CoA kinase,K02318
+ko01100,Metabolic pathways,scaffold_8-g1162,UDP-glucose 6-dehydrogenase,K00012
+ko01100,Metabolic pathways,scaffold_2-g1212,ceramide glucosyltransferase-like isoform X1,K00720
+ko01100,Metabolic pathways,scaffold_1-g1033,guanylate kinase isoform X1,K00942
+ko01100,Metabolic pathways,scaffold_6-g361,AMP deaminase 2 isoform X1,K01490
+ko01100,Metabolic pathways,scaffold_6-g362,AMP deaminase 2 isoform X1,K01490
+ko01100,Metabolic pathways,scaffold_10-g322,ectonucleoside triphosphate diphosphohydrolase 5 isoform X1,K01511
+ko01100,Metabolic pathways,scaffold_15-g670,cystathionine beta-synthase,K01697
+ko01100,Metabolic pathways,scaffold_5-g730,inositol-3-phosphate synthase 1-A isoform X1,K01858
+ko01100,Metabolic pathways,scaffold_17-g412,dephospho-CoA kinase,K02318
+ko01100,Metabolic pathways,scaffold_6-g261,trifunctional purine biosynthetic protein adenosine-3 isoform X1,K11787
+ko01100,Metabolic pathways,scaffold_10-g161,very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase isoform X1,K15730
+ko01100,Metabolic pathways,scaffold_16-g600,fumarylacetoacetase isoform X1,K29029
+ko01110,Biosynthesis of secondary metabolites,scaffold_6-g361,AMP deaminase 2 isoform X1,K01490
+ko01110,Biosynthesis of secondary metabolites,scaffold_6-g362,AMP deaminase 2 isoform X1,K01490
+ko01110,Biosynthesis of secondary metabolites,scaffold_15-g670,cystathionine beta-synthase,K01697
+ko01110,Biosynthesis of secondary metabolites,scaffold_5-g730,inositol-3-phosphate synthase 1-A isoform X1,K01858
+ko01110,Biosynthesis of secondary metabolites,scaffold_6-g261,trifunctional purine biosynthetic protein adenosine-3 isoform X1,K11787
+ko01120,Microbial metabolism in diverse environments,scaffold_8-g1162,UDP-glucose 6-dehydrogenase,K00012
+ko01230,Biosynthesis of amino acids,scaffold_15-g670,cystathionine beta-synthase,K01697
+ko01232,Nucleotide metabolism,scaffold_1-g1033,guanylate kinase isoform X1,K00942
+ko01232,Nucleotide metabolism,scaffold_6-g361,AMP deaminase 2 isoform X1,K01490
+ko01232,Nucleotide metabolism,scaffold_6-g362,AMP deaminase 2 isoform X1,K01490
+ko01232,Nucleotide metabolism,scaffold_10-g322,ectonucleoside triphosphate diphosphohydrolase 5 isoform X1,K01511
+ko01240,Biosynthesis of cofactors,scaffold_8-g1162,UDP-glucose 6-dehydrogenase,K00012
+ko01240,Biosynthesis of cofactors,scaffold_17-g412,dephospho-CoA kinase,K02318
+ko01250,Biosynthesis of nucleotide sugars,scaffold_8-g1162,UDP-glucose 6-dehydrogenase,K00012

@@ -23,7 +23,7 @@ datTraits$acclimation.temp <- factor(datTraits$acclimation.temp)
 datTraits$test.temp <- factor(datTraits$test.temp)
 datTraits$mass <- as.numeric(datTraits$mass)
 
-# Convert to numeric design matrix (safe for WGCNA) - TRIAL!!!
+# Convert to numeric design matrix (safe for WGCNA)
 datTraits <- model.matrix(
   ~ -1 + acclimation.temp:test.temp + mass,
   data = datTraits
@@ -569,6 +569,153 @@ save(
 )
 
 ### RESTORE OBJECTS ###
-load("~/Desktop/Stick_insect/retry_obj/WGCNA_objects.RData")
+load("~/Desktop/Stick_insect/Stick_insect_retry/retry_obj/WGCNA_objects.RData")
 
+
+### PLOT EIGENGENE BOXPLOTS FOR ALL 18 RETAINED MODULES ###
+library(ggplot2)
+library(dplyr)
+
+# Create output directory
+plot_dir <- "retained_WGCNA_module_eigengene_boxplots"
+
+if (!dir.exists(plot_dir)) {
+  dir.create(plot_dir, recursive = TRUE)
+}
+
+# Prepare sample information
+plot_metadata <- sampledata %>%
+  mutate(
+    acclimation.temp = factor(acclimation.temp,
+                              levels = c(10, 20)),
+    test.temp = factor(test.temp,
+                       levels = c(5, 10, 15, 20, 25, 30, 32, 35))
+  )
+
+# Ensure sample order matches module eigengene data
+plot_metadata <- plot_metadata[
+  match(rownames(MEs0), rownames(plot_metadata)),
+]
+
+stopifnot(identical(rownames(MEs0), rownames(plot_metadata)))
+
+# Colours for the two acclimation temperatures
+acc_colors <- c(
+  "10" = "#FF6B66",
+  "20" = "#00BFC4"
+)
+
+# Loop through all 18 retained modules
+for (i in seq_len(nrow(retained_module_key))) {
+  
+  # Extract module information
+  module_id <- retained_module_key$Module_ID[i]
+  module_color <- retained_module_key$Module_Color[i]
+  gene_count <- retained_module_key$Genes_in_Module[i]
+  
+  # Extract corresponding eigengene
+  me_name <- paste0("ME", module_color)
+  
+  # Combine eigengene values with sample information
+  plot_data <- plot_metadata %>%
+    mutate(
+      Module_Eigengene = MEs0[rownames(plot_metadata), me_name]
+    )
+  
+  # Generate plot
+  p <- ggplot(
+    plot_data,
+    aes(
+      x = test.temp,
+      y = Module_Eigengene,
+      color = acclimation.temp
+    )
+  ) +
+    
+    # Boxplots
+    geom_boxplot(
+      aes(group = interaction(acclimation.temp, test.temp)),
+      width = 0.7,
+      fill = NA,
+      outlier.shape = NA,
+      linewidth = 0.7
+    ) +
+    
+    # Individual sample points
+    geom_jitter(
+      width = 0.08,
+      height = 0,
+      alpha = 0.5,
+      size = 2
+    ) +
+    
+    # Lines connecting mean eigengene values
+    stat_summary(
+      aes(
+        group = acclimation.temp
+      ),
+      fun = mean,
+      geom = "line",
+      linewidth = 1
+    ) +
+    
+    # Mean points
+    stat_summary(
+      aes(
+        group = acclimation.temp
+      ),
+      fun = mean,
+      geom = "point",
+      size = 2.5
+    ) +
+    
+    # Separate panels by acclimation temperature
+    facet_grid(
+      . ~ acclimation.temp,
+      scales = "free_x"
+    ) +
+    
+    scale_color_manual(
+      values = acc_colors,
+      name = "Acclimation temperature"
+    ) +
+    
+    labs(
+      title = paste(
+        module_id,
+        "(", module_color, ")",
+        "module response to test temperature"
+      ),
+      subtitle = paste("Number of genes:", gene_count),
+      x = "Test temperature (°C)",
+      y = "Module eigengene"
+    ) +
+    
+    theme_classic(base_size = 12) +
+    
+    theme(
+      plot.title = element_text(hjust = 0, size = 14),
+      plot.subtitle = element_text(hjust = 0),
+      strip.background = element_rect(
+        fill = "white",
+        color = "black"
+      ),
+      strip.text = element_text(size = 11),
+      legend.position = "right"
+    )
+  
+  # Save individual plot
+  ggsave(
+    filename = file.path(
+      plot_dir,
+      paste0(module_id, "_", module_color, "_eigengene_boxplot.png")
+    ),
+    plot = p,
+    width = 9,
+    height = 5,
+    dpi = 300,
+    bg = "white"
+  )
+  
+}
 

@@ -1,0 +1,2 @@
+category,subcategory,ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count,module_id,bg_ratio_numeric,enrichment_ratio
+Human Diseases,Infectious disease: viral,ko05164,Influenza A,5/54,36/3307,0.1388888888888889,8.505658436213992,5.833188999068679,2.468554900276298e-4,0.040731155854558915,0.039496878404420774,K09507/K05692/K15043/K14285/K04734,5,Module_12,0.010885999395222256,4.292575285565939

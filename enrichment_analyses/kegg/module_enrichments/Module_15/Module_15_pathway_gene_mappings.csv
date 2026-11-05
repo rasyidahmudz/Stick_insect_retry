@@ -1,0 +1,92 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00130,Ubiquinone and other terpenoid-quinone biosynthesis,scaffold_9-g707,luciferin 4-monooxygenase-like,K01904
+ko00220,Arginine biosynthesis,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko00260,"Glycine, serine and threonine metabolism",scaffold_3-g773,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00643
+ko00310,Lysine degradation,scaffold_10-g499,alpha-aminoadipic semialdehyde synthase%2C mitochondrial,K14157
+ko00330,Arginine and proline metabolism,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko00330,Arginine and proline metabolism,scaffold_17-g248,arginine kinase isoform X1,K27382
+ko00410,beta-Alanine metabolism,scaffold_6-g378,cysteine sulfinic acid decarboxylase,K18966
+ko00430,Taurine and hypotaurine metabolism,scaffold_3-g1160,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko00430,Taurine and hypotaurine metabolism,scaffold_6-g378,cysteine sulfinic acid decarboxylase,K18966
+ko00460,Cyanoamino acid metabolism,scaffold_3-g1160,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko00480,Glutathione metabolism,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00480,Glutathione metabolism,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko00480,Glutathione metabolism,scaffold_10-g647,uncharacterized protein LOC134535042,K11140
+ko00480,Glutathione metabolism,scaffold_3-g1160,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko00590,Arachidonic acid metabolism,scaffold_3-g1160,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko00730,Thiamine metabolism,scaffold_16-g51,alkaline phosphatase-like,K01077
+ko00770,Pantothenate and CoA biosynthesis,scaffold_6-g378,cysteine sulfinic acid decarboxylase,K18966
+ko00790,Folate biosynthesis,scaffold_16-g51,alkaline phosphatase-like,K01077
+ko00860,Porphyrin metabolism,scaffold_3-g773,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00643
+ko00940,Phenylpropanoid biosynthesis,scaffold_9-g707,luciferin 4-monooxygenase-like,K01904
+ko00980,Metabolism of xenobiotics by cytochrome P450,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00980,Metabolism of xenobiotics by cytochrome P450,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko00982,Drug metabolism,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00982,Drug metabolism,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko00983,Drug metabolism,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko00983,Drug metabolism,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko01100,Metabolic pathways,scaffold_3-g773,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00643
+ko01100,Metabolic pathways,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko01100,Metabolic pathways,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko01100,Metabolic pathways,scaffold_16-g51,alkaline phosphatase-like,K01077
+ko01100,Metabolic pathways,scaffold_9-g707,luciferin 4-monooxygenase-like,K01904
+ko01100,Metabolic pathways,scaffold_10-g647,uncharacterized protein LOC134535042,K11140
+ko01100,Metabolic pathways,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko01100,Metabolic pathways,scaffold_10-g499,alpha-aminoadipic semialdehyde synthase%2C mitochondrial,K14157
+ko01100,Metabolic pathways,scaffold_3-g1160,glutathione hydrolase 1 proenzyme-like isoform X1,K18592
+ko01100,Metabolic pathways,scaffold_6-g378,cysteine sulfinic acid decarboxylase,K18966
+ko01100,Metabolic pathways,scaffold_17-g248,arginine kinase isoform X1,K27382
+ko01110,Biosynthesis of secondary metabolites,scaffold_3-g773,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00643
+ko01110,Biosynthesis of secondary metabolites,scaffold_9-g707,luciferin 4-monooxygenase-like,K01904
+ko01110,Biosynthesis of secondary metabolites,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko01110,Biosynthesis of secondary metabolites,scaffold_10-g499,alpha-aminoadipic semialdehyde synthase%2C mitochondrial,K14157
+ko01110,Biosynthesis of secondary metabolites,scaffold_6-g378,cysteine sulfinic acid decarboxylase,K18966
+ko01240,Biosynthesis of cofactors,scaffold_3-g773,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00643
+ko01240,Biosynthesis of cofactors,scaffold_16-g51,alkaline phosphatase-like,K01077
+ko01524,Platinum drug resistance,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko01524,Platinum drug resistance,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko02020,Two-component system,scaffold_16-g51,alkaline phosphatase-like,K01077
+ko04020,Calcium signaling pathway,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04081,Hormone signaling,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04142,Lysosome biogenesis,scaffold_3-g2142,sialin-like,K12301
+ko04145,Phagocytosis,scaffold_16-g51,alkaline phosphatase-like,K01077
+ko04145,Phagocytosis,scaffold_10-g647,uncharacterized protein LOC134535042,K11140
+ko04145,Phagocytosis,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04145,Phagocytosis,scaffold_1-g2118,lysozyme 2-like,K13915
+ko04212,Longevity regulating pathway,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko04212,Longevity regulating pathway,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko04371,Apelin signaling pathway,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04614,Renin-angiotensin system,scaffold_10-g647,uncharacterized protein LOC134535042,K11140
+ko04640,Hematopoietic cell lineage,scaffold_10-g647,uncharacterized protein LOC134535042,K11140
+ko04713,Circadian entrainment,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04730,Long-term depression,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04820,Cytoskeleton in muscle cells,scaffold_17-g248,arginine kinase isoform X1,K27382
+ko04926,Relaxin signaling pathway,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04928,"Parathyroid hormone synthesis, secretion and action",scaffold_3-g2038,matrix metalloproteinase-14 isoform X1,K07997
+ko04970,Salivary secretion,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko04970,Salivary secretion,scaffold_1-g2118,lysozyme 2-like,K13915
+ko05010,Alzheimer disease,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko05010,Alzheimer disease,scaffold_12-g373,uncharacterized protein LOC134527929,K14709
+ko05010,Alzheimer disease,scaffold_1-g1978,zinc transporter foi,K14719
+ko05012,Parkinson disease,scaffold_12-g373,uncharacterized protein LOC134527929,K14709
+ko05012,Parkinson disease,scaffold_1-g1978,zinc transporter foi,K14719
+ko05014,Amyotrophic lateral sclerosis,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko05022,Pathways of neurodegeneration,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko05146,Amoebiasis,scaffold_13-g752,leukocyte elastase inhibitor-like isoform X2,K13963
+ko05146,Amoebiasis,scaffold_14-g794,leukocyte elastase inhibitor-like isoform X1,K13963
+ko05200,Pathways in cancer,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko05200,Pathways in cancer,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko05204,Chemical carcinogenesis,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko05204,Chemical carcinogenesis,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko05207,Chemical carcinogenesis,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko05207,Chemical carcinogenesis,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko05208,Chemical carcinogenesis,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko05208,Chemical carcinogenesis,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko05225,Hepatocellular carcinoma,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko05225,Hepatocellular carcinoma,scaffold_9-g484,uncharacterized protein LOC134533028,K00799
+ko05410,Hypertrophic cardiomyopathy,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko05412,Arrhythmogenic right ventricular cardiomyopathy,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko05414,Dilated cardiomyopathy,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko05416,Viral myocarditis,scaffold_1-g986,NADPH-dependent diflavin oxidoreductase 1 isoform X1,K13240
+ko05418,Fluid shear stress and atherosclerosis,scaffold_4-g647,glutathione S-transferase omega-2-like isoform X1,K00799
+ko05418,Fluid shear stress and atherosclerosis,scaffold_9-g484,uncharacterized protein LOC134533028,K00799

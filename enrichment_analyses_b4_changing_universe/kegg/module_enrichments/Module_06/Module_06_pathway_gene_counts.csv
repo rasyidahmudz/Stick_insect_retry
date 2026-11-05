@@ -1,0 +1,47 @@
+pathway_id,pathway_name,gene_count
+ko03440,Homologous recombination,13
+ko01100,Metabolic pathways,9
+ko04613,Neutrophil extracellular trap formation,7
+ko04217,Necroptosis,3
+ko00230,Purine metabolism,2
+ko00500,Starch and sucrose metabolism,2
+ko01110,Biosynthesis of secondary metabolites,2
+ko04013,MAPK signaling pathway - fly,2
+ko04080,Neuroactive ligand-receptor interaction,2
+ko04137,Mitophagy - animal,2
+ko04310,Wnt signaling pathway,2
+ko04916,Melanogenesis,2
+ko00052,Galactose metabolism,1
+ko00240,Pyrimidine metabolism,1
+ko00260,"Glycine, serine and threonine metabolism",1
+ko00270,Cysteine and methionine metabolism,1
+ko00290,"Valine, leucine and isoleucine biosynthesis",1
+ko00480,Glutathione metabolism,1
+ko00541,O-Antigen nucleotide sugar biosynthesis,1
+ko00565,Ether lipid metabolism,1
+ko00670,One carbon pool by folate,1
+ko00980,Metabolism of xenobiotics by cytochrome P450,1
+ko00981,Insect hormone biosynthesis,1
+ko00982,Drug metabolism - cytochrome P450,1
+ko00983,Drug metabolism - other enzymes,1
+ko01200,Carbon metabolism,1
+ko01230,Biosynthesis of amino acids,1
+ko01232,Nucleotide metabolism,1
+ko02020,Two-component system,1
+ko04010,MAPK signaling pathway,1
+ko04020,Calcium signaling pathway,1
+ko04110,Cell cycle,1
+ko04111,Cell cycle - yeast,1
+ko04113,Meiosis - yeast,1
+ko04115,p53 signaling pathway,1
+ko04120,Ubiquitin mediated proteolysis,1
+ko04130,SNARE interactions in vesicular transport,1
+ko04142,Lysosome,1
+ko04150,mTOR signaling pathway,1
+ko04212,Longevity regulating pathway - worm,1
+ko04361,Axon regeneration,1
+ko04380,Osteoclast differentiation,1
+ko04390,Hippo signaling pathway,1
+ko04391,Hippo signaling pathway - fly,1
+ko04550,Signaling pathways regulating pluripotency of stem cells,1
+ko04810,Regulation of actin cytoskeleton,1

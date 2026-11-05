@@ -1,0 +1,10 @@
+module_id,n_significant_pathways,top_p_adjust,mean_enrichment_ratio,top_pathway
+Module_09,18,3.478980217194678e-8,3.267044782837883,Citrate cycle (TCA cycle)
+Module_01,6,0.0014268403494125733,4.299143822136383,Biosynthesis of secondary metabolites
+Module_15,2,0.007428921616720116,11.743607954545453,Glutathione metabolism
+Module_17,2,0.0032958536390067586,17.659186095211503,Cell adhesion molecule (CAM) interaction
+Module_03,1,0.029978381830194287,6.329186602870813,Starch and sucrose metabolism
+Module_12,1,0.040731155854558915,4.292575285565939,Influenza A
+Module_13,1,0.04076269140700751,2.7218106995884774,Nucleocytoplasmic transport
+Module_14,1,4.355546811455905e-5,3.7844745374785425,Protein processing in endoplasmic reticulum
+Module_18,1,0.02218919359704823,26.456000000000003,Serotonergic synapse

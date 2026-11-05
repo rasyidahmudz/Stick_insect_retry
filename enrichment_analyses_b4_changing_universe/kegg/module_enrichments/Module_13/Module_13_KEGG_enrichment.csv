@@ -1,0 +1,2 @@
+category,subcategory,ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count,module_id,bg_ratio_numeric,enrichment_ratio
+Genetic Information Processing,Translation,ko03013,Nucleocytoplasmic transport,8/75,81/3477,0.09876543209876543,4.578765432098765,4.838327517000465,2.9139463264673615e-4,0.029139463264673614,0.011799803773621106,K07562/K18723/K14303/K12878/K20222/K25203/K12882/K12880,8,Module_13,0.023295944779982744,2.8617283950617285

@@ -1,0 +1,11 @@
+gene_14814
+scaffold_1-g2995
+scaffold_11-g34
+scaffold_12-g74
+scaffold_15-g691
+scaffold_15-g692
+scaffold_2-g2106
+scaffold_3-g807
+scaffold_7-g119
+scaffold_9-g1224
+scaffold_9-g828

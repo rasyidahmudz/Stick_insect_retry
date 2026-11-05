@@ -1,0 +1,81 @@
+pathway_id,pathway_name,gene_count
+ko01100,Metabolic pathways,10
+ko01110,Biosynthesis of secondary metabolites,4
+ko04120,Ubiquitin mediated proteolysis,3
+ko04350,TGF-beta signaling pathway,3
+ko04624,Toll and Imd signaling pathway,3
+ko04976,Bile secretion,3
+ko00564,Glycerophospholipid metabolism,2
+ko02010,ABC transporters,2
+ko03040,Spliceosome,2
+ko04024,cAMP signaling pathway,2
+ko04060,Cytokine-cytokine receptor interaction,2
+ko04066,HIF-1 signaling pathway,2
+ko04110,Cell cycle,2
+ko04141,Protein processing in endoplasmic reticulum,2
+ko04144,Endocytosis,2
+ko04320,Dorso-ventral axis formation,2
+ko04360,Axon guidance,2
+ko04361,Axon regeneration,2
+ko04974,Protein digestion and absorption,2
+ko04975,Fat digestion and absorption,2
+ko00030,Pentose phosphate pathway,1
+ko00040,Pentose and glucuronate interconversions,1
+ko00053,Ascorbate and aldarate metabolism,1
+ko00140,Steroid hormone biosynthesis,1
+ko00270,Cysteine and methionine metabolism,1
+ko00330,Arginine and proline metabolism,1
+ko00350,Tyrosine metabolism,1
+ko00360,Phenylalanine metabolism,1
+ko00380,Tryptophan metabolism,1
+ko00410,beta-Alanine metabolism,1
+ko00510,N-Glycan biosynthesis,1
+ko00513,Various types of N-glycan biosynthesis,1
+ko00561,Glycerolipid metabolism,1
+ko00565,Ether lipid metabolism,1
+ko00590,Arachidonic acid metabolism,1
+ko00591,Linoleic acid metabolism,1
+ko00592,alpha-Linolenic acid metabolism,1
+ko00600,Sphingolipid metabolism,1
+ko00830,Retinol metabolism,1
+ko00860,Porphyrin metabolism,1
+ko00901,Indole alkaloid biosynthesis,1
+ko00950,Isoquinoline alkaloid biosynthesis,1
+ko00965,Betalain biosynthesis,1
+ko00980,Metabolism of xenobiotics by cytochrome P450,1
+ko00981,Insect hormone biosynthesis,1
+ko00982,Drug metabolism - cytochrome P450,1
+ko00983,Drug metabolism - other enzymes,1
+ko01240,Biosynthesis of cofactors,1
+ko03013,Nucleocytoplasmic transport,1
+ko03015,mRNA surveillance pathway,1
+ko04011,MAPK signaling pathway - yeast,1
+ko04013,MAPK signaling pathway - fly,1
+ko04014,Ras signaling pathway,1
+ko04071,Sphingolipid signaling pathway,1
+ko04111,Cell cycle - yeast,1
+ko04113,Meiosis - yeast,1
+ko04114,Oocyte meiosis,1
+ko04138,Autophagy - yeast,1
+ko04142,Lysosome,1
+ko04145,Phagosome,1
+ko04270,Vascular smooth muscle contraction,1
+ko04310,Wnt signaling pathway,1
+ko04330,Notch signaling pathway,1
+ko04340,Hedgehog signaling pathway,1
+ko04341,Hedgehog signaling pathway - fly,1
+ko04530,Tight junction,1
+ko04550,Signaling pathways regulating pluripotency of stem cells,1
+ko04614,Renin-angiotensin system,1
+ko04659,Th17 cell differentiation,1
+ko04725,Cholinergic synapse,1
+ko04726,Serotonergic synapse,1
+ko04728,Dopaminergic synapse,1
+ko04911,Insulin secretion,1
+ko04914,Progesterone-mediated oocyte maturation,1
+ko04919,Thyroid hormone signaling pathway,1
+ko04920,Adipocytokine signaling pathway,1
+ko04922,Glucagon signaling pathway,1
+ko04962,Vasopressin-regulated water reabsorption,1
+ko04972,Pancreatic secretion,1
+ko04978,Mineral absorption,1

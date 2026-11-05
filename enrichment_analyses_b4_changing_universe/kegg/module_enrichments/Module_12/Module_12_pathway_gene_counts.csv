@@ -1,0 +1,113 @@
+pathway_id,pathway_name,gene_count
+ko01100,Metabolic pathways,15
+ko04141,Protein processing in endoplasmic reticulum,10
+ko01110,Biosynthesis of secondary metabolites,7
+ko04213,Longevity regulating pathway - multiple species,6
+ko03040,Spliceosome,5
+ko04612,Antigen processing and presentation,5
+ko03008,Ribosome biogenesis in eukaryotes,4
+ko03440,Homologous recombination,4
+ko04142,Lysosome,4
+ko04144,Endocytosis,4
+ko00940,Phenylpropanoid biosynthesis,3
+ko01120,Microbial metabolism in diverse environments,3
+ko03420,Nucleotide excision repair,3
+ko04010,MAPK signaling pathway,3
+ko04210,Apoptosis,3
+ko04915,Estrogen signaling pathway,3
+ko00230,Purine metabolism,2
+ko00562,Inositol phosphate metabolism,2
+ko03013,Nucleocytoplasmic transport,2
+ko03030,DNA replication,2
+ko03410,Base excision repair,2
+ko03430,Mismatch repair,2
+ko04013,MAPK signaling pathway - fly,2
+ko04070,Phosphatidylinositol signaling system,2
+ko04115,p53 signaling pathway,2
+ko04120,Ubiquitin mediated proteolysis,2
+ko04140,Autophagy - animal,2
+ko04145,Phagosome,2
+ko04390,Hippo signaling pathway,2
+ko04621,NOD-like receptor signaling pathway,2
+ko04623,Cytosolic DNA-sensing pathway,2
+ko04919,Thyroid hormone signaling pathway,2
+ko00010,Glycolysis / Gluconeogenesis,1
+ko00040,Pentose and glucuronate interconversions,1
+ko00052,Galactose metabolism,1
+ko00053,Ascorbate and aldarate metabolism,1
+ko00062,Fatty acid elongation,1
+ko00250,"Alanine, aspartate and glutamate metabolism",1
+ko00260,"Glycine, serine and threonine metabolism",1
+ko00270,Cysteine and methionine metabolism,1
+ko00350,Tyrosine metabolism,1
+ko00520,Amino sugar and nucleotide sugar metabolism,1
+ko00561,Glycerolipid metabolism,1
+ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,1
+ko00564,Glycerophospholipid metabolism,1
+ko00620,Pyruvate metabolism,1
+ko00643,Styrene degradation,1
+ko00680,Methane metabolism,1
+ko00900,Terpenoid backbone biosynthesis,1
+ko00930,Caprolactam degradation,1
+ko00981,Insect hormone biosynthesis,1
+ko01200,Carbon metabolism,1
+ko01212,Fatty acid metabolism,1
+ko01220,Degradation of aromatic compounds,1
+ko01230,Biosynthesis of amino acids,1
+ko01232,Nucleotide metabolism,1
+ko01240,Biosynthesis of cofactors,1
+ko01250,Biosynthesis of nucleotide sugars,1
+ko02010,ABC transporters,1
+ko03015,mRNA surveillance pathway,1
+ko03018,RNA degradation,1
+ko03022,Basal transcription factors,1
+ko03460,Fanconi anemia pathway,1
+ko04015,Rap1 signaling pathway,1
+ko04020,Calcium signaling pathway,1
+ko04024,cAMP signaling pathway,1
+ko04060,Cytokine-cytokine receptor interaction,1
+ko04062,Chemokine signaling pathway,1
+ko04064,NF-kappa B signaling pathway,1
+ko04068,FoxO signaling pathway,1
+ko04110,Cell cycle,1
+ko04114,Oocyte meiosis,1
+ko04130,SNARE interactions in vesicular transport,1
+ko04137,Mitophagy - animal,1
+ko04151,PI3K-Akt signaling pathway,1
+ko04152,AMPK signaling pathway,1
+ko04218,Cellular senescence,1
+ko04310,Wnt signaling pathway,1
+ko04341,Hedgehog signaling pathway - fly,1
+ko04350,TGF-beta signaling pathway,1
+ko04380,Osteoclast differentiation,1
+ko04391,Hippo signaling pathway - fly,1
+ko04510,Focal adhesion,1
+ko04520,Adherens junction,1
+ko04530,Tight junction,1
+ko04550,Signaling pathways regulating pluripotency of stem cells,1
+ko04611,Platelet activation,1
+ko04613,Neutrophil extracellular trap formation,1
+ko04620,Toll-like receptor signaling pathway,1
+ko04622,RIG-I-like receptor signaling pathway,1
+ko04624,Toll and Imd signaling pathway,1
+ko04625,C-type lectin receptor signaling pathway,1
+ko04657,IL-17 signaling pathway,1
+ko04658,Th1 and Th2 cell differentiation,1
+ko04659,Th17 cell differentiation,1
+ko04660,T cell receptor signaling pathway,1
+ko04662,B cell receptor signaling pathway,1
+ko04668,TNF signaling pathway,1
+ko04670,Leukocyte transendothelial migration,1
+ko04714,Thermogenesis,1
+ko04722,Neurotrophin signaling pathway,1
+ko04745,Phototransduction - fly,1
+ko04810,Regulation of actin cytoskeleton,1
+ko04914,Progesterone-mediated oocyte maturation,1
+ko04917,Prolactin signaling pathway,1
+ko04920,Adipocytokine signaling pathway,1
+ko04921,Oxytocin signaling pathway,1
+ko04926,Relaxin signaling pathway,1
+ko04971,Gastric acid secretion,1
+ko04976,Bile secretion,1
+ko04977,Vitamin digestion and absorption,1
+ko04978,Mineral absorption,1

@@ -1,0 +1,10 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko05164,Influenza A,scaffold_1-g2740,actin%2C muscle,K05692
+ko05164,Influenza A,scaffold_1-g568,actin%2C muscle,K05692
+ko05164,Influenza A,scaffold_10-g518,NTF2-related export protein,K14285
+ko05164,Influenza A,scaffold_16-g313,importin subunit alpha-3,K15043
+ko05164,Influenza A,scaffold_2-g2198,actin%2C muscle,K05692
+ko05164,Influenza A,scaffold_4-g1774,ankyrin repeat domain-containing protein 50,K04734
+ko05164,Influenza A,scaffold_4-g660,dnaJ protein homolog 1-like isoform X1,K09507
+ko05164,Influenza A,scaffold_40-g1,actin%2C muscle,K05692
+ko05164,Influenza A,scaffold_40-g2,actin%2C muscle,K05692

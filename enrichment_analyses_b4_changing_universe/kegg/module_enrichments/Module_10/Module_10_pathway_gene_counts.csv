@@ -1,0 +1,108 @@
+pathway_id,pathway_name,gene_count
+ko01100,Metabolic pathways,10
+ko04390,Hippo signaling pathway,5
+ko01110,Biosynthesis of secondary metabolites,4
+ko03008,Ribosome biogenesis in eukaryotes,3
+ko03013,Nucleocytoplasmic transport,3
+ko04140,Autophagy - animal,3
+ko04380,Osteoclast differentiation,3
+ko04919,Thyroid hormone signaling pathway,3
+ko00230,Purine metabolism,2
+ko00562,Inositol phosphate metabolism,2
+ko00970,Aminoacyl-tRNA biosynthesis,2
+ko01120,Microbial metabolism in diverse environments,2
+ko01200,Carbon metabolism,2
+ko03018,RNA degradation,2
+ko03040,Spliceosome,2
+ko04010,MAPK signaling pathway,2
+ko04020,Calcium signaling pathway,2
+ko04022,cGMP-PKG signaling pathway,2
+ko04024,cAMP signaling pathway,2
+ko04064,NF-kappa B signaling pathway,2
+ko04070,Phosphatidylinositol signaling system,2
+ko04110,Cell cycle,2
+ko04120,Ubiquitin mediated proteolysis,2
+ko04136,Autophagy - other,2
+ko04138,Autophagy - yeast,2
+ko04144,Endocytosis,2
+ko04218,Cellular senescence,2
+ko04260,Cardiac muscle contraction,2
+ko04261,Adrenergic signaling in cardiomyocytes,2
+ko04310,Wnt signaling pathway,2
+ko04350,TGF-beta signaling pathway,2
+ko04371,Apelin signaling pathway,2
+ko04510,Focal adhesion,2
+ko04621,NOD-like receptor signaling pathway,2
+ko04657,IL-17 signaling pathway,2
+ko04722,Neurotrophin signaling pathway,2
+ko04917,Prolactin signaling pathway,2
+ko04978,Mineral absorption,2
+ko00020,Citrate cycle (TCA cycle),1
+ko00190,Oxidative phosphorylation,1
+ko00240,Pyrimidine metabolism,1
+ko00260,"Glycine, serine and threonine metabolism",1
+ko00270,Cysteine and methionine metabolism,1
+ko00380,Tryptophan metabolism,1
+ko00450,Selenocompound metabolism,1
+ko00514,Other types of O-glycan biosynthesis,1
+ko00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate,1
+ko00564,Glycerophospholipid metabolism,1
+ko00565,Ether lipid metabolism,1
+ko00680,Methane metabolism,1
+ko00760,Nicotinate and nicotinamide metabolism,1
+ko01230,Biosynthesis of amino acids,1
+ko01232,Nucleotide metabolism,1
+ko03015,mRNA surveillance pathway,1
+ko03250,Viral life cycle - HIV-1,1
+ko03440,Homologous recombination,1
+ko04012,ErbB signaling pathway,1
+ko04013,MAPK signaling pathway - fly,1
+ko04060,Cytokine-cytokine receptor interaction,1
+ko04062,Chemokine signaling pathway,1
+ko04066,HIF-1 signaling pathway,1
+ko04068,FoxO signaling pathway,1
+ko04111,Cell cycle - yeast,1
+ko04113,Meiosis - yeast,1
+ko04137,Mitophagy - animal,1
+ko04146,Peroxisome,1
+ko04150,mTOR signaling pathway,1
+ko04151,PI3K-Akt signaling pathway,1
+ko04210,Apoptosis,1
+ko04214,Apoptosis - fly,1
+ko04215,Apoptosis - multiple species,1
+ko04217,Necroptosis,1
+ko04330,Notch signaling pathway,1
+ko04340,Hedgehog signaling pathway,1
+ko04341,Hedgehog signaling pathway - fly,1
+ko04360,Axon guidance,1
+ko04391,Hippo signaling pathway - fly,1
+ko04514,Cell adhesion molecules,1
+ko04520,Adherens junction,1
+ko04530,Tight junction,1
+ko04550,Signaling pathways regulating pluripotency of stem cells,1
+ko04620,Toll-like receptor signaling pathway,1
+ko04622,RIG-I-like receptor signaling pathway,1
+ko04624,Toll and Imd signaling pathway,1
+ko04630,JAK-STAT signaling pathway,1
+ko04658,Th1 and Th2 cell differentiation,1
+ko04659,Th17 cell differentiation,1
+ko04660,T cell receptor signaling pathway,1
+ko04662,B cell receptor signaling pathway,1
+ko04668,TNF signaling pathway,1
+ko04711,Circadian rhythm - fly,1
+ko04714,Thermogenesis,1
+ko04726,Serotonergic synapse,1
+ko04728,Dopaminergic synapse,1
+ko04740,Olfactory transduction,1
+ko04910,Insulin signaling pathway,1
+ko04911,Insulin secretion,1
+ko04916,Melanogenesis,1
+ko04920,Adipocytokine signaling pathway,1
+ko04922,Glucagon signaling pathway,1
+ko04926,Relaxin signaling pathway,1
+ko04928,"Parathyroid hormone synthesis, secretion and action",1
+ko04935,"Growth hormone synthesis, secretion and action",1
+ko04961,Endocrine and other factor-regulated calcium reabsorption,1
+ko04972,Pancreatic secretion,1
+ko04974,Protein digestion and absorption,1
+ko04976,Bile secretion,1

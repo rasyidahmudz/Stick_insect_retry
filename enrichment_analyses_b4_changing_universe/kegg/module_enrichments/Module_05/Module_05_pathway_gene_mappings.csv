@@ -1,0 +1,225 @@
+pathway_id,pathway_name,gene_id,gene_annotation,kegg_id
+ko00970,Aminoacyl-tRNA biosynthesis,scaffold_9-g1211,isoleucine--tRNA ligase%2C cytoplasmic,K01873
+ko02010,ABC transporters,scaffold_13-g291,ABC transporter G family member 20-like,K02010
+ko02010,ABC transporters,scaffold_9-g1231,ATP-binding cassette sub-family G member 4-like isoform X2,K16963
+ko02020,Two-component system,scaffold_17-g235,alkaline phosphatase-like,K01077
+ko03022,Basal transcription factors,scaffold_1-g658,E3 ubiquitin-protein ligase RFWD3-like isoform X2,K10842
+ko03250,Viral life cycle - HIV-1,scaffold_5-g1126,RNA polymerase II elongation factor Ell isoform X1,K15183
+ko03410,Base excision repair,scaffold_6-g665,ADP-ribosylhydrolase ARH3-like isoform X1,K11687
+ko03420,Nucleotide excision repair,scaffold_1-g658,E3 ubiquitin-protein ligase RFWD3-like isoform X2,K10842
+ko03440,Homologous recombination,scaffold_11-g80,BRCA1-associated RING domain protein 1-like isoform X1,K10605
+ko03440,Homologous recombination,scaffold_12-g361,cell cycle checkpoint control protein RAD9A-like,K10994
+ko03460,Fanconi anemia pathway,scaffold_11-g769,DNA polymerase eta isoform X1,K03509
+ko03460,Fanconi anemia pathway,scaffold_11-g80,BRCA1-associated RING domain protein 1-like isoform X1,K10605
+ko04010,MAPK signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04011,MAPK signaling pathway - yeast,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04012,ErbB signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04012,ErbB signaling pathway,scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04014,Ras signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04014,Ras signaling pathway,scaffold_11-g709,ras-related protein Rab-11A,K07888
+ko04015,Rap1 signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04020,Calcium signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04020,Calcium signaling pathway,scaffold_15-g125,adipokinetic hormone/corazonin-related peptide receptor variant I-like,K04229
+ko04020,Calcium signaling pathway,scaffold_2-g253,two pore calcium channel protein 1-like isoform X1,K16896
+ko04022,cGMP-PKG signaling pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04022,cGMP-PKG signaling pathway,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04024,cAMP signaling pathway,scaffold_15-g125,adipokinetic hormone/corazonin-related peptide receptor variant I-like,K04229
+ko04024,cAMP signaling pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04062,Chemokine signaling pathway,scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04066,HIF-1 signaling pathway,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko04066,HIF-1 signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04070,Phosphatidylinositol signaling system,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04071,Sphingolipid signaling pathway,scaffold_3-g1027,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00654
+ko04071,Sphingolipid signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04071,Sphingolipid signaling pathway,scaffold_11-g687,protein FAN-like isoform X1,K18953
+ko04071,Sphingolipid signaling pathway,scaffold_12-g334,ceramide synthase 5-like,K23727
+ko04072,Phospholipase D signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04080,Neuroactive ligand-receptor interaction,scaffold_15-g125,adipokinetic hormone/corazonin-related peptide receptor variant I-like,K04229
+ko04120,Ubiquitin mediated proteolysis,scaffold_1-g1086,E3 SUMO-protein ligase PIAS3-like isoform X1,K04706
+ko04120,Ubiquitin mediated proteolysis,scaffold_4-g321,ubiquitin conjugation factor E4 A,K10596
+ko04120,Ubiquitin mediated proteolysis,scaffold_11-g80,BRCA1-associated RING domain protein 1-like isoform X1,K10605
+ko04120,Ubiquitin mediated proteolysis,scaffold_16-g806,LOW QUALITY PROTEIN: E3 ubiquitin-protein ligase HECW2-like,K10615
+ko04136,Autophagy - other,gene_11164,ubiquitin-like modifier-activating enzyme ATG7,K08337
+ko04136,Autophagy - other,scaffold_5-g82,WD repeat-containing protein 82,K17890
+ko04137,Mitophagy - animal,scaffold_11-g709,ras-related protein Rab-11A,K07888
+ko04137,Mitophagy - animal,scaffold_3-g2172,LOW QUALITY PROTEIN: ATPase family gene 2 protein homolog B-like,K13525
+ko04138,Autophagy - yeast,scaffold_3-g1027,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00654
+ko04138,Autophagy - yeast,gene_11164,ubiquitin-like modifier-activating enzyme ATG7,K08337
+ko04138,Autophagy - yeast,scaffold_4-g571,proton-coupled amino acid transporter-like protein CG1139,K14209
+ko04138,Autophagy - yeast,scaffold_5-g82,WD repeat-containing protein 82,K17890
+ko04139,Mitophagy - yeast,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04140,Autophagy - animal,gene_11164,ubiquitin-like modifier-activating enzyme ATG7,K08337
+ko04140,Autophagy - animal,scaffold_5-g82,WD repeat-containing protein 82,K17890
+ko04141,Protein processing in endoplasmic reticulum,scaffold_3-g2172,LOW QUALITY PROTEIN: ATPase family gene 2 protein homolog B-like,K13525
+ko04142,Lysosome,scaffold_4-g1016,maternal embryonic leucine zipper kinase-like isoform X1,K12383
+ko04142,Lysosome,scaffold_4-g571,proton-coupled amino acid transporter-like protein CG1139,K14209
+ko04142,Lysosome,scaffold_2-g253,two pore calcium channel protein 1-like isoform X1,K16896
+ko04144,Endocytosis,scaffold_11-g709,ras-related protein Rab-11A,K07888
+ko04145,Phagosome,scaffold_17-g235,alkaline phosphatase-like,K01077
+ko04145,Phagosome,scaffold_11-g709,ras-related protein Rab-11A,K07888
+ko04145,Phagosome,gene_11164,ubiquitin-like modifier-activating enzyme ATG7,K08337
+ko04145,Phagosome,scaffold_5-g373,lysozyme 2-like,K13915
+ko04145,Phagosome,scaffold_5-g82,WD repeat-containing protein 82,K17890
+ko04146,Peroxisome,scaffold_17-g367,putative fatty acyl-CoA reductase CG5065,K13356
+ko04150,mTOR signaling pathway,scaffold_14-g190,protein Wnt-16-like,K01384
+ko04150,mTOR signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04151,PI3K-Akt signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04151,PI3K-Akt signaling pathway,scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04151,PI3K-Akt signaling pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04151,PI3K-Akt signaling pathway,scaffold_11-g80,BRCA1-associated RING domain protein 1-like isoform X1,K10605
+ko04152,AMPK signaling pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04211,Longevity regulating pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04212,Longevity regulating pathway - worm,scaffold_17-g367,putative fatty acyl-CoA reductase CG5065,K13356
+ko04216,Ferroptosis,gene_11164,ubiquitin-like modifier-activating enzyme ATG7,K08337
+ko04218,Cellular senescence,scaffold_12-g361,cell cycle checkpoint control protein RAD9A-like,K10994
+ko04261,Adrenergic signaling in cardiomyocytes,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04261,Adrenergic signaling in cardiomyocytes,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04270,Vascular smooth muscle contraction,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04270,Vascular smooth muscle contraction,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04310,Wnt signaling pathway,scaffold_14-g190,protein Wnt-16-like,K01384
+ko04310,Wnt signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04350,TGF-beta signaling pathway,scaffold_3-g203,SKI family transcriptional corepressor 2,K26503
+ko04360,Axon guidance,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04360,Axon guidance,scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04360,Axon guidance,scaffold_3-g2614,semaphorin-2A,K06841
+ko04370,VEGF signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04370,VEGF signaling pathway,scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04380,Osteoclast differentiation,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04390,Hippo signaling pathway,scaffold_14-g190,protein Wnt-16-like,K01384
+ko04390,Hippo signaling pathway,scaffold_5-g558,zinc finger protein 135-like isoform X1,K05706
+ko04391,Hippo signaling pathway - fly,scaffold_2-g1387,extracellular serine/threonine protein kinase four-jointed,K16674
+ko04510,Focal adhesion,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04510,Focal adhesion,scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04520,Adherens junction,scaffold_5-g558,zinc finger protein 135-like isoform X1,K05706
+ko04540,Gap junction,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04540,Gap junction,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04550,Signaling pathways regulating pluripotency of stem cells,scaffold_14-g190,protein Wnt-16-like,K01384
+ko04611,Platelet activation,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04612,Antigen processing and presentation,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04613,Neutrophil extracellular trap formation,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04613,Neutrophil extracellular trap formation,gene_11164,ubiquitin-like modifier-activating enzyme ATG7,K08337
+ko04621,NOD-like receptor signaling pathway,scaffold_5-g82,WD repeat-containing protein 82,K17890
+ko04624,Toll and Imd signaling pathway,scaffold_13-g518,protein slit isoform X1,K18809
+ko04624,Toll and Imd signaling pathway,scaffold_13-g527,protein slit isoform X1,K18809
+ko04630,JAK-STAT signaling pathway,scaffold_1-g1086,E3 SUMO-protein ligase PIAS3-like isoform X1,K04706
+ko04650,Natural killer cell mediated cytotoxicity,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04664,Fc epsilon RI signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04666,Fc gamma R-mediated phagocytosis,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04668,TNF signaling pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04670,Leukocyte transendothelial migration,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04670,Leukocyte transendothelial migration,scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04710,Circadian rhythm,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04711,Circadian rhythm - fly,scaffold_2-g2154,nuclear factor interleukin-3-regulated protein,K12114
+ko04713,Circadian entrainment,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04713,Circadian entrainment,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04713,Circadian entrainment,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04714,Thermogenesis,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04720,Long-term potentiation,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04721,Synaptic vesicle cycle,scaffold_14-g33,sodium- and chloride-dependent GABA transporter 1 isoform X1,K05038
+ko04721,Synaptic vesicle cycle,scaffold_12-g793,vesicular acetylcholine transporter,K14636
+ko04723,Retrograde endocannabinoid signaling,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04724,Glutamatergic synapse,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04725,Cholinergic synapse,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04725,Cholinergic synapse,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04725,Cholinergic synapse,scaffold_12-g793,vesicular acetylcholine transporter,K14636
+ko04726,Serotonergic synapse,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04727,GABAergic synapse,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04728,Dopaminergic synapse,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04728,Dopaminergic synapse,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04730,Long-term depression,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04730,Long-term depression,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04745,Phototransduction - fly,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04750,Inflammatory mediator regulation of TRP channels,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04750,Inflammatory mediator regulation of TRP channels,scaffold_14-g670,transient receptor potential channel pyrexia-like,K04984
+ko04810,Regulation of actin cytoskeleton,scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04911,Insulin secretion,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04911,Insulin secretion,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04912,GnRH signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04915,Estrogen signaling pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04916,Melanogenesis,scaffold_14-g190,protein Wnt-16-like,K01384
+ko04916,Melanogenesis,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04916,Melanogenesis,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04918,Thyroid hormone synthesis,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04918,Thyroid hormone synthesis,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04918,Thyroid hormone synthesis,scaffold_4-g1203,homeobox protein 9-like,K10064
+ko04919,Thyroid hormone signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04921,Oxytocin signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04921,Oxytocin signaling pathway,scaffold_15-g125,adipokinetic hormone/corazonin-related peptide receptor variant I-like,K04229
+ko04921,Oxytocin signaling pathway,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04922,Glucagon signaling pathway,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko04922,Glucagon signaling pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04924,Renin secretion,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04924,Renin secretion,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04925,Aldosterone synthesis and secretion,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04925,Aldosterone synthesis and secretion,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04926,Relaxin signaling pathway,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04926,Relaxin signaling pathway,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04927,Cortisol synthesis and secretion,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04928,"Parathyroid hormone synthesis, secretion and action",scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04928,"Parathyroid hormone synthesis, secretion and action",scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04929,GnRH secretion,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_12-g748,focal adhesion kinase 1 isoform X1,K05725
+ko04935,"Growth hormone synthesis, secretion and action",scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04960,Aldosterone-regulated sodium reabsorption,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04961,Endocrine and other factor-regulated calcium reabsorption,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04962,Vasopressin-regulated water reabsorption,scaffold_16-g586,cyclic AMP-responsive element-binding protein 1 isoform X1,K05870
+ko04962,Vasopressin-regulated water reabsorption,scaffold_11-g709,ras-related protein Rab-11A,K07888
+ko04970,Salivary secretion,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04970,Salivary secretion,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko04970,Salivary secretion,scaffold_5-g373,lysozyme 2-like,K13915
+ko04971,Gastric acid secretion,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04972,Pancreatic secretion,scaffold_13-g671,uncharacterized protein LOC134528181 isoform X2,K02677
+ko04974,Protein digestion and absorption,scaffold_17-g72,Y+L amino acid transporter 2 isoform X2,K13781
+ko04974,Protein digestion and absorption,scaffold_3-g2332,peptide transporter family 1-like,K14206
+ko04974,Protein digestion and absorption,scaffold_4-g571,proton-coupled amino acid transporter-like protein CG1139,K14209
+ko00010,Glycolysis / Gluconeogenesis,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko00040,Pentose and glucuronate interconversions,scaffold_1-g749,glucose-fructose oxidoreductase domain-containing protein 2 isoform X1,K00078
+ko00062,Fatty acid elongation,scaffold_20-g2,very long chain fatty acid elongase 7-like,K10250
+ko00073,"Cutin, suberine and wax biosynthesis",scaffold_17-g367,putative fatty acyl-CoA reductase CG5065,K13356
+ko00230,Purine metabolism,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko00270,Cysteine and methionine metabolism,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko00280,"Valine, leucine and isoleucine degradation",scaffold_6-g46,very long-chain specific acyl-CoA dehydrogenase%2C mitochondrial,K00253
+ko00350,Tyrosine metabolism,scaffold_1-g1696,cysteine sulfinic acid decarboxylase,K22329
+ko00510,N-Glycan biosynthesis,scaffold_8-g473,alpha-1%2C3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase A-like isoform X2,K00738
+ko00513,Various types of N-glycan biosynthesis,scaffold_8-g473,alpha-1%2C3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase A-like isoform X2,K00738
+ko00514,Other types of O-glycan biosynthesis,scaffold_1-g2888,protein O-glucosyltransferase 2-like,K13667
+ko00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin,scaffold_1-g1650,heparan sulfate glucosamine 3-O-sulfotransferase 5,K02577
+ko00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,scaffold_13-g707,GPI ethanolamine phosphate transferase 3 isoform X1,K05285
+ko00564,Glycerophospholipid metabolism,scaffold_2-g309,choline/ethanolamine kinase isoform X1,K14156
+ko00600,Sphingolipid metabolism,scaffold_3-g1027,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00654
+ko00600,Sphingolipid metabolism,scaffold_1-g110,alkaline ceramidase,K04711
+ko00600,Sphingolipid metabolism,scaffold_4-g1016,maternal embryonic leucine zipper kinase-like isoform X1,K12383
+ko00600,Sphingolipid metabolism,scaffold_12-g334,ceramide synthase 5-like,K23727
+ko00620,Pyruvate metabolism,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko00640,Propanoate metabolism,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko00680,Methane metabolism,scaffold_13-g630,ABC transporter G family member 20-like isoform X1,K00400
+ko00730,Thiamine metabolism,scaffold_17-g235,alkaline phosphatase-like,K01077
+ko00790,Folate biosynthesis,scaffold_17-g235,alkaline phosphatase-like,K01077
+ko00830,Retinol metabolism,scaffold_13-g766,retinol dehydrogenase 11-like isoform X1,K11153
+ko00980,Metabolism of xenobiotics by cytochrome P450,scaffold_1-g749,glucose-fructose oxidoreductase domain-containing protein 2 isoform X1,K00078
+ko01040,Biosynthesis of unsaturated fatty acids,scaffold_20-g2,very long chain fatty acid elongase 7-like,K10250
+ko01100,Metabolic pathways,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko01100,Metabolic pathways,scaffold_1-g749,glucose-fructose oxidoreductase domain-containing protein 2 isoform X1,K00078
+ko01100,Metabolic pathways,scaffold_6-g46,very long-chain specific acyl-CoA dehydrogenase%2C mitochondrial,K00253
+ko01100,Metabolic pathways,scaffold_13-g630,ABC transporter G family member 20-like isoform X1,K00400
+ko01100,Metabolic pathways,scaffold_3-g1027,5-aminolevulinate synthase%2C erythroid-specific%2C mitochondrial isoform X1,K00654
+ko01100,Metabolic pathways,scaffold_8-g473,alpha-1%2C3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase A-like isoform X2,K00738
+ko01100,Metabolic pathways,scaffold_17-g235,alkaline phosphatase-like,K01077
+ko01100,Metabolic pathways,scaffold_1-g1650,heparan sulfate glucosamine 3-O-sulfotransferase 5,K02577
+ko01100,Metabolic pathways,scaffold_1-g110,alkaline ceramidase,K04711
+ko01100,Metabolic pathways,scaffold_13-g707,GPI ethanolamine phosphate transferase 3 isoform X1,K05285
+ko01100,Metabolic pathways,scaffold_20-g2,very long chain fatty acid elongase 7-like,K10250
+ko01100,Metabolic pathways,scaffold_13-g766,retinol dehydrogenase 11-like isoform X1,K11153
+ko01100,Metabolic pathways,scaffold_6-g939,receptor-type guanylate cyclase Gyc76C-like isoform X1,K12318
+ko01100,Metabolic pathways,scaffold_2-g309,choline/ethanolamine kinase isoform X1,K14156
+ko01100,Metabolic pathways,scaffold_1-g1696,cysteine sulfinic acid decarboxylase,K22329
+ko01100,Metabolic pathways,scaffold_12-g334,ceramide synthase 5-like,K23727
+ko01110,Biosynthesis of secondary metabolites,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko01110,Biosynthesis of secondary metabolites,scaffold_20-g2,very long chain fatty acid elongase 7-like,K10250
+ko01110,Biosynthesis of secondary metabolites,scaffold_17-g367,putative fatty acyl-CoA reductase CG5065,K13356
+ko01120,Microbial metabolism in diverse environments,scaffold_8-g375,L-lactate dehydrogenase A chain-like,K00016
+ko01120,Microbial metabolism in diverse environments,scaffold_13-g630,ABC transporter G family member 20-like isoform X1,K00400
+ko01212,Fatty acid metabolism,scaffold_20-g2,very long chain fatty acid elongase 7-like,K10250
+ko01240,Biosynthesis of cofactors,scaffold_17-g235,alkaline phosphatase-like,K01077
+ko01240,Biosynthesis of cofactors,scaffold_13-g766,retinol dehydrogenase 11-like isoform X1,K11153

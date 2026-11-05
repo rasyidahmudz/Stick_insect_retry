@@ -1,0 +1,101 @@
+pathway_id,pathway_name,gene_count,KO_count
+ko01100,Metabolic pathways,9,8
+ko01110,Biosynthesis of secondary metabolites,4,3
+ko04510,Focal adhesion,3,3
+ko04514,Cell adhesion molecule (CAM) interaction,3,3
+ko04517,IgSF CAM signaling,3,3
+ko04518,Integrin signaling,3,3
+ko04810,Regulation of actin cytoskeleton,3,3
+ko00350,Tyrosine metabolism,2,1
+ko00950,Isoquinoline alkaloid biosynthesis,2,1
+ko04013,MAPK signaling pathway,2,2
+ko04015,Rap1 signaling pathway,2,2
+ko04151,PI3K-Akt signaling pathway,2,2
+ko04360,Axon guidance,2,2
+ko04512,ECM-receptor interaction,2,2
+ko04530,Tight junction,2,2
+ko04611,Platelet activation,2,2
+ko04820,Cytoskeleton in muscle cells,2,2
+ko04916,Melanogenesis,2,1
+ko05100,Bacterial invasion of epithelial cells,2,2
+ko05130,Pathogenic Escherichia coli infection,2,2
+ko05131,Shigellosis,2,2
+ko05135,Yersinia infection,2,2
+ko05165,Human papillomavirus infection,2,2
+ko05200,Pathways in cancer,2,2
+ko05205,Proteoglycans in cancer,2,2
+ko05207,Chemical carcinogenesis,2,2
+ko05410,Hypertrophic cardiomyopathy,2,2
+ko05412,Arrhythmogenic right ventricular cardiomyopathy,2,2
+ko05414,Dilated cardiomyopathy,2,2
+ko00040,Pentose and glucuronate interconversions,1,1
+ko00053,Ascorbate and aldarate metabolism,1,1
+ko00140,Steroid hormone biosynthesis,1,1
+ko00310,Lysine degradation,1,1
+ko00330,Arginine and proline metabolism,1,1
+ko00531,Glycosaminoglycan degradation,1,1
+ko00532,Glycosaminoglycan biosynthesis,1,1
+ko00561,Glycerolipid metabolism,1,1
+ko00601,Glycosphingolipid biosynthesis,1,1
+ko00603,Glycosphingolipid biosynthesis,1,1
+ko00830,Retinol metabolism,1,1
+ko00860,Porphyrin metabolism,1,1
+ko00920,Sulfur metabolism,1,1
+ko00980,Metabolism of xenobiotics by cytochrome P450,1,1
+ko00982,Drug metabolism,1,1
+ko00983,Drug metabolism,1,1
+ko01120,Microbial metabolism in diverse environments,1,1
+ko01240,Biosynthesis of cofactors,1,1
+ko01521,EGFR tyrosine kinase inhibitor resistance,1,1
+ko01522,Endocrine resistance,1,1
+ko03271,Virion,1,1
+ko04010,MAPK signaling pathway,1,1
+ko04012,ErbB signaling pathway,1,1
+ko04024,cAMP signaling pathway,1,1
+ko04062,Chemokine signaling pathway,1,1
+ko04080,Neuroactive ligand-receptor interaction,1,1
+ko04081,Hormone signaling,1,1
+ko04137,Mitophagy,1,1
+ko04141,Protein processing in endoplasmic reticulum,1,1
+ko04142,Lysosome biogenesis,1,1
+ko04144,Endocytosis,1,1
+ko04145,Phagocytosis,1,1
+ko04370,VEGF signaling pathway,1,1
+ko04382,Cornified envelope formation,1,1
+ko04520,Adherens junction,1,1
+ko04540,Gap junction,1,1
+ko04613,Neutrophil extracellular trap formation,1,1
+ko04624,Toll and Imd signaling pathway,1,1
+ko04625,C-type lectin receptor signaling pathway,1,1
+ko04670,Leukocyte transendothelial migration,1,1
+ko04727,GABAergic synapse,1,1
+ko04750,Inflammatory mediator regulation of TRP channels,1,1
+ko04911,Insulin secretion,1,1
+ko04912,GnRH signaling pathway,1,1
+ko04915,Estrogen signaling pathway,1,1
+ko04917,Prolactin signaling pathway,1,1
+ko04918,Thyroid hormone synthesis,1,1
+ko04919,Thyroid hormone signaling pathway,1,1
+ko04921,Oxytocin signaling pathway,1,1
+ko04926,Relaxin signaling pathway,1,1
+ko04972,Pancreatic secretion,1,1
+ko04975,Fat digestion and absorption,1,1
+ko04976,Bile secretion,1,1
+ko04977,Vitamin digestion and absorption,1,1
+ko05120,Epithelial cell signaling in Helicobacter pylori infection,1,1
+ko05133,Pertussis,1,1
+ko05140,Leishmaniasis,1,1
+ko05145,Toxoplasmosis,1,1
+ko05152,Tuberculosis,1,1
+ko05161,Hepatitis B,1,1
+ko05163,Human cytomegalovirus infection,1,1
+ko05167,Kaposi sarcoma-associated herpesvirus infection,1,1
+ko05168,Herpes simplex virus 1 infection,1,1
+ko05203,Viral carcinogenesis,1,1
+ko05204,Chemical carcinogenesis,1,1
+ko05208,Chemical carcinogenesis,1,1
+ko05219,Bladder cancer,1,1
+ko05220,Chronic myeloid leukemia,1,1
+ko05222,Small cell lung cancer,1,1
+ko05417,Lipid and atherosclerosis,1,1
+ko05418,Fluid shear stress and atherosclerosis,1,1

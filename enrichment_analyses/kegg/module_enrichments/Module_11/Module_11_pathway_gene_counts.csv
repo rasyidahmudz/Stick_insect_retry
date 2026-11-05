@@ -1,0 +1,112 @@
+pathway_id,pathway_name,gene_count,KO_count
+ko01100,Metabolic pathways,10,10
+ko01110,Biosynthesis of secondary metabolites,4,4
+ko04120,Ubiquitin mediated proteolysis,3,3
+ko04350,TGF-beta signaling pathway,3,3
+ko04624,Toll and Imd signaling pathway,3,3
+ko04976,Bile secretion,3,3
+ko00564,Glycerophospholipid metabolism,2,2
+ko02010,ABC transporters,2,2
+ko03040,Spliceosome,2,2
+ko04024,cAMP signaling pathway,2,2
+ko04060,Cytokine-cytokine receptor interaction,2,2
+ko04066,HIF-1 signaling pathway,2,2
+ko04110,Cell cycle,2,2
+ko04141,Protein processing in endoplasmic reticulum,2,2
+ko04144,Endocytosis,2,2
+ko04148,Efferocytosis,2,2
+ko04320,Dorso-ventral axis formation,2,2
+ko04360,Axon guidance,2,2
+ko04361,Axon regeneration,2,2
+ko04974,Protein digestion and absorption,2,2
+ko04975,Fat digestion and absorption,2,2
+ko05010,Alzheimer disease,2,2
+ko05012,Parkinson disease,2,2
+ko05166,Human T-cell leukemia virus 1 infection,2,2
+ko05200,Pathways in cancer,2,2
+ko05207,Chemical carcinogenesis,2,2
+ko05211,Renal cell carcinoma,2,2
+ko00030,Pentose phosphate pathway,1,1
+ko00040,Pentose and glucuronate interconversions,1,1
+ko00053,Ascorbate and aldarate metabolism,1,1
+ko00140,Steroid hormone biosynthesis,1,1
+ko00270,Cysteine and methionine metabolism,1,1
+ko00330,Arginine and proline metabolism,1,1
+ko00350,Tyrosine metabolism,1,1
+ko00360,Phenylalanine metabolism,1,1
+ko00380,Tryptophan metabolism,1,1
+ko00410,beta-Alanine metabolism,1,1
+ko00510,N-Glycan biosynthesis,1,1
+ko00513,Various types of N-glycan biosynthesis,1,1
+ko00561,Glycerolipid metabolism,1,1
+ko00565,Ether lipid metabolism,1,1
+ko00590,Arachidonic acid metabolism,1,1
+ko00591,Linoleic acid metabolism,1,1
+ko00592,alpha-Linolenic acid metabolism,1,1
+ko00600,Sphingolipid metabolism,1,1
+ko00830,Retinol metabolism,1,1
+ko00860,Porphyrin metabolism,1,1
+ko00901,Indole alkaloid biosynthesis,1,1
+ko00950,Isoquinoline alkaloid biosynthesis,1,1
+ko00965,Betalain biosynthesis,1,1
+ko00980,Metabolism of xenobiotics by cytochrome P450,1,1
+ko00981,Insect hormone biosynthesis,1,1
+ko00982,Drug metabolism,1,1
+ko00983,Drug metabolism,1,1
+ko01240,Biosynthesis of cofactors,1,1
+ko01523,Antifolate resistance,1,1
+ko03013,Nucleocytoplasmic transport,1,1
+ko03015,mRNA surveillance pathway,1,1
+ko03083,Polycomb repressive complex,1,1
+ko03272,Virion,1,1
+ko04011,MAPK signaling pathway,1,1
+ko04013,MAPK signaling pathway,1,1
+ko04014,Ras signaling pathway,1,1
+ko04071,Sphingolipid signaling pathway,1,1
+ko04082,Neuroactive ligand signaling,1,1
+ko04111,Cell cycle,1,1
+ko04113,Meiosis,1,1
+ko04114,Oocyte meiosis,1,1
+ko04138,Autophagy,1,1
+ko04142,Lysosome biogenesis,1,1
+ko04145,Phagocytosis,1,1
+ko04270,Vascular smooth muscle contraction,1,1
+ko04310,Wnt signaling pathway,1,1
+ko04330,Notch signaling pathway,1,1
+ko04340,Hedgehog signaling pathway,1,1
+ko04341,Hedgehog signaling pathway,1,1
+ko04517,IgSF CAM signaling,1,1
+ko04530,Tight junction,1,1
+ko04550,Signaling pathways regulating pluripotency of stem cells,1,1
+ko04614,Renin-angiotensin system,1,1
+ko04659,Th17 cell differentiation,1,1
+ko04725,Cholinergic synapse,1,1
+ko04726,Serotonergic synapse,1,1
+ko04728,Dopaminergic synapse,1,1
+ko04814,Motor proteins,1,1
+ko04911,Insulin secretion,1,1
+ko04914,Progesterone-mediated oocyte maturation,1,1
+ko04919,Thyroid hormone signaling pathway,1,1
+ko04920,Adipocytokine signaling pathway,1,1
+ko04922,Glucagon signaling pathway,1,1
+ko04931,Insulin resistance,1,1
+ko04934,Cushing syndrome,1,1
+ko04962,Vasopressin-regulated water reabsorption,1,1
+ko04972,Pancreatic secretion,1,1
+ko04978,Mineral absorption,1,1
+ko04981,Folate transport and metabolism,1,1
+ko05014,Amyotrophic lateral sclerosis,1,1
+ko05030,Cocaine addiction,1,1
+ko05031,Amphetamine addiction,1,1
+ko05034,Alcoholism,1,1
+ko05132,Salmonella infection,1,1
+ko05146,Amoebiasis,1,1
+ko05169,Epstein-Barr virus infection,1,1
+ko05203,Viral carcinogenesis,1,1
+ko05204,Chemical carcinogenesis,1,1
+ko05206,MicroRNAs in cancer,1,1
+ko05208,Chemical carcinogenesis,1,1
+ko05230,Central carbon metabolism in cancer,1,1
+ko05415,Diabetic cardiomyopathy,1,1
+ko05417,Lipid and atherosclerosis,1,1
+ko05418,Fluid shear stress and atherosclerosis,1,1
