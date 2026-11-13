@@ -722,6 +722,7 @@ for (i in seq_len(nrow(retained_module_key))) {
 ### PLOT EIGENGENE BOXPLOTS FOR ALL 18 RETAINED MODULES - SAME AXES ###
 library(ggplot2)
 library(dplyr)
+library(patchwork)
 
 # Create output directory
 plot_dir <- "retained_WGCNA_module_eigengene_boxplots_sameaxes"
@@ -751,6 +752,9 @@ acc_colors <- c(
   "10" = "#00BFC4",
   "20" = "#FF6B66"
 )
+
+# Store all 18 plots
+all_plots <- list()
 
 # Loop through all 18 retained modules
 for (i in seq_len(nrow(retained_module_key))) {
@@ -829,7 +833,7 @@ for (i in seq_len(nrow(retained_module_key))) {
       title = paste(
         module_id,
         "(", module_color, ")",
-        "module response to test temperature"
+        "module response to test temp"
       ),
       subtitle = paste("Number of genes:", gene_count),
       x = "Test temperature (°C)",
@@ -856,5 +860,31 @@ for (i in seq_len(nrow(retained_module_key))) {
     dpi = 300,
     bg = "white"
   )
+  # Store plot in list
+  all_plots[[module_id]] <- p
   
 }
+
+# Combine all 18 plots into one combined figure
+combined_plot <- wrap_plots(
+  all_plots,
+  ncol = 3,
+  nrow = 6,
+  guides = "collect"
+) &
+  theme(
+    legend.position = "right"
+  )
+
+# Save combined figure
+ggsave(
+  filename = file.path(
+    plot_dir,
+    "ALL_18_retained_modules_eigengene_boxplots.png"
+  ),
+  plot = combined_plot,
+  width = 18,
+  height = 30,
+  dpi = 300,
+  bg = "white"
+)
