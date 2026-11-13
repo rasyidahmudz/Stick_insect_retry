@@ -29,6 +29,7 @@
 
 library(tidyverse)
 library(topGO)
+library(rtracklayer)
 
 # Working Directory and Output Setup --------------------------------------
 
@@ -73,69 +74,156 @@ theme_cpb <- theme_bw() +
 # Data Loading and Preparation --------------------------------------------
 
 # Load WGCNA module assignments
-module_assignments <- read_csv(file.path("..", "clitarchus_Module_Summary.csv"))
+module_assignments <- read_csv("~/Desktop/Stick_insect/clitarchus_Module_Summary_Annotated.csv")
 
-# Load GO annotations
-transID2GO <- read.delim(
-  file = "./go/clitarchus_seq_GO.txt",
-  sep = "\t",
-  header = TRUE,
-  fill = TRUE,
-  na.strings = "",
-  stringsAsFactors = FALSE
+# Load GTF annotations
+cli_annot <- rtracklayer::import(
+  "~/Desktop/Stick_insect/cli_annevo_gemoma_combined.gtf"
 ) %>%
-  dplyr::rename(
-    qry_transcript_id = Sequence.Name,
-    go_id = Annotation.GO.ID
+  as.data.frame()
+
+# Create transcript-to-gene mapping
+transcript_to_gene <- cli_annot %>%
+  dplyr::select(transcript_id, gene_id) %>%
+  filter(!is.na(transcript_id), !is.na(gene_id)) %>%
+  distinct()
+
+# Load BLAST annotations
+blast_annot <- read.csv(
+  "~/Desktop/Stick_insect/clitarchus_annotation.csv"
+)
+
+# Create gene annotation lookup
+gene_annotation_lookup <- blast_annot %>%
+  dplyr::select(
+    gene_id = qry_gene_id,
+    gene_annotation
   ) %>%
-  filter(!is.na(go_id), go_id != "")
+  distinct(gene_id, .keep_all = TRUE)
+
+# Load original GO annotations file
+go_raw <- read.delim(
+  "~/Desktop/Stick_insect/clitarchus_seq_GO.txt",
+  header = TRUE,
+  stringsAsFactors = FALSE
+)
+
+# Convert comma-separated GO IDs into individual rows
+go_annotations <- go_raw %>%
+  filter(
+    !is.na(Annotation.GO.ID),
+    Annotation.GO.ID != ""
+  ) %>%
+  separate_rows(Annotation.GO.ID, sep = ",") %>%
+  mutate(
+    go_id = trimws(Annotation.GO.ID)
+  ) %>%
+  dplyr::select(
+    Sequence.Name,
+    go_id
+  ) %>%
+  distinct()
+
+# Map transcript IDs to gene IDs using your GTF mapping
+transcript_to_gene <- cli_annot %>%
+  dplyr::select(transcript_id, gene_id) %>%
+  distinct()
+
+go_annotations <- go_annotations %>%
+  inner_join(
+    transcript_to_gene,
+    by = c("Sequence.Name" = "transcript_id")
+  ) %>%
+  dplyr::select(gene_id, go_id) %>%
+  distinct()
+
+# Add gene annotations to GO annotation table
+go_annotations_annotated <- go_annotations %>%
+  left_join(
+    gene_annotation_lookup,
+    by = "gene_id"
+  )
+
+# Check
+head(go_annotations_annotated)
+
+# -------------------------------------------------------
+# DEFINE EXPRESSED GENE UNIVERSE
+# -------------------------------------------------------
+expressed_gene_ids <- module_assignments %>%
+  pull(gene_id) %>%
+  unique()
+
+# Confirm expected number of expressed genes
+length(expressed_gene_ids)
+stopifnot(length(expressed_gene_ids) == 19252)
+
+# Retain GO annotations for expressed genes only
+go_annotations <- go_annotations %>%
+  filter(gene_id %in% expressed_gene_ids) %>%
+  distinct(gene_id, go_id)
 
 # Create gene-to-GO mapping list
-transID2GOList <- strsplit(as.character(transID2GO$go_id), split = ",")
-names(transID2GOList) <- transID2GO$qry_transcript_id
+gene2GO <- split(
+  go_annotations$go_id,
+  go_annotations$gene_id
+)
 
-# Gene universe
-geneUniverse <- as.character(transID2GO$qry_transcript_id)
+# Remove duplicate GO terms per gene
+gene2GO <- lapply(gene2GO, unique)
 
-# Filter module assignments to genes with GO annotations
+# Define universe
+geneUniverse <- expressed_gene_ids
+
+# Checks!
+cat("Total expressed genes:",
+    length(geneUniverse), "\n")
+cat("Expressed genes with GO annotations:",
+    n_distinct(go_annotations$gene_id), "\n")
+cat("Unique GO terms:",
+    n_distinct(go_annotations$go_id), "\n")
+
+# -------------------------------------------------------
+# DEFINE MODULES FOR GO ENRICHMENT
+# -------------------------------------------------------
+
+# Filter to genes with GO annotations
 module_assignments_go <- module_assignments %>%
-  filter(Reference_Transcript_Name %in% geneUniverse)
+  filter(gene_id %in% go_annotations$gene_id)
 
-# Get modules to analyze
+# Select retained modules only
 modules_to_analyze <- module_assignments_go %>%
-  filter(Module_ID != "Module_00") %>%
+  filter(Module_Type == "retained") %>%
   group_by(Module_ID) %>%
   summarise(
-    genes = list(Reference_Transcript_Name),
-    n_genes = n(),
-    .groups = 'drop'
+    genes = list(gene_id),
+    n_genes = n_distinct(gene_id),
+    .groups = "drop"
   ) %>%
   filter(n_genes >= 10)
 
-# Include Module_00 if sufficient genes
-module_00_data <- module_assignments_go %>%
-  filter(Module_ID == "Module_00")
+# Check modules
+modules_to_analyze |> 
+  dplyr::select(Module_ID, n_genes)
 
-if (nrow(module_00_data) >= 10) {
-  module_00_summary <- tibble(
-    Module_ID = "Module_00",
-    genes = list(module_00_data$Reference_Transcript_Name),
-    n_genes = nrow(module_00_data)
-  )
-  modules_to_analyze <- bind_rows(modules_to_analyze, module_00_summary)
-}
 
-ontologies <- c("BP", "MF", "CC")
+# -------------------------------------------------------
+# GO ENRICHMENT FUNCTION
+# -------------------------------------------------------
 
-# GO Enrichment Function --------------------------------------------------
-
-perform_module_go_enrichment <- function(module_id, module_genes, ontology = "BP") {
+perform_module_go_enrichment <- function(
+    module_id,
+    module_genes,
+    ontology = "BP") {
   
-  # Create binary gene list
-  geneList <- factor(as.integer(geneUniverse %in% module_genes))
+  # Create binary gene list using the full expressed gene universe
+  geneList <- factor(
+    as.integer(geneUniverse %in% module_genes)
+  )
+  
   names(geneList) <- geneUniverse
   
-  # Check module size
+  # Check number of genes in module
   genes_in_module <- sum(geneList == 1)
   
   if (genes_in_module < 5) {
@@ -149,21 +237,28 @@ perform_module_go_enrichment <- function(module_id, module_genes, ontology = "BP
     ontology = ontology,
     allGenes = geneList,
     annot = annFUN.gene2GO,
-    gene2GO = transID2GOList,
+    gene2GO = gene2GO,
     nodeSize = 5
   )
   
-  # Run Fisher's exact test
-  resultFisher <- runTest(GOdata, algorithm = "parentchild", statistic = "fisher")
+  # Run parent-child Fisher's exact test
+  resultFisher <- runTest(
+    GOdata,
+    algorithm = "parentchild",
+    statistic = "fisher"
+  )
   
-  # Get GO terms
+  # Get all tested GO terms
   allGO <- usedGO(GOdata)
   
   if (length(allGO) == 0) {
     return(NULL)
   }
   
-  # Generate results table
+  # Extract numerical p-values directly
+  go_scores <- topGO::score(resultFisher)
+  
+  # Generate GO term descriptions and statistics
   allRes <- GenTable(
     GOdata,
     p_value = resultFisher,
@@ -171,33 +266,100 @@ perform_module_go_enrichment <- function(module_id, module_genes, ontology = "BP
     numChar = 1000
   )
   
-  # Add gene IDs
-  allRes$genes <- sapply(allRes$GO.ID, function(go_term) {
-    genes_in_term <- genesInTerm(GOdata, go_term)
-    module_genes_in_term <- genes_in_term[[1]][genes_in_term[[1]] %in% module_genes]
-    paste(module_genes_in_term, collapse = ", ")
-  })
-  
-  # Clean and filter results
+  # Replace formatted p-values with numerical values
   allRes <- allRes %>%
     mutate(
-      p_value_clean = case_when(
-        p_value == "< 1e-30" ~ 1e-30,
-        grepl("^<", p_value) ~ as.numeric(gsub("< ", "", p_value)),
-        TRUE ~ as.numeric(p_value)
-      ),
+      p_value = as.numeric(go_scores[GO.ID])
+    ) %>%
+    filter(!is.na(p_value))
+  
+  # Calculate BH-adjusted p-values
+  allRes <- allRes %>%
+    mutate(
+      p.adjust = p.adjust(p_value, method = "BH"),
       Significant = as.numeric(Significant),
       Expected = as.numeric(Expected),
       module_id = module_id,
       ontology = ontology,
-      enrichment_ratio = ifelse(Expected > 0, Significant / Expected, 0)
+      enrichment_ratio = ifelse(
+        Expected > 0,
+        Significant / Expected,
+        NA_real_
+      )
     ) %>%
-    filter(!is.na(p_value_clean), p_value_clean <= 0.05) %>%
-    arrange(p_value_clean)
+    arrange(p.adjust)
   
-  # Replace p_value column
-  allRes$p_value <- allRes$p_value_clean
-  allRes$p_value_clean <- NULL
+  # Extract genes contributing to each GO term
+  allRes$genes <- vapply(
+    allRes$GO.ID,
+    function(go_term) {
+      
+      genes_in_term <- genesInTerm(
+        GOdata,
+        go_term
+      )[[1]]
+      
+      module_genes_in_term <- intersect(
+        genes_in_term,
+        module_genes
+      )
+      
+      paste(module_genes_in_term, collapse = "; ")
+      
+    },
+    character(1)
+  )
+  
+  # Extract functional annotations for contributing genes
+  allRes$gene_annotations <- vapply(
+    allRes$genes,
+    function(gene_list) {
+      
+      genes <- strsplit(gene_list, "; ", fixed = TRUE)[[1]]
+      genes <- genes[nzchar(genes)]
+      
+      annotations <- gene_annotation_lookup$gene_annotation[
+        match(genes, gene_annotation_lookup$gene_id)
+      ]
+      
+      annotations[is.na(annotations) | annotations == ""] <- "No annotation"
+      
+      paste(annotations, collapse = "; ")
+      
+    },
+    character(1)
+  )
+  
+  # Combine gene IDs and functional annotations
+  allRes$gene_details <- vapply(
+    allRes$genes,
+    function(gene_list) {
+      
+      genes <- strsplit(gene_list, "; ", fixed = TRUE)[[1]]
+      genes <- genes[nzchar(genes)]
+      
+      annotations <- gene_annotation_lookup$gene_annotation[
+        match(genes, gene_annotation_lookup$gene_id)
+      ]
+      
+      annotations[is.na(annotations) | annotations == ""] <- "No annotation"
+      
+      details <- paste0(
+        genes,
+        " (",
+        annotations,
+        ")"
+      )
+      
+      paste(details, collapse = "; ")
+      
+    },
+    character(1)
+  )
+  
+  # Retain FDR-significant GO terms
+  allRes <- allRes %>%
+    filter(p.adjust <= 0.05)
   
   return(allRes)
 }
@@ -205,21 +367,38 @@ perform_module_go_enrichment <- function(module_id, module_genes, ontology = "BP
 # Run GO Enrichment -------------------------------------------------------
 
 all_enrichment_results <- list()
+go_errors <- list()
+ontologies <- c("BP", "MF", "CC")
 
 for (ont in ontologies) {
   
-  # Collect results for this ontology
   ont_results_list <- list()
   
-  for (i in 1:nrow(modules_to_analyze)) {
+  for (i in seq_len(nrow(modules_to_analyze))) {
+    
     module_id <- modules_to_analyze$Module_ID[i]
     module_genes <- modules_to_analyze$genes[[i]]
     
-    # Run enrichment analysis
+    message("Running ", module_id, " - ", ont)
+    
     module_result <- tryCatch({
-      perform_module_go_enrichment(module_id, module_genes, ont)
+      
+      perform_module_go_enrichment(
+        module_id,
+        module_genes,
+        ont
+      )
+      
     }, error = function(e) {
-      return(NULL)
+      
+      go_errors[[paste(module_id, ont, sep = "_")]] <<- conditionMessage(e)
+      
+      message(
+        "ERROR: ", module_id, " - ", ont,
+        ": ", conditionMessage(e)
+      )
+      
+      NULL
     })
     
     if (!is.null(module_result) && nrow(module_result) > 0) {
@@ -227,14 +406,10 @@ for (ont in ontologies) {
     }
   }
   
-  # Combine results for this ontology
   if (length(ont_results_list) > 0) {
-    ont_results <- bind_rows(ont_results_list)
-    all_enrichment_results[[ont]] <- ont_results
-    
-    # Save individual ontology results
-    output_file <- file.path("./go/summary_tables", paste0("All_Modules_", ont, "_Enrichment.csv"))
-    write_csv(ont_results, output_file)
+    all_enrichment_results[[ont]] <- bind_rows(
+      ont_results_list
+    )
   }
 }
 
@@ -261,62 +436,114 @@ for (i in 1:nrow(modules_to_analyze)) {
   }
 }
 
-# Generate Summary Statistics ----------------------------------------------
+# -------------------------------------------------------
+# CREATE OVERALL MODULE ENRICHMENT SUMMARIES
+# -------------------------------------------------------
 
-# Module enrichment summary
-module_enrichment_summary <- tibble()
+# Create all module-ontology combinations
+module_enrichment_summary <- expand_grid(
+  module_id = modules_to_analyze$Module_ID,
+  ontology_type = ontologies
+)
 
+# Prepare enrichment counts
 if (length(all_enrichment_results) > 0) {
-  module_enrichment_summary <- map_dfr(names(all_enrichment_results), function(ont) {
-    ont_data <- all_enrichment_results[[ont]]
-    
-    if (nrow(ont_data) > 0) {
-      ont_data %>%
-        group_by(module_id) %>%
-        summarise(
-          ontology_type = ont,
-          n_significant_terms = n(),
-          top_p_value = min(p_value, na.rm = TRUE),
-          avg_enrichment_ratio = mean(enrichment_ratio, na.rm = TRUE),
-          .groups = 'drop'
-        )
-    } else {
-      tibble()
-    }
-  })
   
-  write_csv(
-    module_enrichment_summary,
-    file.path("./go/summary_tables", "Module_Enrichment_Summary.csv")
-  )
+  enrichment_counts <- bind_rows(
+    all_enrichment_results
+  ) %>%
+    group_by(module_id, ontology) %>%
+    summarise(
+      n_significant_terms = n(),
+      top_p_value = min(p_value, na.rm = TRUE),
+      top_p_adjust = min(p.adjust, na.rm = TRUE),
+      avg_enrichment_ratio = mean(
+        enrichment_ratio,
+        na.rm = TRUE
+      ),
+      top_GO_term = Term[which.min(p.adjust)],
+      .groups = "drop"
+    ) %>%
+    rename(ontology_type = ontology)
+  
 } else {
-  # Create empty summary file
-  empty_summary <- tibble(
+  
+  # Create empty summary with required columns
+  enrichment_counts <- tibble(
     module_id = character(),
     ontology_type = character(),
-    n_significant_terms = numeric(),
+    n_significant_terms = integer(),
     top_p_value = numeric(),
-    avg_enrichment_ratio = numeric()
+    top_p_adjust = numeric(),
+    avg_enrichment_ratio = numeric(),
+    top_GO_term = character()
   )
   
-  write_csv(
-    empty_summary,
-    file.path("./go/summary_tables", "Module_Enrichment_Summary.csv")
-  )
 }
 
-# Top enriched terms
+# Join enrichment counts to all modules
+module_enrichment_summary <- module_enrichment_summary %>%
+  left_join(
+    enrichment_counts,
+    by = c("module_id", "ontology_type")
+  ) %>%
+  mutate(
+    n_significant_terms = replace_na(
+      n_significant_terms, 0L
+    ),
+    has_enrichment = n_significant_terms > 0
+  )
+
+# Save summary
+write_csv(
+  module_enrichment_summary,
+  "./go/summary_tables/Module_GO_Enrichment_Summary.csv"
+)
+
+# Save combined enrichment results
+
 if (length(all_enrichment_results) > 0) {
-  top_enriched_terms <- bind_rows(all_enrichment_results, .id = "ontology") %>%
-    arrange(p_value) %>%
-    slice_head(n = 50) %>%
-    dplyr::select(ontology, module_id, GO.ID, Term, p_value, enrichment_ratio, Significant)
+  
+  combined_enrichments <- bind_rows(
+    all_enrichment_results,
+    .id = "ontology"
+  )
   
   write_csv(
-    top_enriched_terms,
-    file.path("./go/summary_tables", "Top_Enriched_Terms_All_Modules.csv")
+    combined_enrichments,
+    "./go/summary_tables/All_Modules_GO_Enrichment.csv"
   )
+  
+} else {
+  
+  combined_enrichments <- tibble()
+  
+  message("No significant GO enrichment results found.")
+  
 }
+
+# Module Enrichment Status
+
+module_go_status <- module_enrichment_summary %>%
+  group_by(module_id) %>%
+  summarise(
+    BP = any(ontology_type == "BP" & has_enrichment),
+    MF = any(ontology_type == "MF" & has_enrichment),
+    CC = any(ontology_type == "CC" & has_enrichment),
+    any_GO_enrichment = any(has_enrichment),
+    total_significant_terms = sum(n_significant_terms),
+    .groups = "drop"
+  )
+
+write_csv(
+  module_go_status,
+  "./go/summary_tables/Module_GO_Enrichment_Status.csv"
+)
+
+# Check results!
+print(module_enrichment_summary)
+print(module_go_status)
+
 
 # Create Visualization Plots ----------------------------------------------
 
@@ -417,6 +644,57 @@ if (length(all_enrichment_results) > 0) {
   cat("No significant enrichments found.\n")
 }
 
-# Session Info ------------------------------------------------------------
+# -------------------------------------------------------
+# SAVE GO ANALYSIS SUMMARY
+# -------------------------------------------------------
 
-writeLines(capture.output(sessionInfo()), "./go/session_info.txt")
+analysis_summary <- list(
+  
+  modules_analyzed = nrow(modules_to_analyze),
+  
+  modules_with_enrichments = if (
+    length(all_enrichment_results) > 0
+  ) {
+    length(unique(
+      bind_rows(all_enrichment_results)$module_id
+    ))
+  } else {
+    0
+  },
+  
+  total_expressed_genes = length(geneUniverse),
+  
+  genes_with_GO_annotations = n_distinct(
+    go_annotations$gene_id
+  ),
+  
+  total_GO_terms = n_distinct(
+    go_annotations$go_id
+  ),
+  
+  enrichment_results = if (
+    length(all_enrichment_results) > 0
+  ) {
+    combined_enrichments
+  } else {
+    NULL
+  },
+  
+  module_summary = module_enrichment_summary,
+  
+  module_status = module_go_status,
+  
+  errors = go_errors
+  
+)
+
+saveRDS(
+  analysis_summary,
+  "./go/go_analysis_summary.rds"
+)
+
+# Session information
+writeLines(
+  capture.output(sessionInfo()),
+  "./go/session_info.txt"
+)
